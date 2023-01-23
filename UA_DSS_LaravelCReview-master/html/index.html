@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>UNIVERSITY REVIEWER</title>
+</head>
+
+<body class="bg-primary">
+    <!-- navegador -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="{{ url('/') }}">UNIVERSITY REVIEWER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/top-reviews') }}">Top Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/top-degrees') }}">Top Degrees</a>
+                </li>
+            </ul>
+            <ul class="nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/login') }}">Log-In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/logout') }}">Log-Out</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/profile') }}">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/reveiw') }}">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        @extends('layout')
+
+        @section('title', 'Review Subject')
+
+        @section('content')
+        <div class="m-3 justify-content-center">
+            <div class="card bg-dark text-white">
+                <div class="card-header">
+                    {{ $user->name }}
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-dark">Total reviews: </li>
+                    <li class="list-group-item bg-dark">Total votes: </li>
+                    <li class="list-group-item bg-dark">Total suggestions: </li>
+                    <li class="list-group-item bg-dark">Acc created at: </li>
+                </ul>
+                <div class="text-right">
+                    <button onclick="editProfile({{$comment->id}})" type="submit" class="btn btn-primary m-3">Edit
+                        profile</button>
+                    <button onclick="deleteProfile({{$comment->id}})" type="submit" class="btn btn-danger m-3">Delete
+                        profile</button>
+                </div>
+            </div>
+        </div>
+
+
+        @endsection
+
+
+    </div>
+
+    <footer class="fixed-bottom footer py-1 bg-dark">
+        <div class="container">
+            <p class="text-muted">Creado por: Elvi Mihai, Jose Luis, Eduardo Espuch, David Mendez. Curso 2020/21.</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

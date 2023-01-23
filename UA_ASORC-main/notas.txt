@@ -1,0 +1,3 @@
+- la primera red siempre debe ser la Red NAT.
+- al hacer ping desde el host, siempre usar la ip del host-only.
+- al usar windows, si el ping no funciona hacia el host, es posible que sea por el FireWall.

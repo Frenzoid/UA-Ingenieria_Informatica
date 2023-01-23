@@ -1,0 +1,248 @@
+/var/log/messages:Dec  2 16:52:55  pkg[2816]: openfire-4.7.3,1 installed
+/var/log/openfire/openfire.log:2022.12.02 16:58:23 [32mINFO [m [main]: org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+/var/log/openfire/openfire.log:2022.12.02 16:58:25 [32mINFO [m [main]: org.jivesoftware.openfire.XMPPServer - Openfire 4.7.3 [Dec 2, 2022 4:58:25 PM]
+/var/log/openfire/openfire.log:2022.12.02 16:58:26 [33mWARN [m [pool-2-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertificateStoreManager has not been initialized yet. HTTPS will be unavailable.
+/var/log/openfire/openfire.log:2022.12.02 16:58:28 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console listening at http://10.0.2.27:9090
+/var/log/openfire/openfire.log:2022.12.02 16:58:28 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.container.PluginManager - Successfully loaded plugin 'admin'.
+/var/log/openfire/openfire.log:2022.12.02 17:01:07 [32mINFO [m [Jetty-QTP-AdminConsole-46]: org.jivesoftware.database.SchemaManager - Esquema de base de datos no encontrado para openfire. Intentando instalarlo...
+/var/log/openfire/openfire.log:2022.12.02 17:01:56 [33mWARN [m [Jetty-QTP-AdminConsole-44]: org.jivesoftware.openfire.keystore.CertificateStoreManager - (trust store for connection type 'SOCKET_C2S') Unable to instantiate store 
+/var/log/openfire/openfire.log:org.jivesoftware.openfire.keystore.CertificateStoreConfigException: Unable to load store of type 'jks' from file '/usr/local/share/java/openfire/resources/security/client.truststore'
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:82) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.TrustStore.<init>(TrustStore.java:27) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStoreManager.initialize(CertificateStoreManager.java:85) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.finalSetupSteps(XMPPServer.java:620) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.finishSetup(XMPPServer.java:649) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.admin.setup.setup_002dfinished_jsp._jspService(setup_002dfinished_jsp.java:195) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:Caused by: java.io.FileNotFoundException: /usr/local/share/java/openfire/resources/security/client.truststore (No such file or directory)
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:73) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:01:56 [33mWARN [m [Jetty-QTP-AdminConsole-44]: org.jivesoftware.openfire.keystore.CertificateStoreManager - (trust store for connection type 'BOSH_C2S') Unable to instantiate store 
+/var/log/openfire/openfire.log:org.jivesoftware.openfire.keystore.CertificateStoreConfigException: Unable to load store of type 'jks' from file '/usr/local/share/java/openfire/resources/security/client.truststore'
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:82) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.TrustStore.<init>(TrustStore.java:27) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStoreManager.initialize(CertificateStoreManager.java:85) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.finalSetupSteps(XMPPServer.java:620) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.finishSetup(XMPPServer.java:649) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.admin.setup.setup_002dfinished_jsp._jspService(setup_002dfinished_jsp.java:195) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:Caused by: java.io.FileNotFoundException: /usr/local/share/java/openfire/resources/security/client.truststore (No such file or directory)
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:73) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:01:56 [33mWARN [m [Jetty-QTP-AdminConsole-44]: org.jivesoftware.openfire.keystore.CertificateStoreManager - (trust store for connection type 'WEBADMIN') Unable to instantiate store 
+/var/log/openfire/openfire.log:org.jivesoftware.openfire.keystore.CertificateStoreConfigException: Unable to load store of type 'jks' from file '/usr/local/share/java/openfire/resources/security/client.truststore'
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:82) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.TrustStore.<init>(TrustStore.java:27) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStoreManager.initialize(CertificateStoreManager.java:85) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.finalSetupSteps(XMPPServer.java:620) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.finishSetup(XMPPServer.java:649) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.admin.setup.setup_002dfinished_jsp._jspService(setup_002dfinished_jsp.java:195) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:Caused by: java.io.FileNotFoundException: /usr/local/share/java/openfire/resources/security/client.truststore (No such file or directory)
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:73) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:01:56 [32mINFO [m [Jetty-QTP-AdminConsole-44]: org.jivesoftware.openfire.keystore.IdentityStore - Generating a new private key and corresponding self-signed certificate for domain name '192.168.22.42', using the RSA algorithm (sign-algorithm: SHA256WITHRSAENCRYPTION with a key size of 2048 bits). Certificate will be valid for 1825 days.
+/var/log/openfire/openfire.log:2022.12.02 17:01:57 [33mWARN [m [Thread-31]: org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertificateStoreManager has not been initialized yet. HTTPS will be unavailable.
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.container.AdminConsolePlugin - Consola de administración escuchando en http://192.168.22.42:9090
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.pubsub.PubSubPersistenceProviderManager - Loading PubSub persistence provider: class org.jivesoftware.openfire.pubsub.CachingPubsubPersistenceProvider.
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.pubsub.CachingPubsubPersistenceProvider - Loading PubSub persistence provider to delegate to: class org.jivesoftware.openfire.pubsub.DefaultPubSubPersistenceProvider.
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.pubsub.DefaultPubSubPersistenceProvider - No nodes found in pubsub for service pubsub
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [33mWARN [m [Thread-31]: org.jivesoftware.openfire.keystore.CertificateStoreManager - (trust store for connection type 'SOCKET_C2S') Unable to instantiate store 
+/var/log/openfire/openfire.log:org.jivesoftware.openfire.keystore.CertificateStoreConfigException: Unable to load store of type 'jks' from file '/usr/local/share/java/openfire/resources/security/client.truststore'
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:82) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.TrustStore.<init>(TrustStore.java:27) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStoreManager.initialize(CertificateStoreManager.java:85) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.initModules(XMPPServer.java:871) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.access$500(XMPPServer.java:159) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer$1.run(XMPPServer.java:676) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:Caused by: java.io.FileNotFoundException: /usr/local/share/java/openfire/resources/security/client.truststore (No such file or directory)
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:73) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [33mWARN [m [Thread-31]: org.jivesoftware.openfire.keystore.CertificateStoreManager - (trust store for connection type 'BOSH_C2S') Unable to instantiate store 
+/var/log/openfire/openfire.log:org.jivesoftware.openfire.keystore.CertificateStoreConfigException: Unable to load store of type 'jks' from file '/usr/local/share/java/openfire/resources/security/client.truststore'
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:82) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.TrustStore.<init>(TrustStore.java:27) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStoreManager.initialize(CertificateStoreManager.java:85) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.initModules(XMPPServer.java:871) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.access$500(XMPPServer.java:159) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer$1.run(XMPPServer.java:676) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:Caused by: java.io.FileNotFoundException: /usr/local/share/java/openfire/resources/security/client.truststore (No such file or directory)
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:73) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [33mWARN [m [Thread-31]: org.jivesoftware.openfire.keystore.CertificateStoreManager - (trust store for connection type 'WEBADMIN') Unable to instantiate store 
+/var/log/openfire/openfire.log:org.jivesoftware.openfire.keystore.CertificateStoreConfigException: Unable to load store of type 'jks' from file '/usr/local/share/java/openfire/resources/security/client.truststore'
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:82) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.TrustStore.<init>(TrustStore.java:27) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStoreManager.initialize(CertificateStoreManager.java:85) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.initModules(XMPPServer.java:871) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer.access$500(XMPPServer.java:159) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.XMPPServer$1.run(XMPPServer.java:676) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:Caused by: java.io.FileNotFoundException: /usr/local/share/java/openfire/resources/security/client.truststore (No such file or directory)
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.keystore.CertificateStore.<init>(CertificateStore.java:73) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.pubsub.PubSubModule - Dominio de Publicar-Suscribir: pubsub.192.168.22.42
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Rescheduling user idle task, recurring every PT15M
+/var/log/openfire/openfire.log:2022.12.02 17:01:58 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.muc.spi.MultiUserChatServiceImpl - Dominio de Chat Multi-usuario: conference.192.168.22.42
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pubsub.CachingPubsubPersistenceProvider#DELEGATE
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.net.SASLAuthentication#SKIP_PEER_CERT_REVALIDATION_CLIENT
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'ANONYMOUS' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'PLAIN' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'DIGEST-MD5' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'CRAM-MD5' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'SCRAM-SHA-1' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'JIVE-SHAREDSECRET' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'GSSAPI' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.net.SASLAuthentication - Support added for the 'EXTERNAL' SASL mechanism.
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.ldap.LdapVCardProvider#STORE_AVATAR_IN_DB
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.muc.spi.OccupantManager#PROPERTY_USE_NONBLOCKING_CLUSTERTASKS
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.websocket.XmppWebSocket#STREAM_SUBSTITUTION_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.ldap.LdapManager#LDAP_PAGE_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.muc.MUCRoom#JOIN_PRESENCE_ENABLE
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.muc.MUCRoom#SELF_PRESENCE_TIMEOUT
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.muc.MUCRoom#ALLOWPM_BLOCKALL
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.auth.AuthFactory#PASSWORD_KEY
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.auth.AuthFactory#AUTH_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.group.GroupManager#GROUP_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.nio.ServerConnectionHandler#BACKUP_PACKET_DELIVERY_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.session.SoftwareVersionManager#VERSION_QUERY_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.session.SoftwareVersionManager#VERSION_QUERY_DELAY
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.roster.RosterManager#EXECUTOR_CORE_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.roster.RosterManager#EXECUTOR_MAX_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.roster.RosterManager#EXECUTOR_POOL_KEEP_ALIVE
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.nio.ClientConnectionHandler#BACKUP_PACKET_DELIVERY_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.nio.ComponentConnectionHandler#BACKUP_PACKET_DELIVERY_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.keystore.CertificateStoreWatcher#ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:01:59 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.vcard.VCardManager#VCARD_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.spi.LegacyConnectionAcceptor#STARTUP_RETRY_DELAY
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.muc.spi.IQMuclumbusSearchHandler#PROPERTY_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.server.OutgoingSessionPromise#QUEUE_MAX_THREADS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.server.OutgoingSessionPromise#QUEUE_MIN_THREADS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.server.OutgoingSessionPromise#QUEUE_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.server.OutgoingSessionPromise#QUEUE_THREAD_TIMEOUT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.nio.MultiplexerConnectionHandler#BACKUP_PACKET_DELIVERY_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.archive.ArchiveManager#EXECUTOR_CORE_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.archive.ArchiveManager#EXECUTOR_MAX_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.archive.ArchiveManager#EXECUTOR_POOL_KEEP_ALIVE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pubsub.PubSubPersistenceProviderManager#PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.auth.HybridAuthProvider#PRIMARY_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.auth.HybridAuthProvider#SECONDARY_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.auth.HybridAuthProvider#TERTIARY_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.admin.AdminManager#ADMIN_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.muc.spi.FMUCHandler#FMUC_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.OfflineMessageStore#OFFLINE_AUTOCLEAN_DAYSTOLIVE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.OfflineMessageStore#OFFLINE_AUTOCLEAN_CHECKINTERVAL
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.OfflineMessageStore#OFFLINE_AUTOCLEAN_ENABLE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.streammanagement.StreamManager#LOCATION_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.streammanagement.StreamManager#MAX_SERVER_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.streammanagement.StreamManager#ACTIVE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#MAX_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#MIN_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#POOL_KEEP_ALIVE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#SESSION_CLEANUP_INTERVAL
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#MAX_PAUSE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#MAX_WAIT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#POLLING_INTERVAL
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#MAX_REQUESTS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#INACTIVITY_TIMEOUT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpSessionManager#POLLING_INACTIVITY_TIMEOUT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.lockout.LockOutManager#LOCKOUT_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.update.UpdateManager#ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.update.UpdateManager#NOTIFY_ADMINS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.update.UpdateManager#LAST_UPDATE_CHECK
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.update.UpdateManager#UPDATE_FREQUENCY
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.update.UpdateManager#PROXY_HOST
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.update.UpdateManager#PROXY_PORT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.sasl.ScramSha1SaslServer#ITERATION_COUNT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.SessionManager#CONFLICT_LIMIT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.container.PluginServlet#ALLOW_LOCAL_FILE_READING
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.net.StanzaHandler#PROPERTY_OVERWRITE_EMPTY_TO
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#LOG_HTTPBIND_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_PORT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_SECURE_PORT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_THREADS_MIN
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_THREADS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_THREADS_TIMEOUT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_AUTH_PER_CLIENTCERT_POLICY
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_FORWARDED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_FORWARDED_FOR
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_FORWARDED_SERVER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_FORWARDED_HOST
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_FORWARDED_HOST_NAME
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_CORS_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_ALLOWED_ORIGINS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_CORS_ALLOW_METHODS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_CORS_ALLOW_HEADERS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_CORS_MAX_AGE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.http.HttpBindManager#HTTP_BIND_REQUEST_HEADER_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.cluster.ClusterMonitor#ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.XMPPServerInfo#XMPP_DOMAIN
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.disco.IQDiscoInfoHandler#ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.sasl.ExternalClientSaslServer#PROPERTY_SASL_EXTERNAL_CLIENT_SUPPRESS_MATCHING_REALMNAME
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pep.IQPEPHandler#ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pep.IQPEPHandler#EXECUTOR_CORE_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pep.IQPEPHandler#EXECUTOR_MAX_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pep.IQPEPHandler#EXECUTOR_POOL_KEEP_ALIVE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.user.UserManager#USER_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.user.UserManager#REMOTE_DISCO_INFO_TIMEOUT
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.user.UserManager#USER_PROPERTY_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pubsub.PubSubModule#PUBSUB_CREATE_ANYONE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pubsub.PubSubModule#PUBSUB_ALLOWED_TO_CREATE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.pubsub.PubSubModule#PUBSUB_SYSADMINS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.spi.EncryptionArtifactFactory#TRUST_MANAGER_CLASS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.spi.EncryptionArtifactFactory#SSLCONTEXT_PROTOCOL
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.security.SecurityAuditManager#AUDIT_PROVIDER
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.muc.spi.IQMUCvCardHandler#PROPERTY_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.sasl.AnonymousSaslServer#ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.admin.GroupBasedAdminProvider#GROUP_NAME
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.admin.DefaultAdminProvider#ADMIN_JIDS
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager#EXECUTOR_CORE_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager#EXECUTOR_MAX_POOL_SIZE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.filetransfer.proxy.ProxyConnectionManager#EXECUTOR_POOL_KEEP_ALIVE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.JMXManager#XMPP_JMX_ENABLED
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.JMXManager#XMPP_JMX_SECURE
+/var/log/openfire/openfire.log:2022.12.02 17:02:00 [32mINFO [m [Thread-31]: org.jivesoftware.openfire.XMPPServer - Accessing SystemProperty field org.jivesoftware.openfire.JMXManager#XMPP_JMX_PORT
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [33mWARN [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Unable to instantiate an instance of the configured Trust Manager implementation 'class org.jivesoftware.openfire.keystore.OpenfireX509TrustManager'. Using class org.jivesoftware.openfire.keystore.OpenfireX509TrustManager instead.
+/var/log/openfire/openfire.log:java.lang.InstantiationException: org.jivesoftware.openfire.keystore.OpenfireX509TrustManager
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.EncryptionArtifactFactory.getTrustManagers(EncryptionArtifactFactory.java:125) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.EncryptionArtifactFactory.getSSLContext(EncryptionArtifactFactory.java:173) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.EncryptionArtifactFactory.createServerModeSslFilter(EncryptionArtifactFactory.java:343) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.start(MINAConnectionAcceptor.java:127) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionListener.start(ConnectionListener.java:226) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.startListeners(ConnectionManagerImpl.java:315) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.access$100(ConnectionManagerImpl.java:46) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl$1.pluginsMonitored(ConnectionManagerImpl.java:304) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginManager.firePluginsMonitored(PluginManager.java:1290) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginManager.firePluginsMonitored(PluginManager.java:1283) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask.run(PluginMonitor.java:422) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:Caused by: java.lang.NoSuchMethodException: org.jivesoftware.openfire.keystore.OpenfireX509TrustManager.<init>()
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [1;31mERROR[m [pool-2-thread-1]: org.jivesoftware.openfire.spi.MINAConnectionAcceptor[socket_c2s_ssl] - Error starting: 5223
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.EncryptionArtifactFactory.getTrustManagers(EncryptionArtifactFactory.java:133) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.EncryptionArtifactFactory.getSSLContext(EncryptionArtifactFactory.java:173) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.EncryptionArtifactFactory.createServerModeSslFilter(EncryptionArtifactFactory.java:343) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.MINAConnectionAcceptor.start(MINAConnectionAcceptor.java:127) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionListener.start(ConnectionListener.java:226) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.startListeners(ConnectionManagerImpl.java:315) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.access$100(ConnectionManagerImpl.java:46) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl$1.pluginsMonitored(ConnectionManagerImpl.java:304) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginManager.firePluginsMonitored(PluginManager.java:1290) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginManager.firePluginsMonitored(PluginManager.java:1283) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask.run(PluginMonitor.java:422) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_c2s-legacyMode] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [33mWARN [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [33mWARN [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[socket_s2s-legacyMode] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[component-legacyMode] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.ConnectionListener[connection_manager-legacyMode] - Started.
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.spi.EncryptionArtifactFactory - Creating new SslContextFactory instance
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [1;31mERROR[m [pool-2-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - Error creating SSL connector for Http bind
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.EncryptionArtifactFactory.getSslContextFactory(EncryptionArtifactFactory.java:281) ~[xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.http.HttpBindManager.createSSLConnector(HttpBindManager.java:541) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.http.HttpBindManager.start(HttpBindManager.java:409) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.startListeners(ConnectionManagerImpl.java:327) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl.access$100(ConnectionManagerImpl.java:46) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.spi.ConnectionManagerImpl$1.pluginsMonitored(ConnectionManagerImpl.java:304) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginManager.firePluginsMonitored(PluginManager.java:1290) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginManager.firePluginsMonitored(PluginManager.java:1283) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:	at org.jivesoftware.openfire.container.PluginMonitor$MonitorTask.run(PluginMonitor.java:422) [xmppserver-4.7.3.jar:4.7.3]
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.http.HttpSessionManager - Starting instance
+/var/log/openfire/openfire.log:2022.12.02 17:02:09 [32mINFO [m [pool-2-thread-1]: org.jivesoftware.openfire.http.HttpBindManager - HTTP bind service started
+/var/log/openfire/openfire.log:2022.12.02 17:09:09 [32mINFO [m [pep-worker-2]: org.jivesoftware.openfire.pubsub.DefaultPubSubPersistenceProvider - No nodes found in pubsub for service paco@192.168.22.42
+/var/log/openfire/openfire.log:2022.12.02 17:09:09 [32mINFO [m [socket_c2s-thread-2]: org.jivesoftware.openfire.pubsub.DefaultPubSubPersistenceProvider - No nodes found in pubsub for service pepe@192.168.22.42
+/var/log/userlog:2022-12-02 16:52:46 [frenzoid:groupadd] openfire(342)
+/var/log/userlog:2022-12-02 16:52:47 [frenzoid:useradd] openfire(342):openfire(342):Openfire IM Daemon:/nonexistent:/usr/sbin/nologin

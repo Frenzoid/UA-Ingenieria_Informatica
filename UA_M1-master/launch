@@ -1,0 +1,110 @@
+#!/bin/bash
+###
+### Script multilanzamiento de PLMAN
+### Copyright (C) 2009 Francisco José Gallego Durán <ronaldo@cheesetea.com>
+###
+### This program is free software; you can redistribute it and/or modify
+### it under the terms of the GNU General Public License as published by
+### the Free Software Foundation; version 2 of the License.
+###
+### This program is distributed in the hope that it will be useful,
+### but WITHOUT ANY WARRANTY; without even the implied warranty of
+### MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+### GNU General Public License for more details.
+###
+
+# VARIABLES
+MAX_MOVIMIENTOS=1250                        # Máximo número de movimientos por defecto
+CARPETA_LOGS=logs/                          # Carpeta donde se almacenan los logs
+LOG_FILENAME=log_ejecucion_                 # Nombre que tendrán los logs de ejecución
+TEMPORAL=/tmp/mificherotemporalalal12834    # Fichero temporal
+VECES=$1                                    # Veces que se ejecutará plman
+shift
+CMD="./plman $@ -n -m $MAX_MOVIMIENTOS"     # Comando de ejecución de plman, con parámetros añadidos
+
+##
+## Print script usage instructions on console
+##
+function usage()
+{
+    echo "Uso del script $0 "
+    echo
+    echo "   $0 <N> <MAP> <SOL> [ PARAMETROS ]"
+    echo
+    echo " * N:     Numero de veces que se debe repetir el lanzamiento de plman"
+    echo " * MAP:   Mapa con el que se lanzara plman"
+    echo " * SOL:   Fichero con la solucion implementada para el mapa MAP"
+    echo 
+    echo "Ejecuta plman N veces con MAP y SOL indicados, y con los PARAMETROS opcionales "
+    echo "que se especifiquen, en su caso. De cada ejecucion, el script muestra "
+    echo "el resultado final, guardando el recuento total de ejecuciones exitosas y fracasos. "
+    echo "Al final, indica los totales de ejecuciones y su porcentaje. Ademas, el script "
+    echo "crea una carpeta ($CARPETA_LOGS) para almacenar los logs de ejecucion. Al terminar las ejecuciones, "
+    echo "en la carpeta solo quedan los logs de aquellas que no han completado el mapa al 100%."
+    echo
+    echo "Ejemplos de uso:"
+    echo 
+    echo " $ ./launch 10 maps/fase4/mapa0.pl solucion.pl"
+    echo
+    echo "     Lanza 10 veces plman para resolver mapa0.pl de fase 4, utilizando el archivo solucion.pl "
+    echo
+    echo " $ ./launch 1200 maps/fase5/mapaimposible.pl intento.pl -m 500"
+    echo 
+    echo "     Lanza 1200 veces plman para resolver mapaimposible.pl de fase 5, utilizando el"
+    echo "     archivo intento.pl. Ademas, limita cada ejecucion a un maximo de 500 movimientos, "
+    echo "     finalizandola a medias si se supera ese limite. "
+    echo
+}
+
+# COMPROBAR PARÁMETROS MÍNIMOS (teniendo en cuenta que hemos hecho 1 shift)
+if [[ $# < 2 ]]; then
+    usage
+    exit -1
+fi
+
+# CREAR CARPETA DE LOGS SI NO EXISTE
+if [ ! -d $CARPETA_LOGS ]; then
+    echo "La carpeta $CARPETA_LOGS no existia. Ha sido creada para almacenar los logs"
+    echo
+    mkdir $CARPETA_LOGS
+fi
+
+# COMPROBAR QUE SE PUEDE ESCRIBIR EN LA CARPETA DE LOGS
+if [ ! -w $CARPETA_LOGS ]; then
+    echo "ERROR: No se puede escribir en la carpeta $CARPETA_LOGS"
+    echo "       La carpeta no fue creada o no se dispone de permiso de escritura"
+    echo
+    exit
+fi
+
+# BUCLE PRINCIPAL
+A=1
+E=0
+while (( A <= VECES )); do
+    LOG="$CARPETA_LOGS/${LOG_FILENAME}${A}"
+    # Ejecutar comando redirigiendo salida a fichero temporal
+    $CMD $PARAMETROS -l $LOG &> $TEMPORAL
+    RESULT=`grep "Estado final" $TEMPORAL`
+    echo -n "Ejecucion $A: "
+    
+    # COMPROBAR SI HA TENIDO ÉXITO LA EJECUCIÓN
+    if grep "MAPA SUPERADO" <<< $RESULT &> /dev/null; then
+        echo "MAPA SUPERADO 100%"
+        rm $LOG
+        E=$((E+1))
+    elif grep "LIMITE DE MOVIMIENTOS SUPERADO" <<< $RESULT &> /dev/null; then
+        echo "LIMITE DE MOVIMIENTOS SUPERADO"
+    else
+        echo -n "PLMAN HA MUERTO >> "
+        grep "Cocos comidos" $TEMPORAL
+    fi
+    A=$(($A+1))
+done
+
+echo "------------------------------------------------------"
+echo "-- RESULTADO FINAL:"
+echo "------------------------------------------------------"
+PC=$((100*$E/$VECES))
+echo "Total de ejecuciones superadas al 100%: $E de $VECES ($PC%)"
+echo 
+

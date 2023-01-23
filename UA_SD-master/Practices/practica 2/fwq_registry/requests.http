@@ -1,0 +1,36 @@
+### auth.
+POST http://localhost:9090/auth
+Content-Type: application/json
+
+{
+    "name":"a",
+    "password":"a"
+}
+
+### Register.
+POST http://localhost:9090/register
+Content-Type: application/json
+
+{
+    "name":"a",
+    "password":"a"
+}
+
+### Edit.
+PUT http://localhost:9090/edit/2
+Content-Type: application/json
+
+{
+    "name":"a",
+    "password":"a"
+}
+
+### Logoff.
+GET http://localhost:9090/logoff/2
+Content-Type: application/json
+
+{}
+
+
+### EL TIEMPO EN ALICANTE
+GET api.openweathermap.org/data/2.5/weather?q=Alicante&appid=d9eee5d3d5d5a86c5868e8c61381983c

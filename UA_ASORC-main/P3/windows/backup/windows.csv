@@ -1,0 +1,25 @@
+Level,Date and Time,Source,Event ID,Task Category
+Information,24/11/2022 11:01:48,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,24/11/2022 11:00:30,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,24/11/2022 10:59:38,edgeupdate,0,None,Service stopped.
+Information,24/11/2022 10:59:28,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,24/11/2022 10:59:20,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,24/11/2022 10:59:20,Microsoft-Windows-EventSystem,4625,None,The EventSystem sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\EventSystem\EventLog.
+Information,24/11/2022 10:59:18,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: c1a197b6-ba5e-4394-b9bf-b659a6c1b873, 1, 0 [(0 )(1 )(2 )(3 [0x00000000, 0, 1], [(?)( 1 0x00000000)( 6 0x00000000 10 14400)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])]
+
+"
+Information,24/11/2022 10:59:18,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,24/11/2022 10:59:18,Microsoft-Windows-Security-SPP,1016,None,"Proof of Purchase installed successfully. 
+ACID=c1a197b6-ba5e-4394-b9bf-b659a6c1b873
+PKeyId=88d68b6f-8762-54b3-a3a4-920848fabd33"
+Information,24/11/2022 10:58:25,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,24/11/2022 19:57:37,Microsoft-Windows-Defrag,258,None,The storage optimizer successfully completed shrink on (C:)
+Information,24/11/2022 19:57:04,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,24/11/2022 19:57:00,edgeupdate,0,None,Service stopped.

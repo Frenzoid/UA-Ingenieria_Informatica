@@ -1,0 +1,20 @@
+Level,Date and Time,Source,Event ID,Task Category
+Information,03/12/2022 16:49:01,Service Control Manager,7036,None,The Background Intelligent Transfer Service service entered the stopped state.
+Information,03/12/2022 16:49:01,Service Control Manager,7040,None,The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+Information,03/12/2022 16:47:01,Service Control Manager,7036,None,The WMI Performance Adapter service entered the running state.
+Information,03/12/2022 16:47:01,Service Control Manager,7036,None,The Background Intelligent Transfer Service service entered the running state.
+Information,03/12/2022 16:47:00,Service Control Manager,7040,None,The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+Information,03/12/2022 16:47:00,Service Control Manager,7036,None,The WMI Performance Adapter service entered the stopped state.
+Information,03/12/2022 16:47:00,Service Control Manager,7036,None,The WMI Performance Adapter service entered the running state.
+Information,03/12/2022 16:47:00,Service Control Manager,7036,None,The WMI Performance Adapter service entered the stopped state.
+Information,03/12/2022 16:46:59,Service Control Manager,7036,None,The Background Intelligent Transfer Service service entered the stopped state.
+Information,03/12/2022 16:46:58,Service Control Manager,7040,None,The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+Information,03/12/2022 16:45:35,Service Control Manager,7036,None,The AppX Deployment Service (AppXSVC) service entered the stopped state.
+Information,03/12/2022 16:44:59,Service Control Manager,7036,None,The WMI Performance Adapter service entered the running state.
+Information,03/12/2022 16:44:58,Service Control Manager,7036,None,The Background Intelligent Transfer Service service entered the running state.
+Information,03/12/2022 16:44:58,Service Control Manager,7040,None,The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+Information,03/12/2022 16:44:35,Service Control Manager,7036,None,The Microsoft Account Sign-in Assistant service entered the stopped state.
+Error,03/12/2022 16:43:53,Microsoft-Windows-Time-Service,34,None,"The time service has detected that the system time needs to be  changed by 223455 seconds. The time service will not change the system time by more than 54000 seconds. Verify that your time and time zone are correct, and that the time source time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123) is working properly."
+Information,03/12/2022 16:43:53,Microsoft-Windows-Time-Service,37,None,"The time provider NtpClient is currently receiving valid time data from time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->51.145.123.29:123)."
+Information,03/12/2022 16:43:34,Service Control Manager,7036,None,The Windows Error Reporting Service service entered the stopped state.
+Information,03/12/2022 16:42:16,Service Control Manager,7036,None,The Windows Update service entered the running state.

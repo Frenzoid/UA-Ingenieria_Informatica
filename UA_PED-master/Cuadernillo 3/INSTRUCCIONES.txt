@@ -1,0 +1,35 @@
+Descomprime los ficheros de prueba que hay disponibles en el Campus Virtual de manera que los subdirectorios
+"ComplejoPRUEBA", "TVectorCom_PRUEBA" y "TListaCom_PRUEBA" estén en el directorio raíz de tu práctica, y cada uno de ellos contenga 
+ficheros llamados tad*.cpp y tad*.cpp.out, siendo * un número: 01, 02, 03, etc.
+
+Copia el fichero "evalua.sh" al directorio raíz de tu práctica.
+
+Ahora el directorio raíz de tu práctica debería contener: 
+ - los subdirectorios "include", "lib" y "src", y los ficheros Makefile y NOMBRES.txt que se especifican en el enunciado de la práctica.
+ - los subdirectorios cuyo nombre acaba en "PRUEBA" y el fichero "evalua.sh".
+
+Para comprobar si tu práctica pasa todos los ficheros de prueba, ejectuta, desde un terminal, en la carpeta raíz de tu proyecto:
+
+bash evalua.sh
+
+El programa imprimirá, por cada fichero evaluado:
+
+- Evaluando NOMBRE_DE_FICHERO, por ejemplo "Evaluando ComplejoPRUEBA/tad07.cpp"
+- Salida del comando make. Por ejemplo: "g++ -g   -Iinclude src/main.cpp lib/tcomplejo.o -o main"
+- Diferencias entre la salida del programa y la salida esperada, si las hay. La prueba se ha pasado correctamente si no hay diferencias.
+- "OK" si no hay diferencias o "ERROR" si las hay.
+
+Si tu Makefile espera que el fichero que contiene el programa principal se llame src/tad.cpp en vez src/main.cpp, cámbialo en la línea de evalua.sh que empieza por "cp":
+
+cp $FILE src/tad.cpp
+
+sustituye a:
+
+cp $FILE src/main.cpp
+
+
+Si deseas utilizar ficheros de prueba cuyo nombre no empieza por "tad", cambia "tad" por el prefijo de tus ficheros en la primera línea (excluyendo comentarios) de evalua.sh.
+Por ejemplo, si tus ficheros de prueba empiezan por "prueba", la primera línea debería quedar como sigue:
+
+for FILE in *PRUEBA/prueba*.cpp ; do
+

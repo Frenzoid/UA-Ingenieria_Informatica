@@ -1,0 +1,64 @@
+   170	18:07	pkg search dhcpd
+   171	18:10	pkg install iscp-dhcp*
+   172	18:11	pkg search iscp-dhcp*
+   173	18:11	pkg search iscp-dhcp
+   175	18:11	pkg search isc-dhcp
+   176	18:11	pkg insstall isc-dhcp44-server
+   177	18:11	pkg insstall isc-dhcp44-server
+   178	18:11	pkg install isc-dhcp44-server
+   180	18:14	nano /usr/local/etc/dhcpd.conf
+   198	18:23	nano /usr/local/etc/dhcpd.conf
+   199	18:23	mv /usr/local/etc/dhcpd.conf /usr/local/etc/dhcpd.conf.old
+   200	18:23	nano /usr/local/etc/dhcpd.conf
+   204	18:27	nano /usr/local/etc/dhcpd.conf
+   205	18:31	service dhcpd restart
+   206	18:32	service dhcpd restartclear
+   208	18:32	dhcpd restart
+   209	18:32	nano /usr/local/etc/dhcpd.conf
+   210	18:33	dhcpd restart
+   211	18:34	dhcpd
+   212	18:35	touch /var/db/dhcpd.leases
+   213	18:35	chmod +777 /var/db/dhcpd.leases
+   214	18:35	chmod 777 /var/db/dhcpd.leases
+   216	18:35	dhcpd
+   218	18:37	nano /usr/local/etc/dhcpd.conf
+   219	18:41	dhcpd
+   220	18:41	dhcpd logs
+   221	18:41	man dhcpd
+   222	18:42	man dhcpd | grep logs
+   223	18:42	man dhcpd
+   226	18:45	cat /var/log/userlog | grep dhcp
+   231	18:51	dhcpd stop
+   232	18:51	service dhcpd stop
+   233	18:52	sysctl dhcpd stop
+   234	18:52	service isc-dhcpd-server stop
+   235	18:52	service isc-dhcpd44-server stop
+   236	18:53	/etc/rc.d/dhcpd stop
+   237	18:54	ps ax | grep dhcpd
+   240	18:54	nano /usr/local/etc/dhcpd.conf
+   242	18:58	nano /usr/local/etc/dhcpd.conf
+   244	18:58	nano /usr/local/etc/dhcpd.conf
+   246	18:59	dhcpd
+   247	19:00	cat /var/log/messages | grep dhcp
+   248	19:00	cat /var/log/messages | grep dhcp
+   249	19:00	ps ax | grep dhcpd
+   251	19:01	ps ax | grep dhcpd
+   252	19:01	dhcpd
+   256	19:01	less /var/log/messages | grep dhcpd
+   258	19:02	ps ax | grep dhcpd
+   260	19:02	ps ax | grep dhcpd
+   261	19:03	service isc-dhcpd strt
+   262	19:03	service isc-dhcpd restart
+   263	19:04	cat /var/log/messages | grep dhcp
+   264	19:04	nano /usr/local/etc/dhcpd.conf
+   265	19:05	nano /usr/local/etc/dhcpd.conf
+   266	19:06	service isc-dhcpd restart
+   268	19:07	less /var/log/messages | grep dhcp
+   269	19:07	less /var/log/messages | grep dhcpd
+   270	19:08	less /var/db/dhcpd.leases
+   271	19:13	nano /usr/local/etc/dhcpd.conf
+   273	19:14	less /var/log/messages | grep dhcpd
+   274	19:14	service isc-dhcpd status
+   277	19:15	less /var/log/messages | grep dhcpd
+   278	19:16	mkdir dhcp && less /var/log/messages | grep dhcpd > dhcp/unixlogs.txt
+   280	19:16	history | grep dhcp > dhcp/historyunix.txt

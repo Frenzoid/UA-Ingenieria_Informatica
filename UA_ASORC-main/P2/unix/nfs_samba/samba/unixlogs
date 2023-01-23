@@ -1,0 +1,5 @@
+[2022/11/12 18:54:35.102011,  0] ../../source3/smbd/server.c:1782(main)
+  smbd version 4.12.15 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2022/11/12 18:54:37.012635,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections

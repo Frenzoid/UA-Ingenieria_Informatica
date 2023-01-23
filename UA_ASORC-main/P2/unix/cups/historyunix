@@ -1,0 +1,15 @@
+    51	15:45	netstat -tnlp
+    52	15:45	netstat -tlpn
+    53	15:45	netstat tlpn
+   127	16:45	netstat -tunlp | grep vnc
+   691	18:25	lpadmin Virtual_PDF_Printer -o printer-is-shared=true
+   692	18:25	lpadmin Virtual_PDF_Printer -o printer-is-shared=true
+   693	18:25	lpadmin Virtual_PDF_printer -o printer-is-shared=true
+   696	18:26	lpadmin Virtual_PDF_Printer -o printer-is-shared=true
+   697	18:26	lpadmin -p Virtual_PDF_Printer -u allow:all
+   731	18:41	history | grep lp
+   732	18:41	history | grep lp cups
+   733	18:42	history | grep lp && history | grep cups
+   734	18:42	history | grep cups && history | grep lp
+   735	18:42	history | grep cups && history | grep lp > historyunix
+   736	18:42	history | grep cups && history | grep lp > historyunix

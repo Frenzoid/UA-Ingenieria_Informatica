@@ -1,0 +1,11 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/1/2022 8:54:41 AM,tvnserver,257,None,The client 192.168.22.1 has disconnected
+Information,11/1/2022 8:54:32 AM,tvnserver,257,None,Authentication passed by 192.168.22.1
+Information,11/1/2022 8:39:59 AM,tvnserver,257,None,The client 192.168.22.1 has disconnected
+Information,11/1/2022 8:39:56 AM,tvnserver,257,None,Authentication passed by 192.168.22.1
+Information,11/1/2022 8:38:10 AM,tvnserver,257,None,The client 192.168.22.1 has disconnected
+Information,11/1/2022 8:34:31 AM,tvnserver,257,None,Authentication passed by 192.168.22.1
+Information,11/1/2022 4:30:48 PM,tvnserver,257,None,Service has been started successfully
+Information,11/1/2022 8:25:24 AM,tvnserver,257,None,The client 192.168.22.1 has disconnected
+Information,11/1/2022 8:24:56 AM,tvnserver,257,None,Authentication passed by 192.168.22.1
+Information,11/1/2022 8:23:09 AM,tvnserver,257,None,Service has been started successfully

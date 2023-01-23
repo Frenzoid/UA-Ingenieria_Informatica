@@ -1,0 +1,1 @@
+/home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/waitgroup/target/debug/waitgroup: /home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/waitgroup/main.rs

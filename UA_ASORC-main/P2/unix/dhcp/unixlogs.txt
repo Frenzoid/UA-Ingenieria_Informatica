@@ -1,0 +1,98 @@
+Oct 30 18:32:37  dhcpd[3400]: /usr/local/etc/dhcpd.conf line 11: semicolon expected.
+Oct 30 18:32:37  dhcpd[3400]:   option domain-name-servers 192.168.22.1 192.
+Oct 30 18:32:37  dhcpd[3400]:                                            ^
+Oct 30 18:32:37  dhcpd[3400]: Configuration file errors encountered -- exiting
+Oct 30 18:32:37  dhcpd[3400]: 
+Oct 30 18:32:37  dhcpd[3400]: If you think you have received this message due to a bug rather
+Oct 30 18:32:37  dhcpd[3400]: than a configuration issue please read the section on submitting
+Oct 30 18:32:37  dhcpd[3400]: bugs on either our web page at www.isc.org or in the README file
+Oct 30 18:32:37  dhcpd[3400]: before submitting a bug.  These pages explain the proper
+Oct 30 18:32:37  dhcpd[3400]: process and the information we find helpful for debugging.
+Oct 30 18:32:37  dhcpd[3400]: 
+Oct 30 18:32:37  dhcpd[3400]: exiting.
+Oct 30 18:33:33  dhcpd[3410]: Can't open lease database /var/db/dhcpd.leases: No such file or directory --
+Oct 30 18:33:33  dhcpd[3410]:   check for failed database rewrite attempt!
+Oct 30 18:33:33  dhcpd[3410]: Please read the dhcpd.leases manual page if you
+Oct 30 18:33:33  dhcpd[3410]: don't know what to do about this.
+Oct 30 18:33:33  dhcpd[3410]: 
+Oct 30 18:33:33  dhcpd[3410]: If you think you have received this message due to a bug rather
+Oct 30 18:33:33  dhcpd[3410]: than a configuration issue please read the section on submitting
+Oct 30 18:33:33  dhcpd[3410]: bugs on either our web page at www.isc.org or in the README file
+Oct 30 18:33:33  dhcpd[3410]: before submitting a bug.  These pages explain the proper
+Oct 30 18:33:33  dhcpd[3410]: process and the information we find helpful for debugging.
+Oct 30 18:33:33  dhcpd[3410]: 
+Oct 30 18:33:33  dhcpd[3410]: exiting.
+Oct 30 18:34:02  dhcpd[3412]: Can't open lease database /var/db/dhcpd.leases: No such file or directory --
+Oct 30 18:34:02  dhcpd[3412]:   check for failed database rewrite attempt!
+Oct 30 18:34:02  dhcpd[3412]: Please read the dhcpd.leases manual page if you
+Oct 30 18:34:02  dhcpd[3412]: don't know what to do about this.
+Oct 30 18:34:02  dhcpd[3412]: 
+Oct 30 18:34:02  dhcpd[3412]: If you think you have received this message due to a bug rather
+Oct 30 18:34:02  dhcpd[3412]: than a configuration issue please read the section on submitting
+Oct 30 18:34:02  dhcpd[3412]: bugs on either our web page at www.isc.org or in the README file
+Oct 30 18:34:02  dhcpd[3412]: before submitting a bug.  These pages explain the proper
+Oct 30 18:34:02  dhcpd[3412]: process and the information we find helpful for debugging.
+Oct 30 18:34:02  dhcpd[3412]: 
+Oct 30 18:34:02  dhcpd[3412]: exiting.
+Oct 30 18:35:33  dhcpd[3420]: 
+Oct 30 18:35:33  dhcpd[3420]: No subnet declaration for em0 (10.0.2.19).
+Oct 30 18:35:33  dhcpd[3420]: ** Ignoring requests on em0.  If this is not what
+Oct 30 18:35:33  dhcpd[3420]:    you want, please write a subnet declaration
+Oct 30 18:35:33  dhcpd[3420]:    in your dhcpd.conf file for the network segment
+Oct 30 18:35:33  dhcpd[3420]:    to which interface em0 is attached. **
+Oct 30 18:35:33  dhcpd[3420]: 
+Oct 30 18:41:22  dhcpd[3443]: There's already a DHCP server running.
+Oct 30 18:41:22  dhcpd[3443]: 
+Oct 30 18:41:22  dhcpd[3443]: If you think you have received this message due to a bug rather
+Oct 30 18:41:22  dhcpd[3443]: than a configuration issue please read the section on submitting
+Oct 30 18:41:22  dhcpd[3443]: bugs on either our web page at www.isc.org or in the README file
+Oct 30 18:41:22  dhcpd[3443]: before submitting a bug.  These pages explain the proper
+Oct 30 18:41:22  dhcpd[3443]: process and the information we find helpful for debugging.
+Oct 30 18:41:22  dhcpd[3443]: 
+Oct 30 18:41:22  dhcpd[3443]: exiting.
+Oct 30 18:41:27  dhcpd[3445]: There's already a DHCP server running.
+Oct 30 18:41:27  dhcpd[3445]: 
+Oct 30 18:41:27  dhcpd[3445]: If you think you have received this message due to a bug rather
+Oct 30 18:41:27  dhcpd[3445]: than a configuration issue please read the section on submitting
+Oct 30 18:41:27  dhcpd[3445]: bugs on either our web page at www.isc.org or in the README file
+Oct 30 18:41:27  dhcpd[3445]: before submitting a bug.  These pages explain the proper
+Oct 30 18:41:27  dhcpd[3445]: process and the information we find helpful for debugging.
+Oct 30 18:41:27  dhcpd[3445]: 
+Oct 30 18:41:27  dhcpd[3445]: exiting.
+Oct 30 18:51:39  dhcpd[3535]: There's already a DHCP server running.
+Oct 30 18:51:39  dhcpd[3535]: 
+Oct 30 18:51:39  dhcpd[3535]: If you think you have received this message due to a bug rather
+Oct 30 18:51:39  dhcpd[3535]: than a configuration issue please read the section on submitting
+Oct 30 18:51:39  dhcpd[3535]: bugs on either our web page at www.isc.org or in the README file
+Oct 30 18:51:39  dhcpd[3535]: before submitting a bug.  These pages explain the proper
+Oct 30 18:51:39  dhcpd[3535]: process and the information we find helpful for debugging.
+Oct 30 18:51:39  dhcpd[3535]: 
+Oct 30 18:51:39  dhcpd[3535]: exiting.
+Oct 30 18:59:37  dhcpd[3594]: 
+Oct 30 18:59:37  dhcpd[3594]: No subnet declaration for em0 (10.0.2.19).
+Oct 30 18:59:37  dhcpd[3594]: ** Ignoring requests on em0.  If this is not what
+Oct 30 18:59:37  dhcpd[3594]:    you want, please write a subnet declaration
+Oct 30 18:59:37  dhcpd[3594]:    in your dhcpd.conf file for the network segment
+Oct 30 18:59:37  dhcpd[3594]:    to which interface em0 is attached. **
+Oct 30 18:59:37  dhcpd[3594]: 
+Oct 30 19:01:08  dhcpd[3615]: 
+Oct 30 19:01:08  dhcpd[3615]: No subnet declaration for em0 (10.0.2.19).
+Oct 30 19:01:08  dhcpd[3615]: ** Ignoring requests on em0.  If this is not what
+Oct 30 19:01:08  dhcpd[3615]:    you want, please write a subnet declaration
+Oct 30 19:01:08  dhcpd[3615]:    in your dhcpd.conf file for the network segment
+Oct 30 19:01:08  dhcpd[3615]:    to which interface em0 is attached. **
+Oct 30 19:01:08  dhcpd[3615]: 
+Oct 30 19:03:07  dhcpd[3685]: 
+Oct 30 19:03:07  dhcpd[3685]: No subnet declaration for em0 (10.0.2.19).
+Oct 30 19:03:07  dhcpd[3685]: ** Ignoring requests on em0.  If this is not what
+Oct 30 19:03:07  dhcpd[3685]:    you want, please write a subnet declaration
+Oct 30 19:03:07  dhcpd[3685]:    in your dhcpd.conf file for the network segment
+Oct 30 19:03:07  dhcpd[3685]:    to which interface em0 is attached. **
+Oct 30 19:03:07  dhcpd[3685]: 
+Oct 30 19:06:13  dhcpd[3725]: 
+Oct 30 19:06:13  dhcpd[3725]: No subnet declaration for em0 (10.0.2.19).
+Oct 30 19:06:13  dhcpd[3725]: ** Ignoring requests on em0.  If this is not what
+Oct 30 19:06:13  dhcpd[3725]:    you want, please write a subnet declaration
+Oct 30 19:06:13  dhcpd[3725]:    in your dhcpd.conf file for the network segment
+Oct 30 19:06:13  dhcpd[3725]:    to which interface em0 is attached. **
+Oct 30 19:06:13  dhcpd[3725]: 

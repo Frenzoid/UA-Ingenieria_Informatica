@@ -1,0 +1,27 @@
+ELVI MIHAI SABAU SABAU - 51254875L - 27/10/2022
+
+P8 - Practicas de Programación Concurrente - 2022/2023.
+Problema de la Comida de los filósofos con monitores
+
+-----------------------------------------------------------
+
+La implementación de la comida de los filosofos usando monitores es una forma de resolver el problema de manera sincronizada.
+En esta implementación, se utiliza un monitor para controlar el acceso a los palillos, que son compartidos por todos los filosofos.
+
+El monitor incluye una sección crítica que representa la mesa, que es el código que se ejecuta cuando un filosofo intenta obtener los palillos para comer.
+El monitor también incluye un array que indica que filosofos estan esperando para comer.
+
+El filosofo, una vez está listo para comer, revisa si tiene los palillos disponibles, si los tiene empieza a comer, así inhabilitando a sus vecinos.
+Mientas esta cogiendo los palillos, nadie mas puede acceder a la mesa.
+
+Si su vecino quiere cojer los palillos, la mesa se queda bloqueada hasta que el filosofo que esta usando sus palillos acabe.
+
+-----------------------------------------------------------
+
+Las ventajas de esta implementación son que garantiza que los filosofos no se quedarán hambrientos indefinidamente y que evita que los
+filosofos traten de obtener los palillos de manera simultánea, lo que podría causar un interbloqueo.
+
+Un inconveniente de esta implementación puede ser un poco lenta debido a que si un filosofo no tiene acceso a sus palillos cuando va a comer,
+la mesa se va a bloquear hasta que los tenga, esto significa que otros filosofos que si podrian comer no van a poder empezar a hacerlo antes.
+Tambien otro inconveniente podria ser la complegidad de la propia implementación, ya que el uso de monitores requiere comprender solidamente el
+concepto de sección crítica, y el uso de monitores en general.

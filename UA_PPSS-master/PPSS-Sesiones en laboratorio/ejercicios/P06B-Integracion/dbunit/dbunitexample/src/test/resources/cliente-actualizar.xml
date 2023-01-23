@@ -1,0 +1,7 @@
+<dataset>
+    <cliente id = "1"
+             nombre = "John"
+             apellido = "Smith"
+             direccion = "Other Street"
+             ciudad = "NewCity" />
+</dataset>

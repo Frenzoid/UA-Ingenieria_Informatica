@@ -1,0 +1,20 @@
+﻿Compilación iniciada a las 05/04/2019 17:45:25.
+     1>Proyecto "C:\Users\EPS\Desktop\CUDA-Workshop-2019\session 4\build\reduction_cuda.vcxproj" en el nodo 2 (Build destinos).
+     1>CustomBuild:
+         Building NVCC (Device) object CMakeFiles/reduction_cuda.dir/Debug/reduction_cuda_generated_vector_reduction.cu.obj
+         vector_reduction.cu
+     1>CUSTOMBUILD : nvcc warning : Resource usage is not shown as the final resource allocation is not done.
+     1>C:/Users/EPS/Desktop/CUDA-Workshop-2019/session 4/vector_reduction.cu(41): error : identifier "dimm3" is undefined
+         
+         1 error detected in the compilation of "C:/Users/EPS/AppData/Local/Temp/tmpxft_00002eb0_00000000-10_vector_reduction.cpp1.ii".
+         vector_reduction.cu
+         CMake Error at reduction_cuda_generated_vector_reduction.cu.obj.Debug.cmake:279 (message):
+           Error generating file C:/Users/EPS/Desktop/CUDA-Workshop-2019/session
+           4/build/CMakeFiles/reduction_cuda.dir//Debug/reduction_cuda_generated_vector_reduction.cu.obj
+         
+         
+     1>Compilación del proyecto terminada "C:\Users\EPS\Desktop\CUDA-Workshop-2019\session 4\build\reduction_cuda.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:04.25

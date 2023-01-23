@@ -1,0 +1,1 @@
+/home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/channel/target/debug/channel: /home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/channel/src/main.rs

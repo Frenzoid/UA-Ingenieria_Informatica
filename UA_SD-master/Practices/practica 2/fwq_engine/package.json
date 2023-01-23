@@ -1,0 +1,22 @@
+{
+  "name": "fwq_engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FWQ_Engine.js",
+  "scripts": {
+    "start": "node FWQ_Engine.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frenzoid & ivansabater",
+  "license": "ISC",
+  "dependencies": {
+    "aes-encryption": "^1.0.4",
+    "axios": "^0.24.0",
+    "kafka-node": "^5.0.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.7.0",
+    "socket.io-client": "^2.4.0",
+    "socket.io-encrypt": "^0.2.1"
+  }
+}

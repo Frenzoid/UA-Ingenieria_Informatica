@@ -1,0 +1,13 @@
+Level,Date and Time,Source,Event ID,Task Category
+Information,02/12/2022 19:48:19,Microsoft-Windows-Servicing,7,(1),Initiating changes to turn on update Microsoft-Windows-Subsystem-Linux of package Microsoft-Windows-Lxss-WithGraphics-OptionalWrapper. Client id: DISM Package Manager Provider.
+Information,02/12/2022 19:48:19,Microsoft-Windows-Servicing,13,(1),A reboot is necessary before the selectable update VirtualMachinePlatform of package Microsoft-Windows-HyperV-OptionalFeature-VirtualMachinePlatform-Disabled can be turned on.
+Information,02/12/2022 19:47:44,Microsoft-Windows-Servicing,7,(1),Initiating changes to turn on update VirtualMachinePlatform of package Microsoft-Windows-HyperV-OptionalFeature-VirtualMachinePlatform-Disabled. Client id: DISM Package Manager Provider.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update Windows-Internal-Database of package Windows-Internal-Database-Package was successfully turned on.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,10,(1),Selectable update IIS-ApplicationDevelopment of package IIS-WebServer-Core-Package was successfully turned off.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update IIS-ManagementConsole of package IIS-WebServer-Core-Package was successfully turned on.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update IIS-ManagementScriptingTools of package IIS-WebServer-Core-Package was successfully turned on.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update IIS-WebServerRole of package IIS-WebServer-Core-Package was successfully turned on.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update IIS-DefaultDocument of package IIS-WebServer-Core-Package was successfully turned on.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update IIS-StaticContent of package IIS-WebServer-Core-Package was successfully turned on.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update IIS-DirectoryBrowsing of package IIS-WebServer-Core-Package was successfully turned on.
+Information,30/11/2022 2:34:40,Microsoft-Windows-Servicing,9,(1),Selectable update IIS-HttpErrors of package IIS-WebServer-Core-Package was successfully turned on.

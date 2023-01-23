@@ -1,0 +1,87 @@
+clear
+pwd
+clear
+ls
+cd .vnc
+clear
+nano ./vnc/config
+mkdir ./vnc
+nano ./vnc/config
+ls
+l
+rmdir vnc/
+clear
+ls
+su
+clear
+su
+clear
+vncserver
+cd .vnc/
+ls
+cat config 
+su
+su
+vncserver -kill :2
+ls
+cat config 
+ls -l
+vncserver 
+nano config 
+vncserver 
+vncserver -kill 1
+vncserver -kill
+vncserver -kill :1
+nano config 
+nano xstartup 
+vncserver
+nano config 
+nano config 
+ls
+cd ,,
+cd ..
+ls
+cat .xinitrc 
+nano .vnc/xstartup 
+cat .xinitrc 
+nano .vnc/xstartup 
+cat .xinitrc 
+nano .vnc/xstartup 
+vncserver
+vncserver -kill :1
+nano .vnc/xstartup 
+xvnc
+clear
+x0vncserver 
+x0vncserver -SecurityTypes=none
+clear
+x0vncserver -SecurityTypes=none ^
+clear
+x0vncserver -SecurityTypes=none &
+clear
+fg
+clear
+ls
+rm holamundo.txt 
+ls
+clear
+rm vncconfig 
+rm vncconfig 
+ls
+
+ls
+mkdir script
+rmdir script/
+mkdir scripts
+nano scripts/startvnc.sh
+nano scripts/startvnc.sh
+ls
+bash scripts/startvnc.sh 
+ls
+cat logs.txt 
+rm logs.txt 
+clear
+ls
+mkdir vnc
+history
+exit

@@ -1,0 +1,51 @@
+.TH XGALAGA++ 6 "10-DEC-2017"
+.SH NAME
+XGalaga++ \- X11 classic vertical scrolling shoot'em up
+.SH SYNOPSIS
+.B xgalaga++
+.SH DESCRIPTION
+.LP
+XGalaga++ is a classic vertical scrolling shoot'em up: fire at
+aliens, collect bonuses and survive as long as you can.
+.SH KEYBOARD COMMANDS
+.TP
+.BI 1,2,3,4,5
+Resize the window to 640x480, 800x600, 1024x768, 1280x1024, or 1600x1200.
+.TP
+.BI h
+Toggle high scores and menu.
+.TP
+.BI p
+Pause.
+.TP
+.BI q
+End game, or quit XGalaga++ (from menu).
+.TP
+.BI s
+Start game
+.TP
+.BI space
+Fire.
+.TP
+.BI left/right\ arrow
+Move vessel left/right.
+.TP
+.BI up/down\ arrow
+Scroll high scores up/down.
+.TP
+.BI -/+
+Decrease/increase details (use a bit less CPU and memory).
+.TP
+.BI r
+Increment video refresh rate by 5 Hz in range 50 - 120 Hz.
+.SH ENVIRONMENT VARIABLES
+XGAL_PSEUDO - Player pseudonym, used for high scores.
+.SH "SEE ALSO"
+.BR xgalaga (6)
+.SH AUTHORS
+Marc Mongenet, <\fImarc@mongenet.ch\fP>
+.LP
+Joe Rumsey, <\fIjoe@rumsey.org\fP> (Original xgalaga author)
+.LP
+Vincent Renardias <\fIvincent@waw.com\fP> (Original xgalaga man page)
+.LP

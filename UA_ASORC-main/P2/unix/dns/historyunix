@@ -1,0 +1,581 @@
+     1	19:02	adduser
+     2	19:03	clear
+     3	19:03	cd /home/frenzoid/
+     4	19:03	clear
+     5	19:03	history
+     6	19:04	echo "exec xfce4-session" > .xinitrc
+     7	19:04	reboot
+     8	22:01	clear
+     9	22:01	cd $HOME
+    10	22:01	clear
+    11	22:01	ls
+    12	22:01	sh netrestart.sh
+    13	22:01	clear
+    14	22:01	ip a
+    15	22:01	clear
+    16	22:01	ifconfig
+    17	22:01	ping www.google.es
+    18	22:02	ping 192.168.22.1
+    19	22:02	clear
+    20	22:02	cat /etc/rc.conf
+    21	22:02	nano /etc/rc.conf
+    22	22:03	sh netrestart.sh
+    23	22:03	clear
+    24	22:03	ifconfig
+    25	22:03	ping 192.168.22.1
+    26	22:03	ping www.google.es
+    27	22:03	clear
+    28	22:03	cat /etc/rc.conf
+    29	22:03	clear
+    30	22:04	cat /etc/rc.conf
+    31	22:04	cat netrestart.sh
+    32	22:04	sudo poweroff
+    33	22:05	shutdown
+    34	22:05	exit
+    35	22:05	exit
+    36	15:40	pkg install openssh-server
+    37	15:41	clear
+    38	15:41	pkg install openssh-portable
+    39	15:41	clear
+    40	15:41	pkg install openssh-portable
+    41	15:43	nano /etc/ssh/sshd_config
+    42	15:44	clear
+    43	15:44	nano /etc/ssh/sshd_config
+    44	15:45	service sshd restart
+    45	15:45	clear
+    46	15:45	service ssh status
+    47	15:45	service sshd status
+    48	15:45	clear
+    49	15:45	service sshd status
+    50	15:45	lsof -i
+    51	15:45	netstat -tnlp
+    52	15:45	netstat -tlpn
+    53	15:45	netstat tlpn
+    54	15:45	clear
+    55	15:46	service sshd status
+    56	15:46	lsof -i
+    57	15:48	cler
+    58	15:48	clear
+    59	15:48	service sshd restart
+    60	15:48	service sshd status
+    61	15:48	lsof -i
+    62	15:49	clear
+    63	15:51	cat $HOME/.history
+    64	15:51	echo "" > $HOME/.history
+    65	15:51	cat $HOME/.history
+    66	15:51	exit
+    67	15:51	cat $HOME/.history
+    68	15:52	mkdir ssh
+    69	15:52	ks
+    70	15:52	ls
+    71	15:52	cler
+    72	15:52	clear
+    73	15:52	ls
+    74	15:52	cat $HOME/.history > ssh/historyunix.txt
+    75	15:53	cat /var/log/security
+    76	16:02	ifconfig
+    77	16:03	ls
+    78	16:04	mkdir .ssh
+    79	16:04	ls =l
+    80	16:04	ls -l
+    81	16:04	ls .ssh
+    82	16:04	rmdir .ssh
+    83	16:04	ls
+    84	16:04	exit
+    85	16:18	cat /var/log/security > unixlog.txt
+    86	16:18	ls
+    87	16:18	clear
+    88	16:18	ls
+    89	16:21	cat /var/log/auth.log
+    90	16:22	cat /var/log/auth.log > unixlog.txt
+    91	16:24	cat /var/log/auth.log | grep ssh > unixlog.txt
+    92	16:29	clear
+    93	16:29	pkg insall vncserver
+    94	16:29	pkg install vncserver
+    95	16:29	vncserver
+    96	16:29	clear
+    97	16:29	exit
+    98	16:29	clear
+    99	16:30	pkg install tigervnc-server
+   100	16:32	exit
+   101	16:32	pkg install bash
+   102	16:32	clear
+   103	16:32	exit
+   104	16:35	vncpaswd
+   105	16:35	vncpasswd
+   106	16:36	clear
+   107	16:36	vncpasswd
+   108	16:38	ls .vnc
+   109	16:38	clear
+   110	16:38	ls /etc/X11/
+   111	16:38	clear
+   112	16:39	ls -la
+   113	16:41	mkdir .vnc
+   114	16:41	cd .vnc/
+   115	16:41	nano config
+   116	16:42	vncserver
+   117	16:43	exit
+   118	16:43	ls
+   119	16:43	ls .vnc/
+   120	16:43	mv .vnc/config ./vncconfig
+   121	16:43	rm -r .vnc/
+   122	16:43	ls
+   123	16:43	exit
+   124	16:45	sysctl enable vncserver@:2
+   125	16:45	service vncserver@:2 enable
+   126	16:45	clear
+   127	16:45	netstat -tunlp | grep vnc
+   128	16:46	netstat | grep vnc
+   129	16:46	lsof -i | grep vnc
+   130	16:53	nano config
+   131	16:53	vncserver restart
+   132	16:53	vncserver restart -kill 1
+   133	16:54	vncserver restart -kill :1
+   134	16:54	vncserver restart -kill :2
+   135	16:54	exit
+   136	17:23	pkg install xrdp
+   137	17:24	nano /usr/local/etc/xrdp/startwm.sh
+   138	17:25	pkg install xrdp
+   139	17:25	nano /usr/local/etc/xrdp/startwm.sh
+   140	17:27	service xrdp restart
+   141	17:27	service xrdp onerestart
+   142	17:28	clear
+   143	17:28	ls of -i
+   144	17:28	clear
+   145	17:28	lsof -i
+   146	17:28	lsof -i | grep xrdp
+   147	17:29	sysrc xrdp_enable="YES"
+   148	17:30	sysrc xrdp_sesman_enable="YES"
+   149	17:31	nano /usr/local/etc/xrdp/startwm.sh
+   150	17:32	cat .vnc/xstartup
+   151	17:32	nano /usr/local/etc/xrdp/startwm.sh
+   152	17:33	cat /var/log/xrdp.log
+   153	17:33	service xrdp onerestart
+   154	17:34	lsof -i
+   155	17:34	netstat
+   156	17:34	netstat | grep xrdp
+   157	17:34	netstat
+   158	17:34	clear
+   159	17:36	xrdp-sesman
+   160	17:54	clear
+   161	17:56	nano /etc/rc.conf
+   162	17:58	pkg install nfsd
+   163	17:59	clear
+   164	18:00	nano /etc/rc.conf
+   165	18:00	nano /etc/rc.conf
+   166	18:05	nano /etc/exports
+   167	18:06	clear
+   168	18:06	service nfsd restart
+   169	18:06	clear
+   170	18:07	pkg search dhcpd
+   171	18:10	pkg install iscp-dhcp*
+   172	18:11	pkg search iscp-dhcp*
+   173	18:11	pkg search iscp-dhcp
+   174	18:11	pkg search iscp
+   175	18:11	pkg search isc-dhcp
+   176	18:11	pkg insstall isc-dhcp44-server
+   177	18:11	pkg insstall isc-dhcp44-server
+   178	18:11	pkg install isc-dhcp44-server
+   179	18:12	nano /etc/rc.conf
+   180	18:14	nano /usr/local/etc/dhcpd.conf
+   181	18:15	ls
+   182	18:15	exit
+   183	18:17	clear
+   184	18:18	clear
+   185	18:18	history | grep rdp
+   186	18:19	cat /var/log/xrdp.log > rdp/unixlogs.txt
+   187	18:19	history | grep rdp > rdp/historyunix.txt
+   188	18:19	clear
+   189	18:21	showmount -e 192.168.22.43
+   190	18:21	showmount -e 192.168.22.42
+   191	18:21	service nfsd restart
+   192	18:21	showmount -e 192.168.22.42
+   193	18:22	cat /etc/exports
+   194	18:22	nano /etc/exports
+   195	18:23	service nfsd restart
+   196	18:23	showmount -e 192.168.22.42
+   197	18:23	clear
+   198	18:23	nano /usr/local/etc/dhcpd.conf
+   199	18:23	mv /usr/local/etc/dhcpd.conf /usr/local/etc/dhcpd.conf.old
+   200	18:23	nano /usr/local/etc/dhcpd.conf
+   201	18:25	pkg install firefox
+   202	18:26	firefox
+   203	18:27	clear
+   204	18:27	nano /usr/local/etc/dhcpd.conf
+   205	18:31	service dhcpd restart
+   206	18:32	service dhcpd restartclear
+   207	18:32	clear
+   208	18:32	dhcpd restart
+   209	18:32	nano /usr/local/etc/dhcpd.conf
+   210	18:33	dhcpd restart
+   211	18:34	dhcpd
+   212	18:35	touch /var/db/dhcpd.leases
+   213	18:35	chmod +777 /var/db/dhcpd.leases
+   214	18:35	chmod 777 /var/db/dhcpd.leases
+   215	18:35	clear
+   216	18:35	dhcpd
+   217	18:35	ifconfig
+   218	18:37	nano /usr/local/etc/dhcpd.conf
+   219	18:41	dhcpd
+   220	18:41	dhcpd logs
+   221	18:41	man dhcpd
+   222	18:42	man dhcpd | grep logs
+   223	18:42	man dhcpd
+   224	18:42	clear
+   225	18:45	cat /var/log/userlog
+   226	18:45	cat /var/log/userlog | grep dhcp
+   227	18:47	cat /etc/syslog.conf
+   228	18:50	cat /var/log/messages
+   229	18:51	ifconfig
+   230	18:51	cat /var/log/messages
+   231	18:51	dhcpd stop
+   232	18:51	service dhcpd stop
+   233	18:52	sysctl dhcpd stop
+   234	18:52	service isc-dhcpd-server stop
+   235	18:52	service isc-dhcpd44-server stop
+   236	18:53	/etc/rc.d/dhcpd stop
+   237	18:54	ps ax | grep dhcpd
+   238	18:54	kill -9 3561
+   239	18:54	kill -9 3420
+   240	18:54	nano /usr/local/etc/dhcpd.conf
+   241	18:57	nano /etc/defaults/rc.conf
+   242	18:58	nano /usr/local/etc/dhcpd.conf
+   243	18:58	ifconfig
+   244	18:58	nano /usr/local/etc/dhcpd.conf
+   245	18:59	clear
+   246	18:59	dhcpd
+   247	19:00	cat /var/log/messages | grep dhcp
+   248	19:00	cat /var/log/messages | grep dhcp
+   249	19:00	ps ax | grep dhcpd
+   250	19:01	kill -9 3594
+   251	19:01	ps ax | grep dhcpd
+   252	19:01	dhcpd
+   253	19:01	cat /var/log/messages
+   254	19:01	clear
+   255	19:01	less /var/log/messages
+   256	19:01	less /var/log/messages | grep dhcpd
+   257	19:01	clear
+   258	19:02	ps ax | grep dhcpd
+   259	19:02	kill -9 3615
+   260	19:02	ps ax | grep dhcpd
+   261	19:03	service isc-dhcpd strt
+   262	19:03	service isc-dhcpd restart
+   263	19:04	cat /var/log/messages | grep dhcp
+   264	19:04	nano /usr/local/etc/dhcpd.conf
+   265	19:05	nano /usr/local/etc/dhcpd.conf
+   266	19:06	service isc-dhcpd restart
+   267	19:07	less /var/log/messages
+   268	19:07	less /var/log/messages | grep dhcp
+   269	19:07	less /var/log/messages | grep dhcpd
+   270	19:08	less /var/db/dhcpd.leases
+   271	19:13	nano /usr/local/etc/dhcpd.conf
+   272	19:14	clear
+   273	19:14	less /var/log/messages | grep dhcpd
+   274	19:14	service isc-dhcpd status
+   275	19:15	ifconfig
+   276	19:15	clear
+   277	19:15	less /var/log/messages | grep dhcpd
+   278	19:16	mkdir dhcp && less /var/log/messages | grep dhcpd > dhcp/unixlogs.txt
+   279	19:16	history
+   280	19:16	history | grep dhcp > dhcp/historyunix.txt
+   281	19:16	clear
+   282	19:16	tree .
+   283	19:16	ls dhcp/
+   284	19:16	ls
+   285	19:16	ls -l
+   286	19:16	exit
+   287	19:23	clear
+   288	19:23	service isc-dhcpd stop
+   289	19:24	service xrdp status
+   290	19:24	service x0vncserver status
+   291	19:24	clear
+   292	19:24	service isc-dhcpd stop
+   293	19:24	service xrdp status
+   294	19:24	echo scripts/startvnc.sh
+   295	19:24	service sshd status
+   296	19:26	nano scripts/startdhcp.sh
+   297	19:26	nano scripts/startdhcp.sh
+   298	19:27	service xrdp status
+   299	19:27	nano scripts/startxrdp.sh
+   300	19:28	service ssh status
+   301	19:28	service sshd status
+   302	19:28	nano scripts/startsshd.sh
+   303	19:28	clear
+   304	19:29	cat scripts/*
+   305	19:29	nano scripts/startsshd.sh
+   306	19:29	clear
+   307	19:29	cat scripts/*
+   308	19:29	clear
+   309	19:29	cat scripts/*
+   310	19:29	clear
+   311	19:29	cd scripts/
+   312	19:30	clear
+   313	19:30	ls
+   314	19:30	clear
+   315	19:30	service sshd status
+   316	19:30	service xrdp status
+   317	19:30	service isc-dhcpd status
+   318	19:31	pkg update
+   319	19:32	pkg install mysql80-server mysql80-client
+   320	19:33	cat /usr/local/etc/mysql/my.cnf
+   321	19:34	nano /usr/local/etc/mysql/my.cnf
+   322	19:36	service mysql-server enable
+   323	19:36	clear
+   324	19:36	service mysql-server start
+   325	19:37	mysql -u root
+   326	19:45	mysql -u frenzoid -p clock.exe
+   327	19:45	mysql -u frenzoid
+   328	19:45	mysql -u frenzoid -p
+   329	19:47	clear
+   330	19:47	lsof -i
+   331	19:48	lsof -i
+   332	19:48	lsof -i
+   333	19:48	lsof -i | grep sql
+   334	19:48	clear
+   335	19:48	lsof -i | grep sql
+   336	19:48	pkg install node-16
+   337	19:48	pkg search node-16
+   338	19:49	freebsd-update
+   339	19:49	freebsd-update fetch
+   340	19:50	freebsd-update install
+   341	19:50	pkg search node-16
+   342	19:50	pkg search node
+   343	19:51	pkg search node16
+   344	19:51	pkg search node16-16.16.0
+   345	19:51	pkg install node16-16.16.0
+   346	19:51	pkg install www/npm
+   347	19:52	clear
+   348	19:52	lsof -i | grep sql
+   349	19:52	sh start*
+   350	19:52	ls
+   351	19:53	sh startsshd.sh
+   352	19:53	sh startxrdp.sh
+   353	19:53	sh startvnc.sh
+   354	19:56	clear
+   355	19:56	service sshd status
+   356	19:56	service xrdp status
+   357	19:56	service dhcpd status
+   358	19:56	clear
+   359	19:56	service sshd status
+   360	19:56	service xrdp status
+   361	19:56	service isc-sshd status
+   362	19:56	clear
+   363	19:56	service sshd status
+   364	19:56	service xrdp status
+   365	19:56	service isc-dhcpd status
+   366	19:57	service mysql-server status
+   367	19:57	node
+   368	19:57	clear
+   369	19:57	cd ..
+   370	19:57	ls
+   371	19:57	mkdir mysql
+   372	19:57	cd mysql/
+   373	19:57	clear
+   374	19:58	history | grep sql > historyunix
+   375	19:59	cat /var/log/security | grep sql
+   376	20:00	cat /var/db/mysql/mysql/general_log.CSV
+   377	20:00	cat /var/db/mysql/mysql/general_log.CSM
+   378	20:01	cat /var/db/mysql/sys/sys_config.ibd
+   379	20:01	clear
+   380	20:02	cat /var/db/mysql/mysql/general_log_213.sdi
+   381	20:02	clear
+   382	20:03	cat /var/db/mysql/asorc/
+   383	20:03	clear
+   384	20:03	ls
+   385	20:03	cd ..
+   386	20:03	cd scripts/
+   387	20:03	mkdir dbweb
+   388	20:03	cd dbweb/
+   389	20:03	clear
+   390	20:03	npm ini
+   391	20:03	clear
+   392	20:04	npm i express mysql12
+   393	20:05	npm i express mysql2
+   394	20:05	clear
+   395	20:05	nano webserver.js
+   396	20:06	clear
+   397	20:10	lsof -i | grep sql
+   398	20:27	cd ..
+   399	20:27	cd ..
+   400	20:27	l
+   401	20:27	ls
+   402	20:27	cd mysql/
+   403	20:27	clear
+   404	20:27	ls
+   405	20:28	cat /var/db/mysql/asorc/users.ibd
+   406	20:28	clear
+   407	20:28	cat /var/db/mysql/-slow.log
+   408	20:29	clear
+   409	20:30	nano /usr/local/etc/mysql/my.cnf
+   410	20:32	cat /var/db/mysql/mysql/general_log.CSM
+   411	20:32	cat /var/db/mysql/mysql/general_log.CSV
+   412	20:32	cat /var/db/mysql/mysql/general_log_213.sdi
+   413	20:32	clear
+   414	20:32	cat /var/db/mysql/mysql/general_log_213.sdi > unixlog
+   415	20:32	ls
+   416	20:33	clear
+   417	20:33	cd ..
+   418	20:33	clear
+   419	20:33	cd scripts/
+   420	20:33	cler
+   421	20:33	clear
+   422	20:33	node dbweb/webserver.js
+   423	20:34	clear
+   424	20:34	node dbweb/webserver.js &
+   425	20:34	clear
+   426	20:34	fg
+   427	20:34	clear
+   428	20:34	ls
+   429	20:34	clear
+   430	20:34	service sshd status
+   431	20:35	service isc-dhcpd status
+   432	20:35	service xrdp status
+   433	20:35	service mysql-server status
+   434	20:35	ls
+   435	20:35	cd ..
+   436	20:35	ls
+   437	20:36	cat /var/log/messages
+   438	20:36	cat /var/log/messages | grep sql
+   439	20:36	clear
+   440	20:37	history | grep etc
+   441	20:37	cat /usr/local/etc/mysql/my.cnf
+   442	20:37	cat /usr/local/etc/mysql/my.cnf | logs
+   443	20:37	cat /usr/local/etc/mysql/my.cnf | grep log
+   444	20:38	mysql-bin
+   445	20:40	cat /var/db/mysql/mysql-bin.000001
+   446	20:40	cat /var/db/mysql/mysql-bin.000002
+   447	20:41	cat /var/db/mysql/mysql.ibd
+   448	20:41	cat /var/db/mysql/mysql.ibd | grep elvi
+   449	20:41	cat /var/db/mysql/mysql.ibd | grep Elvi
+   450	20:41	cat /var/db/mysql/mysql.ibd
+   451	20:41	cat /var/db/mysql/asorc/users.ibd
+   452	20:42	cat /var/db/mysql/asorc/users.ibd | grep elvi
+   453	20:42	cat /var/db/mysql/asorc/users.ibd
+   454	20:45	clear
+   455	20:45	lsof -i
+   456	20:45	lsof -i | grep sql
+   457	20:45	ifconfig
+   458	20:46	cat scripts/dbweb/webserver.js
+   459	20:49	mysql -u frenzoid -p
+   460	20:49	mysql -u frenzoid -p
+   461	21:32	cat /usr/local/etc/mysql/my.cnf
+   462	21:32	nano /usr/local/etc/mysql/my.cnf
+   463	21:33	service mysqld restart
+   464	21:33	service mysql-server restart
+   465	21:44	ls scripts/
+   466	21:44	rm scripts/logs.txt
+   467	21:44	cat scripts/login.iscsi.sh
+   468	21:44	clear
+   469	21:45	pkg install bind916
+   470	21:46	sysrc named_enable=yes
+   471	21:47	/usr/local/etc/rc.d/named
+   472	21:48	rndc-confgen -a
+   473	21:59	nano /usr/local/etc/namedb/named.conf
+   474	22:04	nano /usr/local/etc/namedb/master/empty.db
+   475	22:04	nano /usr/local/etc/namedb/master/elvimihai.db
+   476	22:09	nano /usr/local/etc/namedb/master/localhost-forward.db
+   477	22:09	cat /usr/local/etc/namedb/master/elvimihai.db
+   478	22:09	cat /usr/local/etc/namedb/master/localhost-forward.db
+   479	22:10	nano /usr/local/etc/namedb/master/elvimihai.db
+   480	22:10	nano /usr/local/etc/namedb/named.conf
+   481	22:12	service bind9d start
+   482	22:12	/usr/local/etc/rc.d/named onestart
+   483	22:13	nano /usr/local/etc/namedb/named.conf
+   484	22:13	service named onestart
+   485	22:14	nslookup elvimihai.com
+   486	22:14	nslookup www.elvimihai.com
+   487	22:14	nslookup www.google.es
+   488	22:14	nslookup elvimihai.com.
+   489	22:14	nslookup elvimihai.com
+   490	22:15	nslookup 192.168.22.42
+   491	22:15	clear
+   492	22:16	nano /usr/local/etc/namedb/named.conf
+   493	22:17	nano /usr/local/etc/namedb/master/elvimihai.db
+   494	22:18	clear
+   495	22:18	nslookup 192.168.22.42
+   496	22:18	nslookup elvimihai.com
+   497	22:18	cd scripts/
+   498	22:18	ls
+   499	22:18	cd /root/
+   500	22:18	ks
+   501	22:18	lls
+   502	22:18	ls
+   503	22:18	sh netrestart.sh
+   504	22:18	clear
+   505	22:18	ifconfig
+   506	22:19	nslookup www.elvimihai.com
+   507	22:19	clear
+   508	22:19	nslookup www.elvimihai.com
+   509	22:19	service named restart
+   510	22:19	nslookup www.elvimihai.com
+   511	22:19	nslookup localhost
+   512	22:19	nslookup .
+   513	22:21	nano /usr/local/etc/namedb/master/localhost-reverse.db
+   514	22:22	clear
+   515	22:23	ping elvimihai.com
+   516	22:23	clear
+   517	22:24	nano /usr/local/etc/namedb/named.conf.sample
+   518	22:24	nano /usr/local/etc/namedb/named.conf
+   519	22:31	nano /usr/local/etc/namedb/master/elvimihai.db
+   520	22:31	nano /usr/local/etc/namedb/master/localhost-forward.db
+   521	22:31	nano /usr/local/etc/namedb/master/elvimihai.db
+   522	22:31	nano /usr/local/etc/namedb/master/localhost-forward.db
+   523	22:31	nano /usr/local/etc/namedb/master/elvimihai.db
+   524	22:31	cat /usr/local/etc/namedb/master/localhost-forward.db
+   525	22:31	cat /usr/local/etc/namedb/master/elvimihai.db
+   526	22:32	nano /usr/local/etc/namedb/master/elvimihai.db
+   527	22:32	cat /usr/local/etc/namedb/master/elvimihai.db
+   528	22:32	cat /usr/local/etc/namedb/master/localhost-forward.db
+   529	22:32	service named restart
+   530	22:32	nslookup elvimihai.com
+   531	22:33	nslookup nobody.localhost
+   532	22:33	nslookup localhost
+   533	22:33	nano /usr/local/etc/namedb/master/elvimihai.db
+   534	22:34	cat /usr/local/etc/namedb/master/localhost-forward.db
+   535	22:34	nano /usr/local/etc/namedb/master/elvimihai.db
+   536	22:35	cat /usr/local/etc/namedb/master/localhost-forward.db
+   537	22:35	cat /usr/local/etc/namedb/master/elvimihai.db
+   538	22:35	nano /usr/local/etc/namedb/master/elvimihai.db
+   539	22:35	cat /usr/local/etc/namedb/master/elvimihai.db
+   540	22:35	cat /usr/local/etc/namedb/master/localhost-forward.db
+   541	22:36	nano /usr/local/etc/namedb/master/elvimihai.db
+   542	22:36	cat /usr/local/etc/namedb/master/localhost-forward.db
+   543	22:36	cat /usr/local/etc/namedb/master/elvimihai.db
+   544	22:36	service named restart
+   545	22:36	nslookup elvimihai.com
+   546	22:36	sh netrestart.sh
+   547	22:36	ifconfig
+   548	22:37	nslookup elvimihai.com
+   549	22:37	nslookup www.elvimihai.com
+   550	22:37	clear
+   551	22:37	nslookup localhost
+   552	22:37	nslookup elvimihai.com
+   553	22:38	nano /etc/resolv.conf
+   554	22:38	nslookup elvimihai.com
+   555	22:39	nano /usr/local/etc/namedb/named.conf
+   556	22:39	nano /etc/resolv.conf
+   557	22:40	nslookup elvimihai.com
+   558	22:40	nslookup localhost
+   559	22:41	nano /usr/local/etc/namedb/named.conf
+   560	22:42	clear
+   561	22:43	nano /etc/resolv.conf
+   562	22:43	nslookup elvimihai.com
+   563	22:45	nano /usr/local/etc/namedb/named.conf
+   564	22:46	service named restart
+   565	22:46	nano /usr/local/etc/namedb/named.conf
+   566	22:46	service named restart
+   567	22:46	nslookup elvimihai.com
+   568	23:02	cat /usr/local/etc/namedb/master/elvimihai.db
+   569	23:02	clear
+   570	23:02	nslookup elvimihai.com
+   571	23:04	service named status
+   572	23:05	cd /home/frenzoid/
+   573	23:05	clear
+   574	23:05	ls
+   575	23:05	mkdir dns
+   576	23:05	cd dns/
+   577	23:05	cat /var/log/security
+   578	23:06	nano /usr/local/etc/namedb/named.conf
+   579	23:07	clear
+   580	23:08	echo "" > unixlogs
+   581	23:08	history > historyunix

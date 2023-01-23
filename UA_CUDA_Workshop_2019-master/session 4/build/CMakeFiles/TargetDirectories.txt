@@ -1,0 +1,3 @@
+C:/Users/EPS/Desktop/CUDA-Workshop-2019/session 4/build/CMakeFiles/reduction_cuda.dir
+C:/Users/EPS/Desktop/CUDA-Workshop-2019/session 4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/EPS/Desktop/CUDA-Workshop-2019/session 4/build/CMakeFiles/ZERO_CHECK.dir

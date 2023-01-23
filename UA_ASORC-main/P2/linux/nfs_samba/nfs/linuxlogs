@@ -1,0 +1,24 @@
+   program vers proto   port  service
+    100000    4   tcp    111  portmapper
+    100000    3   tcp    111  portmapper
+    100000    2   tcp    111  portmapper
+    100000    4   udp    111  portmapper
+    100000    3   udp    111  portmapper
+    100000    2   udp    111  portmapper
+    100005    1   udp  52834  mountd
+    100005    1   tcp  36315  mountd
+    100005    2   udp  49038  mountd
+    100005    2   tcp  57801  mountd
+    100005    3   udp  40764  mountd
+    100005    3   tcp  42251  mountd
+    100003    3   tcp   2049  nfs
+    100003    4   tcp   2049  nfs
+    100227    3   tcp   2049
+    100003    3   udp   2049  nfs
+    100227    3   udp   2049
+    100021    1   udp  43226  nlockmgr
+    100021    3   udp  43226  nlockmgr
+    100021    4   udp  43226  nlockmgr
+    100021    1   tcp  43359  nlockmgr
+    100021    3   tcp  43359  nlockmgr
+    100021    4   tcp  43359  nlockmgr

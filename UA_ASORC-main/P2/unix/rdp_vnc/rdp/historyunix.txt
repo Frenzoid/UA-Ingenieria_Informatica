@@ -1,0 +1,18 @@
+   136	17:23	pkg install xrdp
+   137	17:24	nano /usr/local/etc/xrdp/startwm.sh
+   138	17:25	pkg install xrdp
+   139	17:25	nano /usr/local/etc/xrdp/startwm.sh
+   140	17:27	service xrdp restart
+   141	17:27	service xrdp onerestart
+   146	17:28	lsof -i | grep xrdp
+   147	17:29	sysrc xrdp_enable="YES"
+   148	17:30	sysrc xrdp_sesman_enable="YES"
+   149	17:31	nano /usr/local/etc/xrdp/startwm.sh
+   151	17:32	nano /usr/local/etc/xrdp/startwm.sh
+   152	17:33	cat /var/log/xrdp.log
+   153	17:33	service xrdp onerestart
+   156	17:34	netstat | grep xrdp
+   159	17:36	xrdp-sesman
+   185	18:18	history | grep rdp
+   186	18:19	cat /var/log/xrdp.log > rdp/unixlogs.txt
+   187	18:19	history | grep rdp > rdp/historyunix.txt

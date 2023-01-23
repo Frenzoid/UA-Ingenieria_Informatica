@@ -1,0 +1,305 @@
+Wed Nov 16 13:00:22 2022  [DEBUG] *** Final Configuration ***
+Wed Nov 16 13:00:22 2022  [DEBUG] AnonDirName        = "/var/spool/cups-pdf/ANONYMOUS"
+Wed Nov 16 13:00:22 2022  [DEBUG] AnonUser           = "nobody"
+Wed Nov 16 13:00:22 2022  [DEBUG] GhostScript        = "/usr/bin/gs"
+Wed Nov 16 13:00:22 2022  [DEBUG] GSCall             = "%s -q -dCompatibilityLevel=%s -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="%s" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f %s"
+Wed Nov 16 13:00:22 2022  [DEBUG] Grp                = "lpadmin"
+Wed Nov 16 13:00:22 2022  [DEBUG] GSTmp              = "TMPDIR=/var/tmp"
+Wed Nov 16 13:00:22 2022  [DEBUG] Log                = "/var/log/cups"
+Wed Nov 16 13:00:22 2022  [DEBUG] PDFVer             = "1.2"
+Wed Nov 16 13:00:22 2022  [DEBUG] PostProcessing     = ""
+Wed Nov 16 13:00:22 2022  [DEBUG] Out                = "${HOME}/PDF"
+Wed Nov 16 13:00:22 2022  [DEBUG] Spool              = "/var/spool/cups-pdf/SPOOL"
+Wed Nov 16 13:00:22 2022  [DEBUG] UserPrefix         = ""
+Wed Nov 16 13:00:22 2022  [DEBUG] RemovePrefix       = ""
+Wed Nov 16 13:00:22 2022  [DEBUG] OutExtension       = "pdf"
+Wed Nov 16 13:00:22 2022  [DEBUG] Cut                = 3
+Wed Nov 16 13:00:22 2022  [DEBUG] Truncate           = 64
+Wed Nov 16 13:00:22 2022  [DEBUG] DirPrefix          = 0
+Wed Nov 16 13:00:22 2022  [DEBUG] Label              = 2
+Wed Nov 16 13:00:22 2022  [DEBUG] LogType            = 7
+Wed Nov 16 13:00:22 2022  [DEBUG] LowerCase          = 1
+Wed Nov 16 13:00:22 2022  [DEBUG] TitlePref          = 0
+Wed Nov 16 13:00:22 2022  [DEBUG] DecodeHexStrings   = 1
+Wed Nov 16 13:00:22 2022  [DEBUG] FixNewlines        = 0
+Wed Nov 16 13:00:22 2022  [DEBUG] AllowUnsafeOptions = 0
+Wed Nov 16 13:00:22 2022  [DEBUG] AnonUMask          = 0000
+Wed Nov 16 13:00:22 2022  [DEBUG] UserUMask          = 0077
+Wed Nov 16 13:00:22 2022  [DEBUG] *** End of Configuration ***
+Wed Nov 16 13:00:22 2022  [DEBUG] set new gid: lpadmin
+Wed Nov 16 13:00:22 2022  [STATUS] directory created: /var/spool/cups-pdf/SPOOL
+Wed Nov 16 13:00:22 2022  [STATUS] spool directory created: /var/spool/cups-pdf/SPOOL
+Wed Nov 16 13:00:22 2022  [DEBUG] initialization finished: v3.0.1
+Wed Nov 16 13:00:22 2022  [DEBUG] user identified: frenzoid
+Wed Nov 16 13:00:22 2022  [DEBUG] output directory name generated: /home/frenzoid/PDF
+Wed Nov 16 13:00:22 2022  [STATUS] directory created: /home/frenzoid/PDF
+Wed Nov 16 13:00:22 2022  [DEBUG] user output directory created: /home/frenzoid/PDF
+Wed Nov 16 13:00:22 2022  [DEBUG] owner set for output directory: frenzoid
+Wed Nov 16 13:00:22 2022  [DEBUG] user information prepared
+Wed Nov 16 13:00:22 2022  [DEBUG] spoolfile name created: /var/spool/cups-pdf/SPOOL/cups2pdf-3079
+Wed Nov 16 13:00:22 2022  [DEBUG] source stream ready
+Wed Nov 16 13:00:22 2022  [DEBUG] destination stream ready: /var/spool/cups-pdf/SPOOL/cups2pdf-3079
+Wed Nov 16 13:00:22 2022  [DEBUG] owner set for spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-3079
+Wed Nov 16 13:00:22 2022  [DEBUG] using traditional fgets
+Wed Nov 16 13:00:23 2022  [DEBUG] found beginning of postscript code: %!PS-Adobe-3.0
+
+Wed Nov 16 13:00:23 2022  [DEBUG] now extracting postscript code
+Wed Nov 16 13:00:23 2022  [DEBUG] found title in ps code: (textfile.txt)
+PDF
+Wed Nov 16 13:00:23 2022  [DEBUG] found end of postscript code: %%EOF
+
+Wed Nov 16 13:00:23 2022  [DEBUG] all data written to spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-3079
+Wed Nov 16 13:00:23 2022  [DEBUG] trying to use PS title: (textfile.txt)
+PDF
+Wed Nov 16 13:00:23 2022  [STATUS] ***Experimental Option: DecodeHexStrings
+Wed Nov 16 13:00:23 2022  [DEBUG] checking for hex strings: (textfile.txt)
+PDF
+Wed Nov 16 13:00:23 2022  [DEBUG] not a hex string, has no start marker: (textfile.txt)
+PDF
+Wed Nov 16 13:00:23 2022  [DEBUG] calling alternate_replace_string
+Wed Nov 16 13:00:23 2022  [DEBUG] removing alternate special characters from title: (textfile.txt)
+PDF
+Wed Nov 16 13:00:23 2022  [DEBUG] removing leading _ from title: _textfile.txt__PDF
+Wed Nov 16 13:00:23 2022  [DEBUG] title successfully retrieved: textfile.txt__PDF-job_1
+Wed Nov 16 13:00:23 2022  [DEBUG] input data read from stdin
+Wed Nov 16 13:00:23 2022  [DEBUG] output filename created: /home/frenzoid/PDF/textfile.txt__PDF-job_1.pdf
+Wed Nov 16 13:00:23 2022  [DEBUG] ghostscript commandline built: /usr/bin/gs -q -dCompatibilityLevel=1.2 -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="/home/frenzoid/PDF/textfile.txt__PDF-job_1.pdf" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f /var/spool/cups-pdf/SPOOL/cups2pdf-3079
+Wed Nov 16 13:00:23 2022  [DEBUG] output file unlinked: /home/frenzoid/PDF/textfile.txt__PDF-job_1.pdf
+Wed Nov 16 13:00:23 2022  [DEBUG] TMPDIR set for GhostScript: /var/tmp
+Wed Nov 16 13:00:23 2022  [DEBUG] waiting for child to exit
+Wed Nov 16 13:00:23 2022  [DEBUG] entering child process
+Wed Nov 16 13:00:23 2022  [DEBUG] GID set for current user
+Wed Nov 16 13:00:23 2022  [DEBUG] supplementary groups set for current user
+Wed Nov 16 13:00:23 2022  [DEBUG] UID set for current user: frenzoid
+Wed Nov 16 13:00:28 2022  [DEBUG] ghostscript has finished: 0
+Wed Nov 16 13:00:28 2022  [DEBUG] file mode set for user output: /home/frenzoid/PDF/textfile.txt__PDF-job_1.pdf
+Wed Nov 16 13:00:28 2022  [DEBUG] no postprocessing
+Wed Nov 16 13:00:28 2022  [DEBUG] spoolfile unlinked: /var/spool/cups-pdf/SPOOL/cups2pdf-3079
+Wed Nov 16 13:00:28 2022  [DEBUG] all memory has been freed
+Wed Nov 16 13:00:28 2022  [STATUS] PDF creation successfully finished for frenzoid
+Wed Nov 16 13:13:36 2022  [DEBUG] *** Final Configuration ***
+Wed Nov 16 13:13:36 2022  [DEBUG] AnonDirName        = "/var/spool/cups-pdf/ANONYMOUS"
+Wed Nov 16 13:13:36 2022  [DEBUG] AnonUser           = "nobody"
+Wed Nov 16 13:13:36 2022  [DEBUG] GhostScript        = "/usr/bin/gs"
+Wed Nov 16 13:13:36 2022  [DEBUG] GSCall             = "%s -q -dCompatibilityLevel=%s -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="%s" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f %s"
+Wed Nov 16 13:13:36 2022  [DEBUG] Grp                = "lpadmin"
+Wed Nov 16 13:13:36 2022  [DEBUG] GSTmp              = "TMPDIR=/var/tmp"
+Wed Nov 16 13:13:36 2022  [DEBUG] Log                = "/var/log/cups"
+Wed Nov 16 13:13:36 2022  [DEBUG] PDFVer             = "1.2"
+Wed Nov 16 13:13:36 2022  [DEBUG] PostProcessing     = ""
+Wed Nov 16 13:13:36 2022  [DEBUG] Out                = "${HOME}/PDF"
+Wed Nov 16 13:13:36 2022  [DEBUG] Spool              = "/var/spool/cups-pdf/SPOOL"
+Wed Nov 16 13:13:36 2022  [DEBUG] UserPrefix         = ""
+Wed Nov 16 13:13:36 2022  [DEBUG] RemovePrefix       = ""
+Wed Nov 16 13:13:36 2022  [DEBUG] OutExtension       = "pdf"
+Wed Nov 16 13:13:36 2022  [DEBUG] Cut                = 3
+Wed Nov 16 13:13:36 2022  [DEBUG] Truncate           = 64
+Wed Nov 16 13:13:36 2022  [DEBUG] DirPrefix          = 0
+Wed Nov 16 13:13:36 2022  [DEBUG] Label              = 2
+Wed Nov 16 13:13:36 2022  [DEBUG] LogType            = 7
+Wed Nov 16 13:13:36 2022  [DEBUG] LowerCase          = 1
+Wed Nov 16 13:13:36 2022  [DEBUG] TitlePref          = 0
+Wed Nov 16 13:13:36 2022  [DEBUG] DecodeHexStrings   = 1
+Wed Nov 16 13:13:36 2022  [DEBUG] FixNewlines        = 0
+Wed Nov 16 13:13:36 2022  [DEBUG] AllowUnsafeOptions = 0
+Wed Nov 16 13:13:36 2022  [DEBUG] AnonUMask          = 0000
+Wed Nov 16 13:13:36 2022  [DEBUG] UserUMask          = 0077
+Wed Nov 16 13:13:36 2022  [DEBUG] *** End of Configuration ***
+Wed Nov 16 13:13:36 2022  [DEBUG] set new gid: lpadmin
+Wed Nov 16 13:13:36 2022  [DEBUG] initialization finished: v3.0.1
+Wed Nov 16 13:13:36 2022  [DEBUG] user identified: frenzoid
+Wed Nov 16 13:13:36 2022  [DEBUG] output directory name generated: /home/frenzoid/PDF
+Wed Nov 16 13:13:36 2022  [DEBUG] user information prepared
+Wed Nov 16 13:13:36 2022  [DEBUG] spoolfile name created: /var/spool/cups-pdf/SPOOL/cups2pdf-4254
+Wed Nov 16 13:13:36 2022  [DEBUG] source stream ready
+Wed Nov 16 13:13:36 2022  [DEBUG] destination stream ready: /var/spool/cups-pdf/SPOOL/cups2pdf-4254
+Wed Nov 16 13:13:36 2022  [DEBUG] owner set for spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-4254
+Wed Nov 16 13:13:36 2022  [DEBUG] using traditional fgets
+Wed Nov 16 13:13:37 2022  [DEBUG] found beginning of postscript code: %!PS-Adobe-3.0
+
+Wed Nov 16 13:13:37 2022  [DEBUG] now extracting postscript code
+Wed Nov 16 13:13:37 2022  [DEBUG] found title in ps code: (hola.txt)
+oid/PDF
+Wed Nov 16 13:13:37 2022  [DEBUG] found end of postscript code: %%EOF
+
+Wed Nov 16 13:13:37 2022  [DEBUG] all data written to spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-4254
+Wed Nov 16 13:13:37 2022  [DEBUG] trying to use PS title: (hola.txt)
+oid/PDF
+Wed Nov 16 13:13:37 2022  [STATUS] ***Experimental Option: DecodeHexStrings
+Wed Nov 16 13:13:37 2022  [DEBUG] checking for hex strings: (hola.txt)
+oid/PDF
+Wed Nov 16 13:13:37 2022  [DEBUG] not a hex string, has no start marker: (hola.txt)
+oid/PDF
+Wed Nov 16 13:13:37 2022  [DEBUG] calling alternate_replace_string
+Wed Nov 16 13:13:37 2022  [DEBUG] removing alternate special characters from title: (hola.txt)
+oid/PDF
+Wed Nov 16 13:13:37 2022  [DEBUG] removing leading _ from title: _hola.txt__oid_PDF
+Wed Nov 16 13:13:37 2022  [DEBUG] title successfully retrieved: hola.txt__oid_PDF-job_2
+Wed Nov 16 13:13:37 2022  [DEBUG] input data read from stdin
+Wed Nov 16 13:13:37 2022  [DEBUG] output filename created: /home/frenzoid/PDF/hola.txt__oid_PDF-job_2.pdf
+Wed Nov 16 13:13:37 2022  [DEBUG] ghostscript commandline built: /usr/bin/gs -q -dCompatibilityLevel=1.2 -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="/home/frenzoid/PDF/hola.txt__oid_PDF-job_2.pdf" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f /var/spool/cups-pdf/SPOOL/cups2pdf-4254
+Wed Nov 16 13:13:37 2022  [DEBUG] output file unlinked: /home/frenzoid/PDF/hola.txt__oid_PDF-job_2.pdf
+Wed Nov 16 13:13:37 2022  [DEBUG] TMPDIR set for GhostScript: /var/tmp
+Wed Nov 16 13:13:37 2022  [DEBUG] waiting for child to exit
+Wed Nov 16 13:13:37 2022  [DEBUG] entering child process
+Wed Nov 16 13:13:37 2022  [DEBUG] GID set for current user
+Wed Nov 16 13:13:37 2022  [DEBUG] supplementary groups set for current user
+Wed Nov 16 13:13:37 2022  [DEBUG] UID set for current user: frenzoid
+Wed Nov 16 13:13:38 2022  [DEBUG] ghostscript has finished: 0
+Wed Nov 16 13:13:38 2022  [DEBUG] file mode set for user output: /home/frenzoid/PDF/hola.txt__oid_PDF-job_2.pdf
+Wed Nov 16 13:13:38 2022  [DEBUG] no postprocessing
+Wed Nov 16 13:13:38 2022  [DEBUG] spoolfile unlinked: /var/spool/cups-pdf/SPOOL/cups2pdf-4254
+Wed Nov 16 13:13:38 2022  [DEBUG] all memory has been freed
+Wed Nov 16 13:13:38 2022  [STATUS] PDF creation successfully finished for frenzoid
+Wed Nov 16 13:23:04 2022  [DEBUG] *** Final Configuration ***
+Wed Nov 16 13:23:04 2022  [DEBUG] AnonDirName        = "/var/spool/cups-pdf/ANONYMOUS"
+Wed Nov 16 13:23:04 2022  [DEBUG] AnonUser           = "nobody"
+Wed Nov 16 13:23:04 2022  [DEBUG] GhostScript        = "/usr/bin/gs"
+Wed Nov 16 13:23:04 2022  [DEBUG] GSCall             = "%s -q -dCompatibilityLevel=%s -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="%s" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f %s"
+Wed Nov 16 13:23:04 2022  [DEBUG] Grp                = "lpadmin"
+Wed Nov 16 13:23:04 2022  [DEBUG] GSTmp              = "TMPDIR=/var/tmp"
+Wed Nov 16 13:23:04 2022  [DEBUG] Log                = "/var/log/cups"
+Wed Nov 16 13:23:04 2022  [DEBUG] PDFVer             = "1.2"
+Wed Nov 16 13:23:04 2022  [DEBUG] PostProcessing     = ""
+Wed Nov 16 13:23:04 2022  [DEBUG] Out                = "${HOME}/PDF"
+Wed Nov 16 13:23:04 2022  [DEBUG] Spool              = "/var/spool/cups-pdf/SPOOL"
+Wed Nov 16 13:23:04 2022  [DEBUG] UserPrefix         = ""
+Wed Nov 16 13:23:04 2022  [DEBUG] RemovePrefix       = ""
+Wed Nov 16 13:23:04 2022  [DEBUG] OutExtension       = "pdf"
+Wed Nov 16 13:23:04 2022  [DEBUG] Cut                = 3
+Wed Nov 16 13:23:04 2022  [DEBUG] Truncate           = 64
+Wed Nov 16 13:23:04 2022  [DEBUG] DirPrefix          = 0
+Wed Nov 16 13:23:04 2022  [DEBUG] Label              = 2
+Wed Nov 16 13:23:04 2022  [DEBUG] LogType            = 7
+Wed Nov 16 13:23:04 2022  [DEBUG] LowerCase          = 1
+Wed Nov 16 13:23:04 2022  [DEBUG] TitlePref          = 0
+Wed Nov 16 13:23:04 2022  [DEBUG] DecodeHexStrings   = 1
+Wed Nov 16 13:23:04 2022  [DEBUG] FixNewlines        = 0
+Wed Nov 16 13:23:04 2022  [DEBUG] AllowUnsafeOptions = 0
+Wed Nov 16 13:23:04 2022  [DEBUG] AnonUMask          = 0000
+Wed Nov 16 13:23:04 2022  [DEBUG] UserUMask          = 0077
+Wed Nov 16 13:23:04 2022  [DEBUG] *** End of Configuration ***
+Wed Nov 16 13:23:04 2022  [DEBUG] set new gid: lpadmin
+Wed Nov 16 13:23:04 2022  [DEBUG] initialization finished: v3.0.1
+Wed Nov 16 13:23:04 2022  [DEBUG] unknown user: SApro
+Wed Nov 16 13:23:04 2022  [DEBUG] trying lower case user name: sapro
+Wed Nov 16 13:23:04 2022  [DEBUG] unknown user: sapro
+Wed Nov 16 13:23:04 2022  [DEBUG] output directory name generated: /var/spool/cups-pdf/ANONYMOUS
+Wed Nov 16 13:23:04 2022  [DEBUG] user information prepared
+Wed Nov 16 13:23:04 2022  [DEBUG] spoolfile name created: /var/spool/cups-pdf/SPOOL/cups2pdf-4372
+Wed Nov 16 13:23:04 2022  [DEBUG] source stream ready
+Wed Nov 16 13:23:04 2022  [DEBUG] destination stream ready: /var/spool/cups-pdf/SPOOL/cups2pdf-4372
+Wed Nov 16 13:23:04 2022  [DEBUG] owner set for spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-4372
+Wed Nov 16 13:23:04 2022  [DEBUG] using traditional fgets
+Wed Nov 16 13:23:04 2022  [DEBUG] found beginning of postscript code: %!PS-Adobe-3.0
+
+Wed Nov 16 13:23:04 2022  [DEBUG] now extracting postscript code
+Wed Nov 16 13:23:04 2022  [DEBUG] found title in ps code: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:23:04 2022  [DEBUG] found end of postscript code: %%EOF
+
+Wed Nov 16 13:23:04 2022  [DEBUG] all data written to spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-4372
+Wed Nov 16 13:23:04 2022  [DEBUG] trying to use PS title: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:23:04 2022  [STATUS] ***Experimental Option: DecodeHexStrings
+Wed Nov 16 13:23:04 2022  [DEBUG] checking for hex strings: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:23:04 2022  [DEBUG] not a hex string, has no start marker: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:23:04 2022  [DEBUG] calling alternate_replace_string
+Wed Nov 16 13:23:04 2022  [DEBUG] removing alternate special characters from title: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:23:04 2022  [DEBUG] removing leading _ from title: _P_303_241gina_de_prueba__ng_non-Linux-generated_files
+Wed Nov 16 13:23:04 2022  [DEBUG] title successfully retrieved: P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_3
+Wed Nov 16 13:23:04 2022  [DEBUG] input data read from stdin
+Wed Nov 16 13:23:04 2022  [DEBUG] output filename created: /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_3.pdf
+Wed Nov 16 13:23:04 2022  [DEBUG] ghostscript commandline built: /usr/bin/gs -q -dCompatibilityLevel=1.2 -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="/var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_3.pdf" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f /var/spool/cups-pdf/SPOOL/cups2pdf-4372
+Wed Nov 16 13:23:04 2022  [DEBUG] output file unlinked: /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_3.pdf
+Wed Nov 16 13:23:04 2022  [DEBUG] TMPDIR set for GhostScript: /var/tmp
+Wed Nov 16 13:23:04 2022  [DEBUG] waiting for child to exit
+Wed Nov 16 13:23:04 2022  [DEBUG] entering child process
+Wed Nov 16 13:23:04 2022  [DEBUG] GID set for current user
+Wed Nov 16 13:23:04 2022  [DEBUG] supplementary groups set for current user
+Wed Nov 16 13:23:04 2022  [DEBUG] UID set for current user: nobody
+Wed Nov 16 13:23:04 2022  [DEBUG] ghostscript has finished: 0
+Wed Nov 16 13:23:04 2022  [DEBUG] file mode set for user output: /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_3.pdf
+Wed Nov 16 13:23:04 2022  [DEBUG] no postprocessing
+Wed Nov 16 13:23:04 2022  [DEBUG] spoolfile unlinked: /var/spool/cups-pdf/SPOOL/cups2pdf-4372
+Wed Nov 16 13:23:04 2022  [DEBUG] all memory has been freed
+Wed Nov 16 13:23:04 2022  [STATUS] PDF creation successfully finished for nobody
+Wed Nov 16 13:26:06 2022  [DEBUG] *** Final Configuration ***
+Wed Nov 16 13:26:06 2022  [DEBUG] AnonDirName        = "/var/spool/cups-pdf/ANONYMOUS"
+Wed Nov 16 13:26:06 2022  [DEBUG] AnonUser           = "nobody"
+Wed Nov 16 13:26:06 2022  [DEBUG] GhostScript        = "/usr/bin/gs"
+Wed Nov 16 13:26:06 2022  [DEBUG] GSCall             = "%s -q -dCompatibilityLevel=%s -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="%s" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f %s"
+Wed Nov 16 13:26:06 2022  [DEBUG] Grp                = "lpadmin"
+Wed Nov 16 13:26:06 2022  [DEBUG] GSTmp              = "TMPDIR=/var/tmp"
+Wed Nov 16 13:26:06 2022  [DEBUG] Log                = "/var/log/cups"
+Wed Nov 16 13:26:06 2022  [DEBUG] PDFVer             = "1.2"
+Wed Nov 16 13:26:06 2022  [DEBUG] PostProcessing     = ""
+Wed Nov 16 13:26:06 2022  [DEBUG] Out                = "${HOME}/PDF"
+Wed Nov 16 13:26:06 2022  [DEBUG] Spool              = "/var/spool/cups-pdf/SPOOL"
+Wed Nov 16 13:26:06 2022  [DEBUG] UserPrefix         = ""
+Wed Nov 16 13:26:06 2022  [DEBUG] RemovePrefix       = ""
+Wed Nov 16 13:26:06 2022  [DEBUG] OutExtension       = "pdf"
+Wed Nov 16 13:26:06 2022  [DEBUG] Cut                = 3
+Wed Nov 16 13:26:06 2022  [DEBUG] Truncate           = 64
+Wed Nov 16 13:26:06 2022  [DEBUG] DirPrefix          = 0
+Wed Nov 16 13:26:06 2022  [DEBUG] Label              = 2
+Wed Nov 16 13:26:06 2022  [DEBUG] LogType            = 7
+Wed Nov 16 13:26:06 2022  [DEBUG] LowerCase          = 1
+Wed Nov 16 13:26:06 2022  [DEBUG] TitlePref          = 0
+Wed Nov 16 13:26:06 2022  [DEBUG] DecodeHexStrings   = 1
+Wed Nov 16 13:26:06 2022  [DEBUG] FixNewlines        = 0
+Wed Nov 16 13:26:06 2022  [DEBUG] AllowUnsafeOptions = 0
+Wed Nov 16 13:26:06 2022  [DEBUG] AnonUMask          = 0000
+Wed Nov 16 13:26:06 2022  [DEBUG] UserUMask          = 0077
+Wed Nov 16 13:26:06 2022  [DEBUG] *** End of Configuration ***
+Wed Nov 16 13:26:06 2022  [DEBUG] set new gid: lpadmin
+Wed Nov 16 13:26:06 2022  [DEBUG] initialization finished: v3.0.1
+Wed Nov 16 13:26:06 2022  [DEBUG] unknown user: SApro
+Wed Nov 16 13:26:06 2022  [DEBUG] trying lower case user name: sapro
+Wed Nov 16 13:26:06 2022  [DEBUG] unknown user: sapro
+Wed Nov 16 13:26:06 2022  [DEBUG] output directory name generated: /var/spool/cups-pdf/ANONYMOUS
+Wed Nov 16 13:26:06 2022  [DEBUG] user information prepared
+Wed Nov 16 13:26:06 2022  [DEBUG] spoolfile name created: /var/spool/cups-pdf/SPOOL/cups2pdf-4692
+Wed Nov 16 13:26:06 2022  [DEBUG] source stream ready
+Wed Nov 16 13:26:06 2022  [DEBUG] destination stream ready: /var/spool/cups-pdf/SPOOL/cups2pdf-4692
+Wed Nov 16 13:26:06 2022  [DEBUG] owner set for spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-4692
+Wed Nov 16 13:26:06 2022  [DEBUG] using traditional fgets
+Wed Nov 16 13:26:06 2022  [DEBUG] found beginning of postscript code: %!PS-Adobe-3.0
+
+Wed Nov 16 13:26:06 2022  [DEBUG] now extracting postscript code
+Wed Nov 16 13:26:06 2022  [DEBUG] found title in ps code: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:26:06 2022  [DEBUG] found end of postscript code: %%EOF
+
+Wed Nov 16 13:26:06 2022  [DEBUG] all data written to spoolfile: /var/spool/cups-pdf/SPOOL/cups2pdf-4692
+Wed Nov 16 13:26:06 2022  [DEBUG] trying to use PS title: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:26:06 2022  [STATUS] ***Experimental Option: DecodeHexStrings
+Wed Nov 16 13:26:06 2022  [DEBUG] checking for hex strings: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:26:06 2022  [DEBUG] not a hex string, has no start marker: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:26:06 2022  [DEBUG] calling alternate_replace_string
+Wed Nov 16 13:26:06 2022  [DEBUG] removing alternate special characters from title: (P\303\241gina de prueba)
+ng non-Linux-generated files
+Wed Nov 16 13:26:06 2022  [DEBUG] removing leading _ from title: _P_303_241gina_de_prueba__ng_non-Linux-generated_files
+Wed Nov 16 13:26:06 2022  [DEBUG] title successfully retrieved: P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_4
+Wed Nov 16 13:26:06 2022  [DEBUG] input data read from stdin
+Wed Nov 16 13:26:06 2022  [DEBUG] output filename created: /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_4.pdf
+Wed Nov 16 13:26:06 2022  [DEBUG] ghostscript commandline built: /usr/bin/gs -q -dCompatibilityLevel=1.2 -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -sOutputFile="/var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_4.pdf" -dAutoRotatePages=/PageByPage -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -c .setpdfwrite -f /var/spool/cups-pdf/SPOOL/cups2pdf-4692
+Wed Nov 16 13:26:06 2022  [DEBUG] output file unlinked: /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_4.pdf
+Wed Nov 16 13:26:06 2022  [DEBUG] TMPDIR set for GhostScript: /var/tmp
+Wed Nov 16 13:26:06 2022  [DEBUG] waiting for child to exit
+Wed Nov 16 13:26:06 2022  [DEBUG] entering child process
+Wed Nov 16 13:26:06 2022  [DEBUG] GID set for current user
+Wed Nov 16 13:26:06 2022  [DEBUG] supplementary groups set for current user
+Wed Nov 16 13:26:06 2022  [DEBUG] UID set for current user: nobody
+Wed Nov 16 13:26:06 2022  [DEBUG] ghostscript has finished: 0
+Wed Nov 16 13:26:06 2022  [DEBUG] file mode set for user output: /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_4.pdf
+Wed Nov 16 13:26:06 2022  [DEBUG] no postprocessing
+Wed Nov 16 13:26:06 2022  [DEBUG] spoolfile unlinked: /var/spool/cups-pdf/SPOOL/cups2pdf-4692
+Wed Nov 16 13:26:06 2022  [DEBUG] all memory has been freed
+Wed Nov 16 13:26:06 2022  [STATUS] PDF creation successfully finished for nobody

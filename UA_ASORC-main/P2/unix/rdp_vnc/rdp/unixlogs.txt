@@ -1,0 +1,253 @@
+[20221030-17:27:32] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221030-17:27:32] [INFO ] listening to port 3389 on 0.0.0.0
+[20221030-17:27:32] [INFO ] xrdp_listen_pp done
+[20221030-17:27:34] [INFO ] starting xrdp with pid 2456
+[20221030-17:27:34] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221030-17:27:34] [INFO ] listening to port 3389 on 0.0.0.0
+[20221030-17:27:34] [INFO ] xrdp_listen_pp done
+[20221030-17:28:59] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64839
+[20221030-17:28:59] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:28:59] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:28:59] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:28:59] [ERROR] SSL_read: I/O error
+[20221030-17:28:59] [ERROR] libxrdp_force_read: header read error
+[20221030-17:28:59] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+[20221030-17:28:59] [ERROR] [MCS Connection Sequence] receive connection request failed
+[20221030-17:28:59] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+[20221030-17:28:59] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+[20221030-17:28:59] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+[20221030-17:28:59] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-17:28:59] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20221030-17:29:01] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64840
+[20221030-17:29:01] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:29:01] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:29:01] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:29:01] [INFO ] Connected client computer name: DESKTOP-2OLOPS2
+[20221030-17:29:01] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20221030-17:29:01] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20221030-17:29:01] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20221030-17:29:01] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20221030-17:29:01] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64840: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221030-17:29:01] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20221030-17:29:02] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 10485760 MB cache entries 100
+[20221030-17:29:02] [INFO ] xrdp_caps_process_codecs: nscodec, codec id 1, properties len 3
+[20221030-17:29:02] [WARN ] xrdp_caps_process_codecs: unknown codec id 5
+[20221030-17:29:02] [INFO ] xrdp_caps_process_codecs: RemoteFX, codec id 3, properties len 49
+[20221030-17:29:02] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20221030-17:29:02] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20221030-17:29:08] [INFO ] connecting to sesman on 127.0.0.1:3350
+[20221030-17:29:23] [ERROR] xrdp_wm_log_msg: Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:29:23] [INFO ] Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:29:23] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20221030-17:29:23] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20221030-17:29:23] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20221030-17:29:23] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20221030-17:30:38] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64844
+[20221030-17:30:38] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:30:38] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:30:38] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:30:38] [ERROR] SSL_read: I/O error
+[20221030-17:30:38] [ERROR] libxrdp_force_read: header read error
+[20221030-17:30:38] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+[20221030-17:30:38] [ERROR] [MCS Connection Sequence] receive connection request failed
+[20221030-17:30:38] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+[20221030-17:30:38] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+[20221030-17:30:38] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+[20221030-17:30:38] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-17:30:38] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20221030-17:30:39] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64845
+[20221030-17:30:39] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:30:39] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:30:39] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:30:39] [INFO ] Connected client computer name: DESKTOP-2OLOPS2
+[20221030-17:30:39] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20221030-17:30:39] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20221030-17:30:39] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20221030-17:30:39] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20221030-17:30:39] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64845: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221030-17:30:39] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20221030-17:30:39] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 10485760 MB cache entries 100
+[20221030-17:30:39] [INFO ] xrdp_caps_process_codecs: nscodec, codec id 1, properties len 3
+[20221030-17:30:39] [WARN ] xrdp_caps_process_codecs: unknown codec id 5
+[20221030-17:30:39] [INFO ] xrdp_caps_process_codecs: RemoteFX, codec id 3, properties len 49
+[20221030-17:30:39] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20221030-17:30:39] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20221030-17:30:50] [INFO ] connecting to sesman on 127.0.0.1:3350
+[20221030-17:31:05] [ERROR] xrdp_wm_log_msg: Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:31:06] [INFO ] Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:31:06] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20221030-17:31:06] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20221030-17:31:06] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20221030-17:31:06] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20221030-17:32:33] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64869
+[20221030-17:32:33] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:32:33] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:32:33] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:32:33] [ERROR] SSL_read: I/O error
+[20221030-17:32:33] [ERROR] libxrdp_force_read: header read error
+[20221030-17:32:33] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+[20221030-17:32:33] [ERROR] [MCS Connection Sequence] receive connection request failed
+[20221030-17:32:33] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+[20221030-17:32:33] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+[20221030-17:32:33] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+[20221030-17:32:33] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-17:32:33] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20221030-17:32:34] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64870
+[20221030-17:32:34] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:32:34] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:32:34] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:32:34] [INFO ] Connected client computer name: DESKTOP-2OLOPS2
+[20221030-17:32:34] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20221030-17:32:34] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20221030-17:32:34] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20221030-17:32:34] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20221030-17:32:34] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64870: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221030-17:32:34] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20221030-17:32:34] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 10485760 MB cache entries 100
+[20221030-17:32:34] [INFO ] xrdp_caps_process_codecs: nscodec, codec id 1, properties len 3
+[20221030-17:32:34] [WARN ] xrdp_caps_process_codecs: unknown codec id 5
+[20221030-17:32:34] [INFO ] xrdp_caps_process_codecs: RemoteFX, codec id 3, properties len 49
+[20221030-17:32:34] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20221030-17:32:34] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20221030-17:32:45] [INFO ] connecting to sesman on 127.0.0.1:3350
+[20221030-17:33:00] [ERROR] xrdp_wm_log_msg: Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:33:00] [INFO ] Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:33:21] [ERROR] SSL_shutdown: I/O error
+[20221030-17:33:50] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20221030-17:33:50] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221030-17:33:50] [INFO ] listening to port 3389 on 0.0.0.0
+[20221030-17:33:50] [INFO ] xrdp_listen_pp done
+[20221030-17:33:52] [INFO ] starting xrdp with pid 2590
+[20221030-17:33:52] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221030-17:33:53] [INFO ] listening to port 3389 on 0.0.0.0
+[20221030-17:33:53] [INFO ] xrdp_listen_pp done
+[20221030-17:35:03] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64903
+[20221030-17:35:03] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:35:03] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:35:03] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:35:03] [ERROR] SSL_read: I/O error
+[20221030-17:35:03] [ERROR] libxrdp_force_read: header read error
+[20221030-17:35:03] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+[20221030-17:35:03] [ERROR] [MCS Connection Sequence] receive connection request failed
+[20221030-17:35:03] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+[20221030-17:35:03] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+[20221030-17:35:03] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+[20221030-17:35:03] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-17:35:03] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20221030-17:35:04] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64904
+[20221030-17:35:04] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:35:04] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:35:04] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:35:04] [INFO ] Connected client computer name: DESKTOP-2OLOPS2
+[20221030-17:35:04] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20221030-17:35:04] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20221030-17:35:04] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20221030-17:35:04] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20221030-17:35:04] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64904: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221030-17:35:04] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20221030-17:35:04] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 10485760 MB cache entries 100
+[20221030-17:35:04] [INFO ] xrdp_caps_process_codecs: nscodec, codec id 1, properties len 3
+[20221030-17:35:04] [WARN ] xrdp_caps_process_codecs: unknown codec id 5
+[20221030-17:35:04] [INFO ] xrdp_caps_process_codecs: RemoteFX, codec id 3, properties len 49
+[20221030-17:35:04] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20221030-17:35:04] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20221030-17:35:07] [INFO ] connecting to sesman on 127.0.0.1:3350
+[20221030-17:35:22] [ERROR] xrdp_wm_log_msg: Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:35:22] [INFO ] Error connecting to sesman on 127.0.0.1:3350
+[20221030-17:35:31] [ERROR] SSL_shutdown: I/O error
+[20221030-17:36:14] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64907
+[20221030-17:36:14] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:36:14] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:36:14] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:36:14] [ERROR] SSL_read: I/O error
+[20221030-17:36:14] [ERROR] libxrdp_force_read: header read error
+[20221030-17:36:14] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+[20221030-17:36:14] [ERROR] [MCS Connection Sequence] receive connection request failed
+[20221030-17:36:14] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+[20221030-17:36:14] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+[20221030-17:36:14] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+[20221030-17:36:14] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-17:36:14] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20221030-17:36:15] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 64908
+[20221030-17:36:15] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-17:36:15] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-17:36:15] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-17:36:15] [INFO ] Connected client computer name: DESKTOP-2OLOPS2
+[20221030-17:36:15] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20221030-17:36:15] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20221030-17:36:15] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20221030-17:36:15] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20221030-17:36:15] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64908: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221030-17:36:15] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20221030-17:36:15] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 10485760 MB cache entries 100
+[20221030-17:36:15] [INFO ] xrdp_caps_process_codecs: nscodec, codec id 1, properties len 3
+[20221030-17:36:15] [WARN ] xrdp_caps_process_codecs: unknown codec id 5
+[20221030-17:36:15] [INFO ] xrdp_caps_process_codecs: RemoteFX, codec id 3, properties len 49
+[20221030-17:36:15] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20221030-17:36:15] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20221030-17:36:20] [INFO ] connecting to sesman on 127.0.0.1:3350
+[20221030-17:36:20] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221030-17:36:20] [INFO ] sesman connect ok
+[20221030-17:36:20] [INFO ] sending login info to session manager. Please wait...
+[20221030-17:36:20] [INFO ] xrdp_wm_log_msg: login successful for user frenzoid on display 10
+[20221030-17:36:20] [INFO ] login successful for user frenzoid on display 10
+[20221030-17:36:20] [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+[20221030-17:36:20] [INFO ] started connecting
+[20221030-17:36:20] [INFO ] lib_mod_connect: connecting via UNIX socket
+[20221030-17:36:20] [INFO ] lib_mod_log_peer: xrdp_pid=2604 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.22.1 client_port=64908
+[20221030-17:36:20] [INFO ] connected ok
+[20221030-17:36:53] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20221030-17:36:53] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20221030-17:36:53] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20221030-17:36:53] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20221030-17:36:53] [ERROR] SSL_write: I/O error
+[20221030-17:36:53] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-17:36:53] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20221030-18:01:50] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 65104
+[20221030-18:01:50] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-18:01:50] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-18:01:50] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-18:01:50] [ERROR] SSL_read: I/O error
+[20221030-18:01:50] [ERROR] libxrdp_force_read: header read error
+[20221030-18:01:50] [ERROR] Processing [ITU-T T.125] Connect-Initial failed
+[20221030-18:01:50] [ERROR] [MCS Connection Sequence] receive connection request failed
+[20221030-18:01:50] [ERROR] xrdp_sec_incoming: xrdp_mcs_incoming failed
+[20221030-18:01:50] [ERROR] xrdp_rdp_incoming: xrdp_sec_incoming failed
+[20221030-18:01:50] [ERROR] xrdp_process_main_loop: libxrdp_process_incoming failed
+[20221030-18:01:50] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-18:01:50] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20221030-18:01:51] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.22.1 port 65105
+[20221030-18:01:51] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20221030-18:01:51] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20221030-18:01:51] [INFO ] Security protocol: configured [SSL|RDP], requested [SSL|HYBRID|HYBRID_EX|RDP], selected [SSL]
+[20221030-18:01:51] [INFO ] Connected client computer name: DESKTOP-2OLOPS2
+[20221030-18:01:51] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20221030-18:01:51] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20221030-18:01:51] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20221030-18:01:51] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20221030-18:01:51] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 65105: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221030-18:01:51] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20221030-18:01:51] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 10485760 MB cache entries 100
+[20221030-18:01:51] [INFO ] xrdp_caps_process_codecs: nscodec, codec id 1, properties len 3
+[20221030-18:01:51] [WARN ] xrdp_caps_process_codecs: unknown codec id 5
+[20221030-18:01:51] [INFO ] xrdp_caps_process_codecs: RemoteFX, codec id 3, properties len 49
+[20221030-18:01:51] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20221030-18:01:51] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20221030-18:01:55] [INFO ] connecting to sesman on 127.0.0.1:3350
+[20221030-18:01:55] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221030-18:01:55] [INFO ] sesman connect ok
+[20221030-18:01:55] [INFO ] sending login info to session manager. Please wait...
+[20221030-18:01:55] [INFO ] xrdp_wm_log_msg: login successful for user frenzoid on display 10
+[20221030-18:01:55] [INFO ] login successful for user frenzoid on display 10
+[20221030-18:01:55] [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+[20221030-18:01:55] [INFO ] started connecting
+[20221030-18:01:55] [INFO ] lib_mod_connect: connecting via UNIX socket
+[20221030-18:01:55] [INFO ] lib_mod_log_peer: xrdp_pid=2804 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.22.1 client_port=65105
+[20221030-18:01:55] [INFO ] connected ok
+[20221030-18:02:01] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20221030-18:02:01] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20221030-18:02:01] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20221030-18:02:01] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20221030-18:02:01] [ERROR] SSL_write: I/O error
+[20221030-18:02:01] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20221030-18:02:01] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed

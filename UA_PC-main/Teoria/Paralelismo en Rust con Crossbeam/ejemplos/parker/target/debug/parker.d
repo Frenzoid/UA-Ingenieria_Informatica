@@ -1,0 +1,1 @@
+/home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/parker/target/debug/parker: /home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/parker/main.rs

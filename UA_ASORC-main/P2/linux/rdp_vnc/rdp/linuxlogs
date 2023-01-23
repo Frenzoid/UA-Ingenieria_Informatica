@@ -1,0 +1,909 @@
+[20221102-06:50:03] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:50:03] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:50:03] [INFO ] xrdp_listen_pp done
+[20221102-06:50:03] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-06:50:05] [INFO ] starting xrdp with pid 1212
+[20221102-06:50:05] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:50:05] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:50:05] [INFO ] xrdp_listen_pp done
+[20221102-06:51:22] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 51794
+[20221102-06:51:22] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:51:22] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:51:22] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:51:22] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:51:22] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+[20221102-06:51:22] [DEBUG] TLSv1.3 enabled
+[20221102-06:51:22] [DEBUG] TLSv1.2 enabled
+[20221102-06:51:22] [DEBUG] Security layer: requested 11, selected 0
+[20221102-06:51:22] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:51:23] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 51795
+[20221102-06:51:23] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:51:23] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:51:23] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:51:23] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:51:23] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+[20221102-06:51:23] [DEBUG] TLSv1.3 enabled
+[20221102-06:51:23] [DEBUG] TLSv1.2 enabled
+[20221102-06:51:24] [DEBUG] Security layer: requested 0, selected 0
+[20221102-06:51:24] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-06:51:24] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-06:51:24] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-06:51:24] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-06:51:24] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-06:51:24] [INFO ] Non-TLS connection established from ::ffff:192.168.22.1 port 51795: encrypted with standard RDP security
+[20221102-06:51:24] [DEBUG] xrdp_0000057a_wm_login_mode_event_00000001
+[20221102-06:51:24] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-06:51:24] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-06:51:28] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-06:51:28] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-06:51:28] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-06:51:28] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-06:51:28] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-06:51:28] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-06:51:29] [INFO ] lib_mod_log_peer: xrdp_pid=1402 connected to X11rdp_pid=1407 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=51795
+[20221102-06:51:29] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-06:51:29] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-06:51:29] [DEBUG] Closed socket 16 (AF_INET6 ::1 port 48354)
+[20221102-06:51:30] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:51:30] [DEBUG] xrdp_mm_module_cleanup
+[20221102-06:51:30] [DEBUG] Closed socket 17 (AF_UNIX)
+[20221102-06:51:30] [DEBUG] Closed socket 18 (AF_UNIX)
+[20221102-06:52:15] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 51796
+[20221102-06:52:15] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:52:15] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:52:15] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:52:15] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:52:15] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+[20221102-06:52:15] [DEBUG] TLSv1.3 enabled
+[20221102-06:52:15] [DEBUG] TLSv1.2 enabled
+[20221102-06:52:15] [DEBUG] Security layer: requested 11, selected 0
+[20221102-06:52:15] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:52:15] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 51797
+[20221102-06:52:15] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:52:15] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:52:15] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:52:15] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:52:15] [ERROR] Cannot read private key file /etc/xrdp/key.pem: Permission denied
+[20221102-06:52:15] [DEBUG] TLSv1.3 enabled
+[20221102-06:52:15] [DEBUG] TLSv1.2 enabled
+[20221102-06:52:15] [DEBUG] Security layer: requested 0, selected 0
+[20221102-06:52:15] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-06:52:15] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-06:52:15] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-06:52:15] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-06:52:15] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-06:52:15] [INFO ] Non-TLS connection established from ::ffff:192.168.22.1 port 51797: encrypted with standard RDP security
+[20221102-06:52:15] [DEBUG] xrdp_000005e8_wm_login_mode_event_00000001
+[20221102-06:52:15] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-06:52:15] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-06:52:19] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-06:52:19] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-06:52:19] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-06:52:19] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-06:52:19] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-06:52:19] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-06:52:19] [INFO ] lib_mod_log_peer: xrdp_pid=1512 connected to X11rdp_pid=1515 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=51797
+[20221102-06:52:19] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-06:52:19] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-06:52:19] [DEBUG] Closed socket 16 (AF_INET6 ::1 port 48796)
+[20221102-06:52:20] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:52:20] [DEBUG] xrdp_mm_module_cleanup
+[20221102-06:52:20] [DEBUG] Closed socket 17 (AF_UNIX)
+[20221102-06:52:20] [DEBUG] Closed socket 18 (AF_UNIX)
+[20221102-06:53:04] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:53:09] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:53:09] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:53:09] [INFO ] xrdp_listen_pp done
+[20221102-06:53:09] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-06:53:11] [INFO ] starting xrdp with pid 1645
+[20221102-06:53:11] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:53:11] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:53:11] [INFO ] xrdp_listen_pp done
+[20221102-06:55:53] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:55:53] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:55:53] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:55:53] [INFO ] xrdp_listen_pp done
+[20221102-06:55:53] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-06:55:55] [INFO ] starting xrdp with pid 1727
+[20221102-06:55:55] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:55:55] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:55:55] [INFO ] xrdp_listen_pp done
+[20221102-06:55:57] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64720
+[20221102-06:55:57] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:55:57] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:55:57] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:55:57] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:55:57] [DEBUG] TLSv1.3 enabled
+[20221102-06:55:57] [DEBUG] TLSv1.2 enabled
+[20221102-06:55:57] [DEBUG] Security layer: requested 11, selected 1
+[20221102-06:55:57] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:55:59] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64721
+[20221102-06:55:59] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:55:59] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:55:59] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:55:59] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:55:59] [DEBUG] TLSv1.3 enabled
+[20221102-06:55:59] [DEBUG] TLSv1.2 enabled
+[20221102-06:55:59] [DEBUG] Security layer: requested 11, selected 1
+[20221102-06:55:59] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-06:55:59] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-06:55:59] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-06:55:59] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-06:55:59] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-06:55:59] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64721: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-06:55:59] [DEBUG] xrdp_000006c1_wm_login_mode_event_00000001
+[20221102-06:55:59] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-06:55:59] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-06:56:02] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-06:56:02] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-06:56:02] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-06:56:02] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-06:56:02] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-06:56:02] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-06:56:02] [INFO ] lib_mod_log_peer: xrdp_pid=1729 connected to X11rdp_pid=1732 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=64721
+[20221102-06:56:02] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-06:56:02] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-06:56:02] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 33864)
+[20221102-06:56:03] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:56:03] [DEBUG] xrdp_mm_module_cleanup
+[20221102-06:56:03] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-06:56:03] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-06:56:44] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:57:24] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:57:24] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:57:24] [INFO ] xrdp_listen_pp done
+[20221102-06:57:24] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-06:57:26] [INFO ] starting xrdp with pid 1875
+[20221102-06:57:26] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:57:26] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:57:26] [INFO ] xrdp_listen_pp done
+[20221102-06:57:28] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64795
+[20221102-06:57:28] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:57:28] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:57:28] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:57:28] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:57:28] [DEBUG] TLSv1.3 enabled
+[20221102-06:57:28] [DEBUG] TLSv1.2 enabled
+[20221102-06:57:28] [DEBUG] Security layer: requested 11, selected 1
+[20221102-06:57:28] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:57:31] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64796
+[20221102-06:57:31] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:57:31] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:57:31] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:57:31] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:57:31] [DEBUG] TLSv1.3 enabled
+[20221102-06:57:31] [DEBUG] TLSv1.2 enabled
+[20221102-06:57:31] [DEBUG] Security layer: requested 11, selected 1
+[20221102-06:57:31] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-06:57:31] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-06:57:31] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-06:57:31] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-06:57:31] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-06:57:31] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64796: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-06:57:31] [DEBUG] xrdp_00000755_wm_login_mode_event_00000001
+[20221102-06:57:31] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-06:57:31] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-06:57:34] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-06:57:35] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-06:57:35] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-06:57:35] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-06:57:35] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-06:57:35] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-06:57:35] [INFO ] lib_mod_log_peer: xrdp_pid=1877 connected to X11rdp_pid=1880 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=64796
+[20221102-06:57:35] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-06:57:35] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-06:57:35] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 56718)
+[20221102-06:57:35] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:57:35] [DEBUG] xrdp_mm_module_cleanup
+[20221102-06:57:35] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-06:57:35] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-06:58:37] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:58:37] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:58:37] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:58:37] [INFO ] xrdp_listen_pp done
+[20221102-06:58:37] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-06:58:39] [INFO ] starting xrdp with pid 1987
+[20221102-06:58:39] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:58:39] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:58:39] [INFO ] xrdp_listen_pp done
+[20221102-06:58:52] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:58:52] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:58:52] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:58:52] [INFO ] xrdp_listen_pp done
+[20221102-06:58:52] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-06:58:54] [INFO ] starting xrdp with pid 2008
+[20221102-06:58:54] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-06:58:54] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-06:58:54] [INFO ] xrdp_listen_pp done
+[20221102-06:58:58] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64801
+[20221102-06:58:58] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:58:58] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:58:58] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:58:58] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:58:58] [DEBUG] TLSv1.3 enabled
+[20221102-06:58:58] [DEBUG] TLSv1.2 enabled
+[20221102-06:58:58] [DEBUG] Security layer: requested 11, selected 1
+[20221102-06:58:58] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:58:58] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64802
+[20221102-06:58:58] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:58:58] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-06:58:58] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-06:58:58] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-06:58:58] [DEBUG] TLSv1.3 enabled
+[20221102-06:58:58] [DEBUG] TLSv1.2 enabled
+[20221102-06:58:58] [DEBUG] Security layer: requested 11, selected 1
+[20221102-06:58:58] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-06:58:58] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-06:58:58] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-06:58:58] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-06:58:58] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-06:58:58] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64802: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-06:58:58] [DEBUG] xrdp_000007da_wm_login_mode_event_00000001
+[20221102-06:58:58] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-06:58:58] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-06:59:01] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-06:59:01] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-06:59:01] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-06:59:01] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-06:59:01] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-06:59:01] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-06:59:02] [INFO ] lib_mod_log_peer: xrdp_pid=2010 connected to X11rdp_pid=2013 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=64802
+[20221102-06:59:02] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-06:59:02] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-06:59:02] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 49700)
+[20221102-06:59:02] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-06:59:02] [DEBUG] xrdp_mm_module_cleanup
+[20221102-06:59:02] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-06:59:02] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-07:02:13] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:02:13] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:02:13] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:02:13] [INFO ] xrdp_listen_pp done
+[20221102-07:02:13] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-07:02:15] [INFO ] starting xrdp with pid 2147
+[20221102-07:02:15] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:02:15] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:02:15] [INFO ] xrdp_listen_pp done
+[20221102-07:03:09] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64894
+[20221102-07:03:09] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:03:09] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:03:09] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:03:09] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:03:09] [DEBUG] TLSv1.3 enabled
+[20221102-07:03:09] [DEBUG] TLSv1.2 enabled
+[20221102-07:03:09] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:03:09] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:03:09] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64895
+[20221102-07:03:09] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:03:09] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:03:10] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:03:10] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:03:10] [DEBUG] TLSv1.3 enabled
+[20221102-07:03:10] [DEBUG] TLSv1.2 enabled
+[20221102-07:03:10] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:03:10] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-07:03:10] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-07:03:10] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-07:03:10] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-07:03:10] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-07:03:10] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64895: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-07:03:10] [DEBUG] xrdp_00000877_wm_login_mode_event_00000001
+[20221102-07:03:10] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-07:03:10] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-07:03:13] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-07:03:13] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-07:03:13] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-07:03:13] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-07:03:13] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-07:03:13] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-07:03:13] [INFO ] lib_mod_log_peer: xrdp_pid=2167 connected to X11rdp_pid=2170 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=64895
+[20221102-07:03:13] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-07:03:14] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-07:03:14] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 48106)
+[20221102-07:03:14] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:03:14] [DEBUG] xrdp_mm_module_cleanup
+[20221102-07:03:14] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-07:03:14] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-07:04:33] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:04:34] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:04:34] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:04:34] [INFO ] xrdp_listen_pp done
+[20221102-07:04:34] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-07:04:36] [INFO ] starting xrdp with pid 2252
+[20221102-07:04:36] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:04:36] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:04:36] [INFO ] xrdp_listen_pp done
+[20221102-07:04:36] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64939
+[20221102-07:04:36] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:04:36] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:04:36] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:04:36] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:04:36] [DEBUG] TLSv1.3 enabled
+[20221102-07:04:36] [DEBUG] TLSv1.2 enabled
+[20221102-07:04:36] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:04:36] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:04:36] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64940
+[20221102-07:04:36] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:04:36] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:04:36] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:04:36] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:04:36] [DEBUG] TLSv1.3 enabled
+[20221102-07:04:36] [DEBUG] TLSv1.2 enabled
+[20221102-07:04:36] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:04:36] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-07:04:36] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-07:04:36] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-07:04:36] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-07:04:36] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-07:04:36] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64940: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-07:04:36] [DEBUG] xrdp_000008ce_wm_login_mode_event_00000001
+[20221102-07:04:37] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-07:04:37] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-07:04:39] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-07:04:39] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-07:04:39] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-07:04:39] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-07:04:39] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-07:04:39] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-07:04:40] [INFO ] lib_mod_log_peer: xrdp_pid=2254 connected to X11rdp_pid=2257 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=64940
+[20221102-07:04:40] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-07:04:40] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-07:04:40] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 60738)
+[20221102-07:04:40] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:04:40] [DEBUG] xrdp_mm_module_cleanup
+[20221102-07:04:40] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-07:04:40] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-07:06:25] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:06:25] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:06:25] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:06:25] [INFO ] xrdp_listen_pp done
+[20221102-07:06:25] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-07:06:27] [INFO ] starting xrdp with pid 2340
+[20221102-07:06:27] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:06:27] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:06:27] [INFO ] xrdp_listen_pp done
+[20221102-07:06:30] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64946
+[20221102-07:06:30] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:06:30] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:06:30] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:06:30] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:06:30] [DEBUG] TLSv1.3 enabled
+[20221102-07:06:30] [DEBUG] TLSv1.2 enabled
+[20221102-07:06:30] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:06:30] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:06:30] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 64947
+[20221102-07:06:30] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:06:30] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:06:30] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:06:30] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:06:30] [DEBUG] TLSv1.3 enabled
+[20221102-07:06:30] [DEBUG] TLSv1.2 enabled
+[20221102-07:06:30] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:06:30] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-07:06:30] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-07:06:30] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-07:06:30] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-07:06:30] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-07:06:30] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 64947: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-07:06:30] [DEBUG] xrdp_00000926_wm_login_mode_event_00000001
+[20221102-07:06:30] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-07:06:30] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-07:06:33] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-07:06:34] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-07:06:34] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-07:06:34] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-07:06:34] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-07:06:34] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-07:06:34] [INFO ] lib_mod_log_peer: xrdp_pid=2342 connected to X11rdp_pid=2345 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=64947
+[20221102-07:06:34] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-07:06:34] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-07:06:34] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 36484)
+[20221102-07:06:34] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:06:34] [DEBUG] xrdp_mm_module_cleanup
+[20221102-07:06:34] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-07:06:34] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-07:15:34] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 65031
+[20221102-07:15:34] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:15:34] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:15:34] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:15:34] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:15:34] [DEBUG] TLSv1.3 enabled
+[20221102-07:15:34] [DEBUG] TLSv1.2 enabled
+[20221102-07:15:34] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:15:34] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:15:34] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 65032
+[20221102-07:15:34] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:15:34] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:15:34] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:15:34] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:15:34] [DEBUG] TLSv1.3 enabled
+[20221102-07:15:34] [DEBUG] TLSv1.2 enabled
+[20221102-07:15:34] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:15:34] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-07:15:34] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-07:15:34] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-07:15:34] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-07:15:34] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-07:15:34] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 65032: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-07:15:34] [DEBUG] xrdp_00000acc_wm_login_mode_event_00000001
+[20221102-07:15:34] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-07:15:34] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-07:15:38] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-07:15:38] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-07:15:38] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-07:15:38] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-07:15:38] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-07:15:38] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-07:15:39] [INFO ] lib_mod_log_peer: xrdp_pid=2764 connected to X11rdp_pid=2767 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=65032
+[20221102-07:15:39] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-07:15:39] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-07:15:39] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 47248)
+[20221102-07:15:57] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:15:57] [DEBUG] xrdp_mm_module_cleanup
+[20221102-07:15:57] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-07:15:57] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-07:16:17] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:17:13] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:17:13] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:17:13] [INFO ] xrdp_listen_pp done
+[20221102-07:17:13] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-07:17:15] [INFO ] starting xrdp with pid 555
+[20221102-07:17:15] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-07:17:16] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-07:17:16] [INFO ] xrdp_listen_pp done
+[20221102-07:17:51] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 65081
+[20221102-07:17:51] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:17:51] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:17:51] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:17:51] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:17:51] [DEBUG] TLSv1.3 enabled
+[20221102-07:17:51] [DEBUG] TLSv1.2 enabled
+[20221102-07:17:51] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:17:51] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:17:51] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 65082
+[20221102-07:17:51] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:17:51] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:17:51] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:17:51] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:17:51] [DEBUG] TLSv1.3 enabled
+[20221102-07:17:51] [DEBUG] TLSv1.2 enabled
+[20221102-07:17:51] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:17:51] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-07:17:51] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-07:17:51] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-07:17:51] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-07:17:51] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-07:17:51] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 65082: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-07:17:51] [DEBUG] xrdp_000003ca_wm_login_mode_event_00000001
+[20221102-07:17:51] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-07:17:51] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-07:17:55] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-07:17:55] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-07:17:55] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-07:17:55] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-07:17:55] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-07:17:55] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-07:17:55] [INFO ] lib_mod_log_peer: xrdp_pid=970 connected to X11rdp_pid=973 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=65082
+[20221102-07:17:55] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-07:17:56] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-07:17:56] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 44072)
+[20221102-07:18:04] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:18:04] [DEBUG] xrdp_mm_module_cleanup
+[20221102-07:18:04] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-07:18:04] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-07:18:17] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 65089
+[20221102-07:18:17] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:18:17] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:18:17] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:18:17] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:18:17] [DEBUG] TLSv1.3 enabled
+[20221102-07:18:17] [DEBUG] TLSv1.2 enabled
+[20221102-07:18:17] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:18:17] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:18:17] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 65090
+[20221102-07:18:17] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:18:17] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-07:18:17] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-07:18:17] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-07:18:17] [DEBUG] TLSv1.3 enabled
+[20221102-07:18:17] [DEBUG] TLSv1.2 enabled
+[20221102-07:18:17] [DEBUG] Security layer: requested 11, selected 1
+[20221102-07:18:17] [INFO ] connected client computer name: DESKTOP-8DDMV0I
+[20221102-07:18:17] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-07:18:17] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-07:18:17] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-07:18:17] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-07:18:17] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 65090: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-07:18:17] [DEBUG] xrdp_00000515_wm_login_mode_event_00000001
+[20221102-07:18:17] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20221102-07:18:17] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20221102-07:18:22] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-07:18:22] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-07:18:22] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-07:18:22] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-07:18:22] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-07:18:22] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-07:18:22] [INFO ] lib_mod_log_peer: xrdp_pid=1301 connected to X11rdp_pid=973 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=65090
+[20221102-07:18:22] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-07:18:22] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-07:18:22] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 35960)
+[20221102-07:18:25] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-07:18:25] [DEBUG] xrdp_mm_module_cleanup
+[20221102-07:18:25] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-07:18:25] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-07:21:05] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-08:35:59] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-08:35:59] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-08:35:59] [INFO ] xrdp_listen_pp done
+[20221102-08:35:59] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-08:36:01] [INFO ] starting xrdp with pid 509
+[20221102-08:36:02] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-08:36:02] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-08:36:02] [INFO ] xrdp_listen_pp done
+[20221102-08:47:23] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-08:47:24] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-08:47:24] [INFO ] xrdp_listen_pp done
+[20221102-08:47:24] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-08:47:26] [INFO ] starting xrdp with pid 508
+[20221102-08:47:26] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-08:47:26] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-08:47:26] [INFO ] xrdp_listen_pp done
+[20221102-09:06:00] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-09:06:36] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-09:06:36] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-09:06:36] [INFO ] xrdp_listen_pp done
+[20221102-09:06:37] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-09:06:39] [INFO ] starting xrdp with pid 505
+[20221102-09:06:39] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-09:06:39] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-09:06:39] [INFO ] xrdp_listen_pp done
+[20221102-09:07:35] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 55626
+[20221102-09:07:35] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-09:07:35] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-09:07:35] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-09:07:35] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-09:07:35] [DEBUG] TLSv1.3 enabled
+[20221102-09:07:35] [DEBUG] TLSv1.2 enabled
+[20221102-09:07:35] [DEBUG] Security layer: requested 11, selected 1
+[20221102-09:07:35] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-09:07:37] [INFO ] Socket 12: AF_INET6 connection received from ::ffff:192.168.22.1 port 55627
+[20221102-09:07:37] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-09:07:37] [DEBUG] Closed socket 11 (AF_INET6 :: port 3389)
+[20221102-09:07:38] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20221102-09:07:38] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20221102-09:07:38] [DEBUG] TLSv1.3 enabled
+[20221102-09:07:38] [DEBUG] TLSv1.2 enabled
+[20221102-09:07:38] [DEBUG] Security layer: requested 11, selected 1
+[20221102-09:07:38] [INFO ] connected client computer name: DESKTOP-2OLOPS2
+[20221102-09:07:38] [INFO ] adding channel item name rdpdr chan_id 1004 flags 0x80800000
+[20221102-09:07:38] [INFO ] adding channel item name rdpsnd chan_id 1005 flags 0xc0000000
+[20221102-09:07:38] [INFO ] adding channel item name cliprdr chan_id 1006 flags 0xc0a00000
+[20221102-09:07:38] [INFO ] adding channel item name drdynvc chan_id 1007 flags 0xc0800000
+[20221102-09:07:38] [INFO ] TLS connection established from ::ffff:192.168.22.1 port 55627: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384
+[20221102-09:07:38] [DEBUG] xrdp_00000358_wm_login_mode_event_00000001
+[20221102-09:07:38] [INFO ] Loading keymap file /etc/xrdp/km-0000040a.ini
+[20221102-09:07:38] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20221102-09:07:41] [DEBUG] xrdp_wm_log_msg: connecting to sesman ip 127.0.0.1 port 3350
+[20221102-09:07:41] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20221102-09:07:41] [DEBUG] xrdp_wm_log_msg: sending login info to session manager, please wait...
+[20221102-09:07:41] [DEBUG] return value from xrdp_mm_connect 0
+[20221102-09:07:41] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20221102-09:07:41] [DEBUG] xrdp_wm_log_msg: started connecting
+[20221102-09:07:42] [INFO ] lib_mod_log_peer: xrdp_pid=856 connected to X11rdp_pid=859 X11rdp_uid=1000 X11rdp_gid=1000 client_ip=::ffff:192.168.22.1 client_port=55627
+[20221102-09:07:42] [DEBUG] xrdp_wm_log_msg: connected ok
+[20221102-09:07:42] [DEBUG] xrdp_mm_connect_chansrv: chansrv connect successful
+[20221102-09:07:42] [DEBUG] Closed socket 18 (AF_INET6 ::1 port 48562)
+[20221102-09:07:42] [DEBUG] Closed socket 12 (AF_INET6 ::ffff:192.168.22.41 port 3389)
+[20221102-09:07:43] [DEBUG] xrdp_mm_module_cleanup
+[20221102-09:07:43] [DEBUG] Closed socket 19 (AF_UNIX)
+[20221102-09:07:43] [DEBUG] Closed socket 20 (AF_UNIX)
+[20221102-09:16:55] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-09:16:56] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-09:16:56] [INFO ] xrdp_listen_pp done
+[20221102-09:16:56] [DEBUG] Closed socket 7 (AF_INET6 :: port 3389)
+[20221102-09:16:58] [INFO ] starting xrdp with pid 534
+[20221102-09:16:58] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20221102-09:16:58] [INFO ] listening to port 3389 on 0.0.0.0
+[20221102-09:16:58] [INFO ] xrdp_listen_pp done
+[20221102-06:50:03] [DEBUG] libscp initialized
+[20221102-06:50:03] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-06:50:03] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-06:50:03] [INFO ] starting xrdp-sesman with pid 1202
+[20221102-06:50:03] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-06:51:28] [INFO ] A connection received from ::1 port 48354
+[20221102-06:51:28] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:51795 - socket: 12
+[20221102-06:51:28] [INFO ] starting Xorg session...
+[20221102-06:51:28] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-06:51:28] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-06:51:28] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-06:51:28] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:51:28] [INFO ] calling auth_start_session from pid 1405
+[20221102-06:51:28] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:51:28] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:51:29] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-06:51:29] [CORE ] waiting for window manager (pid 1406) to exit
+[20221102-06:51:30] [CORE ] window manager (pid 1406) did exit, cleaning up session
+[20221102-06:51:30] [INFO ] calling auth_stop_session and auth_end from pid 1405
+[20221102-06:51:30] [DEBUG] cleanup_sockets:
+[20221102-06:51:30] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-06:51:30] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-06:51:30] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-06:51:30] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 1405, ip ::ffff:192.168.22.1:51795 - socket: 12
+[20221102-06:52:19] [INFO ] A connection received from ::1 port 48796
+[20221102-06:52:19] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:51797 - socket: 12
+[20221102-06:52:19] [INFO ] starting Xorg session...
+[20221102-06:52:19] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-06:52:19] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-06:52:19] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-06:52:19] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:52:19] [INFO ] calling auth_start_session from pid 1513
+[20221102-06:52:19] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:52:19] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:52:19] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-06:52:19] [CORE ] waiting for window manager (pid 1514) to exit
+[20221102-06:52:20] [CORE ] window manager (pid 1514) did exit, cleaning up session
+[20221102-06:52:20] [INFO ] calling auth_stop_session and auth_end from pid 1513
+[20221102-06:52:20] [DEBUG] cleanup_sockets:
+[20221102-06:52:20] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-06:52:20] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-06:52:20] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-06:52:20] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 1513, ip ::ffff:192.168.22.1:51797 - socket: 12
+[20221102-06:53:04] [INFO ] shutting down sesman 1
+[20221102-06:53:04] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:53:09] [DEBUG] libscp initialized
+[20221102-06:53:09] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-06:53:09] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-06:53:09] [INFO ] starting xrdp-sesman with pid 1635
+[20221102-06:53:09] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-06:55:53] [INFO ] shutting down sesman 1
+[20221102-06:55:53] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:55:53] [DEBUG] libscp initialized
+[20221102-06:55:53] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-06:55:53] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-06:55:53] [INFO ] starting xrdp-sesman with pid 1717
+[20221102-06:55:53] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-06:56:02] [INFO ] A connection received from ::1 port 33864
+[20221102-06:56:02] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:64721 - socket: 12
+[20221102-06:56:02] [INFO ] starting Xorg session...
+[20221102-06:56:02] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-06:56:02] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-06:56:02] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-06:56:02] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:56:02] [INFO ] calling auth_start_session from pid 1730
+[20221102-06:56:02] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:56:02] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:56:02] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-06:56:02] [CORE ] waiting for window manager (pid 1731) to exit
+[20221102-06:56:03] [CORE ] window manager (pid 1731) did exit, cleaning up session
+[20221102-06:56:03] [INFO ] calling auth_stop_session and auth_end from pid 1730
+[20221102-06:56:03] [DEBUG] cleanup_sockets:
+[20221102-06:56:03] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-06:56:03] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-06:56:03] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-06:56:03] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 1730, ip ::ffff:192.168.22.1:64721 - socket: 12
+[20221102-06:56:44] [INFO ] shutting down sesman 1
+[20221102-06:56:44] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:57:24] [DEBUG] libscp initialized
+[20221102-06:57:24] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-06:57:24] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-06:57:24] [INFO ] starting xrdp-sesman with pid 1865
+[20221102-06:57:24] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-06:57:34] [INFO ] A connection received from ::1 port 56718
+[20221102-06:57:35] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:64796 - socket: 12
+[20221102-06:57:35] [INFO ] starting Xorg session...
+[20221102-06:57:35] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-06:57:35] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-06:57:35] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-06:57:35] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:57:35] [INFO ] calling auth_start_session from pid 1878
+[20221102-06:57:35] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:57:35] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:57:35] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-06:57:35] [CORE ] waiting for window manager (pid 1879) to exit
+[20221102-06:57:35] [CORE ] window manager (pid 1879) did exit, cleaning up session
+[20221102-06:57:35] [INFO ] calling auth_stop_session and auth_end from pid 1878
+[20221102-06:57:35] [DEBUG] cleanup_sockets:
+[20221102-06:57:35] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-06:57:35] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-06:57:35] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-06:57:35] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 1878, ip ::ffff:192.168.22.1:64796 - socket: 12
+[20221102-06:58:37] [INFO ] shutting down sesman 1
+[20221102-06:58:37] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:58:37] [DEBUG] libscp initialized
+[20221102-06:58:37] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-06:58:37] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-06:58:37] [INFO ] starting xrdp-sesman with pid 1977
+[20221102-06:58:37] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-06:58:52] [INFO ] shutting down sesman 1
+[20221102-06:58:52] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:58:52] [DEBUG] libscp initialized
+[20221102-06:58:52] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-06:58:52] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-06:58:52] [INFO ] starting xrdp-sesman with pid 1998
+[20221102-06:58:52] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-06:59:01] [INFO ] A connection received from ::1 port 49700
+[20221102-06:59:01] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:64802 - socket: 12
+[20221102-06:59:01] [INFO ] starting Xorg session...
+[20221102-06:59:01] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-06:59:01] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-06:59:01] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-06:59:01] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:59:01] [INFO ] calling auth_start_session from pid 2011
+[20221102-06:59:01] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-06:59:01] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-06:59:01] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-06:59:02] [CORE ] waiting for window manager (pid 2012) to exit
+[20221102-06:59:02] [CORE ] window manager (pid 2012) did exit, cleaning up session
+[20221102-06:59:02] [INFO ] calling auth_stop_session and auth_end from pid 2011
+[20221102-06:59:02] [DEBUG] cleanup_sockets:
+[20221102-06:59:02] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-06:59:02] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-06:59:02] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-06:59:02] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 2011, ip ::ffff:192.168.22.1:64802 - socket: 12
+[20221102-07:02:13] [INFO ] shutting down sesman 1
+[20221102-07:02:13] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:02:13] [DEBUG] libscp initialized
+[20221102-07:02:13] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-07:02:13] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-07:02:13] [INFO ] starting xrdp-sesman with pid 2137
+[20221102-07:02:13] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-07:03:13] [INFO ] A connection received from ::1 port 48106
+[20221102-07:03:13] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:64895 - socket: 12
+[20221102-07:03:13] [INFO ] starting Xorg session...
+[20221102-07:03:13] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-07:03:13] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-07:03:13] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-07:03:13] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:03:13] [INFO ] calling auth_start_session from pid 2168
+[20221102-07:03:13] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:03:13] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:03:13] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-07:03:13] [CORE ] waiting for window manager (pid 2169) to exit
+[20221102-07:03:14] [CORE ] window manager (pid 2169) did exit, cleaning up session
+[20221102-07:03:14] [INFO ] calling auth_stop_session and auth_end from pid 2168
+[20221102-07:03:14] [DEBUG] cleanup_sockets:
+[20221102-07:03:14] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-07:03:14] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-07:03:14] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-07:03:14] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 2168, ip ::ffff:192.168.22.1:64895 - socket: 12
+[20221102-07:04:33] [INFO ] shutting down sesman 1
+[20221102-07:04:33] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:04:33] [DEBUG] libscp initialized
+[20221102-07:04:33] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-07:04:33] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-07:04:34] [INFO ] starting xrdp-sesman with pid 2242
+[20221102-07:04:34] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-07:04:39] [INFO ] A connection received from ::1 port 60738
+[20221102-07:04:39] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:64940 - socket: 12
+[20221102-07:04:39] [INFO ] starting Xorg session...
+[20221102-07:04:39] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-07:04:39] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-07:04:39] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-07:04:39] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:04:39] [INFO ] calling auth_start_session from pid 2255
+[20221102-07:04:39] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:04:39] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:04:40] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-07:04:40] [CORE ] waiting for window manager (pid 2256) to exit
+[20221102-07:04:40] [CORE ] window manager (pid 2256) did exit, cleaning up session
+[20221102-07:04:40] [INFO ] calling auth_stop_session and auth_end from pid 2255
+[20221102-07:04:40] [DEBUG] cleanup_sockets:
+[20221102-07:04:40] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-07:04:40] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-07:04:40] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-07:04:40] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 2255, ip ::ffff:192.168.22.1:64940 - socket: 12
+[20221102-07:06:25] [INFO ] shutting down sesman 1
+[20221102-07:06:25] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:06:25] [DEBUG] libscp initialized
+[20221102-07:06:25] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-07:06:25] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-07:06:25] [INFO ] starting xrdp-sesman with pid 2330
+[20221102-07:06:25] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-07:06:33] [INFO ] A connection received from ::1 port 36484
+[20221102-07:06:34] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:64947 - socket: 12
+[20221102-07:06:34] [INFO ] starting Xorg session...
+[20221102-07:06:34] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-07:06:34] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-07:06:34] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-07:06:34] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:06:34] [INFO ] calling auth_start_session from pid 2343
+[20221102-07:06:34] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:06:34] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:06:34] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-07:06:34] [CORE ] waiting for window manager (pid 2344) to exit
+[20221102-07:06:34] [CORE ] window manager (pid 2344) did exit, cleaning up session
+[20221102-07:06:34] [INFO ] calling auth_stop_session and auth_end from pid 2343
+[20221102-07:06:34] [DEBUG] cleanup_sockets:
+[20221102-07:06:34] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-07:06:34] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-07:06:34] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-07:06:34] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 2343, ip ::ffff:192.168.22.1:64947 - socket: 12
+[20221102-07:15:38] [INFO ] A connection received from ::1 port 47248
+[20221102-07:15:38] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:65032 - socket: 12
+[20221102-07:15:38] [INFO ] starting Xorg session...
+[20221102-07:15:38] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-07:15:38] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-07:15:38] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-07:15:38] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:15:38] [INFO ] calling auth_start_session from pid 2765
+[20221102-07:15:38] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:15:38] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:15:38] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-07:15:39] [CORE ] waiting for window manager (pid 2766) to exit
+[20221102-07:16:17] [INFO ] shutting down sesman 1
+[20221102-07:16:17] [WARN ] receiving SIGHUP 1
+[20221102-07:16:17] [CORE ] window manager (pid 2766) did exit, cleaning up session
+[20221102-07:16:17] [INFO ] shutting down sesman 1
+[20221102-07:16:18] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:16:18] [INFO ] calling auth_stop_session and auth_end from pid 2765
+[20221102-07:16:18] [INFO ] shutting down sesman 1
+[20221102-07:16:18] [DEBUG] cleanup_sockets:
+[20221102-07:17:11] [DEBUG] libscp initialized
+[20221102-07:17:12] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-07:17:12] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-07:17:12] [INFO ] starting xrdp-sesman with pid 542
+[20221102-07:17:12] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-07:17:55] [INFO ] A connection received from ::1 port 44072
+[20221102-07:17:55] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:65082 - socket: 12
+[20221102-07:17:55] [INFO ] starting Xorg session...
+[20221102-07:17:55] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-07:17:55] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-07:17:55] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-07:17:55] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:17:55] [INFO ] calling auth_start_session from pid 971
+[20221102-07:17:55] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:17:55] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:17:55] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-07:17:55] [CORE ] waiting for window manager (pid 972) to exit
+[20221102-07:18:22] [INFO ] A connection received from ::1 port 35960
+[20221102-07:18:22] [INFO ] ++ reconnected session: username frenzoid, display :10.0, session_pid 971, ip ::ffff:192.168.22.1:65090 - socket: 12
+[20221102-07:18:22] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-07:21:04] [INFO ] shutting down sesman 1
+[20221102-07:21:04] [CORE ] window manager (pid 972) did exit, cleaning up session
+[20221102-07:21:04] [INFO ] calling auth_stop_session and auth_end from pid 971
+[20221102-07:21:05] [WARN ] receiving SIGHUP 1
+[20221102-07:21:05] [INFO ] shutting down sesman 1
+[20221102-07:21:05] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-07:21:05] [DEBUG] cleanup_sockets:
+[20221102-07:21:05] [INFO ] shutting down sesman 1
+[20221102-08:35:58] [DEBUG] libscp initialized
+[20221102-08:35:58] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-08:35:58] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-08:35:58] [INFO ] starting xrdp-sesman with pid 491
+[20221102-08:35:58] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-08:47:22] [DEBUG] libscp initialized
+[20221102-08:47:23] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-08:47:23] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-08:47:23] [INFO ] starting xrdp-sesman with pid 498
+[20221102-08:47:23] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-09:06:01] [INFO ] shutting down sesman 1
+[20221102-09:06:01] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-09:06:35] [DEBUG] libscp initialized
+[20221102-09:06:36] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-09:06:36] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-09:06:36] [INFO ] starting xrdp-sesman with pid 490
+[20221102-09:06:36] [INFO ] listening to port 3350 on 127.0.0.1
+[20221102-09:07:41] [INFO ] A connection received from ::1 port 48562
+[20221102-09:07:41] [INFO ] ++ created session (access granted): username frenzoid, ip ::ffff:192.168.22.1:55627 - socket: 12
+[20221102-09:07:41] [INFO ] starting Xorg session...
+[20221102-09:07:41] [DEBUG] Closed socket 9 (AF_INET6 :: port 5910)
+[20221102-09:07:41] [DEBUG] Closed socket 9 (AF_INET6 :: port 6010)
+[20221102-09:07:41] [DEBUG] Closed socket 9 (AF_INET6 :: port 6210)
+[20221102-09:07:41] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-09:07:41] [INFO ] calling auth_start_session from pid 857
+[20221102-09:07:41] [DEBUG] Closed socket 7 (AF_INET6 ::1 port 3350)
+[20221102-09:07:41] [DEBUG] Closed socket 8 (AF_INET6 ::1 port 3350)
+[20221102-09:07:41] [INFO ] /usr/lib/xorg/Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp -logfile .xorgxrdp.%s.log  
+[20221102-09:07:42] [CORE ] waiting for window manager (pid 858) to exit
+[20221102-09:07:42] [CORE ] window manager (pid 858) did exit, cleaning up session
+[20221102-09:07:42] [INFO ] calling auth_stop_session and auth_end from pid 857
+[20221102-09:07:42] [DEBUG] cleanup_sockets:
+[20221102-09:07:42] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_out_socket_10
+[20221102-09:07:42] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdp_chansrv_audio_in_socket_10
+[20221102-09:07:43] [DEBUG] cleanup_sockets: deleting /run/xrdp/sockdir/xrdpapi_10
+[20221102-09:07:43] [INFO ] ++ terminated session:  username frenzoid, display :10.0, session_pid 857, ip ::ffff:192.168.22.1:55627 - socket: 12
+[20221102-09:16:54] [DEBUG] libscp initialized
+[20221102-09:16:55] [DEBUG] Testing if xrdp-sesman can listen on 127.0.0.1 port 3350.
+[20221102-09:16:55] [DEBUG] Closed socket 5 (AF_INET6 ::1 port 3350)
+[20221102-09:16:55] [INFO ] starting xrdp-sesman with pid 504
+[20221102-09:16:55] [INFO ] listening to port 3350 on 127.0.0.1

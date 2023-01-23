@@ -1,0 +1,9 @@
+/var/log/boot.log.1:         Starting [0;1;39mvsftpd FTP server[0m...
+/var/log/boot.log.1:[[0;32m  OK  [0m] Started [0;1;39mvsftpd FTP server[0m.
+/var/log/dpkg.log.1:2022-11-25 09:38:07 install vsftpd:amd64 <none> 3.0.3-12+b1
+/var/log/dpkg.log.1:2022-11-25 09:38:07 status half-installed vsftpd:amd64 3.0.3-12+b1
+/var/log/dpkg.log.1:2022-11-25 09:38:07 status unpacked vsftpd:amd64 3.0.3-12+b1
+/var/log/dpkg.log.1:2022-11-25 09:38:07 configure vsftpd:amd64 3.0.3-12+b1 <none>
+/var/log/dpkg.log.1:2022-11-25 09:38:07 status unpacked vsftpd:amd64 3.0.3-12+b1
+/var/log/dpkg.log.1:2022-11-25 09:38:08 status half-configured vsftpd:amd64 3.0.3-12+b1
+/var/log/dpkg.log.1:2022-11-25 09:38:10 status installed vsftpd:amd64 3.0.3-12+b1

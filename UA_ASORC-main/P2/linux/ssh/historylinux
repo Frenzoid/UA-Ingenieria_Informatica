@@ -1,0 +1,22 @@
+   38  apt install openssh-server
+   85  history | grep ssh
+   87  history | grep ssh > historylinux
+   78  sudo nano /etc/ssh/sshd_config
+  223  mkdir ssh
+  225  cd ssh/
+  227  history | grep ssh
+  229  sudo history | grep ssh
+  231  sudo history | grep ssh >> historylinux 
+  232  history | grep ssh >> historylinux 
+  234  history | grep ssh >> historylinux 
+  243  history | grep ssh >> historylinux 
+   78  sudo nano /etc/ssh/sshd_config
+  223  mkdir ssh
+  225  cd ssh/
+  227  history | grep ssh
+  229  sudo history | grep ssh
+  231  sudo history | grep ssh >> historylinux 
+  232  history | grep ssh >> historylinux 
+  234  history | grep ssh >> historylinux 
+  243  history | grep ssh >> historylinux 
+  246  history | grep ssh >> historylinux 

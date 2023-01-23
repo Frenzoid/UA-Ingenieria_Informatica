@@ -1,0 +1,23 @@
+/var/log/apt/term.log:Selecting previously unselected package mdadm.
+/var/log/apt/term.log:Preparing to unpack .../mdadm_4.1-11_amd64.deb ...
+/var/log/apt/term.log:Unpacking mdadm (4.1-11) ...
+/var/log/apt/term.log:Setting up mdadm (4.1-11) ...
+/var/log/apt/term.log:Generating mdadm.conf... done.
+/var/log/apt/history.log:Commandline: apt-get install mdadm
+/var/log/apt/history.log:Install: mdadm:amd64 (4.1-11)
+/var/log/auth.log.1:Dec  2 19:39:15 debian sudo:     root : TTY=pts/1 ; PWD=/home/frenzoid ; USER=root ; COMMAND=/usr/bin/apt-get install mdadm
+/var/log/auth.log.1:Dec  2 19:40:41 debian sudo:     root : TTY=pts/1 ; PWD=/home/frenzoid ; USER=root ; COMMAND=/usr/bin/apt-get install mdadm
+/var/log/auth.log.1:Dec  2 19:42:06 debian sudo:     root : TTY=pts/1 ; PWD=/home/frenzoid ; USER=root ; COMMAND=/usr/bin/apt-get install mdadm
+/var/log/dpkg.log:2022-12-02 19:39:19 install mdadm:amd64 <none> 4.1-11
+/var/log/dpkg.log:2022-12-02 19:39:19 status half-installed mdadm:amd64 4.1-11
+/var/log/dpkg.log:2022-12-02 19:39:20 status unpacked mdadm:amd64 4.1-11
+/var/log/dpkg.log:2022-12-02 19:39:20 configure mdadm:amd64 4.1-11 <none>
+/var/log/dpkg.log:2022-12-02 19:39:20 status unpacked mdadm:amd64 4.1-11
+/var/log/dpkg.log:2022-12-02 19:39:20 status half-configured mdadm:amd64 4.1-11
+/var/log/dpkg.log:2022-12-02 19:39:31 status installed mdadm:amd64 4.1-11
+/var/log/installer/status:Package: mdadm-udeb
+/var/log/installer/status: The mdadm utility can be used to create, manage, and monitor MD
+/var/log/installer/status:Depends: cdebconf-udeb, di-utils (>= 1.16), md-modules, mdadm-udeb (>= 2.5.2), partman-base (>= 134)
+/var/log/installer/syslog:Nov 24 16:11:11 anna[2174]: DEBUG: retrieving mdadm-udeb 4.1-11
+/var/log/installer/syslog:Nov 24 16:15:49 md-devices: mdadm: No arrays found in config file or automatically
+/var/log/installer/syslog:Nov 24 17:29:09 in-target:   btrfs-progs f2fs-tools libblockdev-mdraid2 mdadm nilfs-tools reiserfsprogs

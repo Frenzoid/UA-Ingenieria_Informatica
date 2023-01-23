@@ -1,0 +1,37 @@
+# @Author: Frenzoid - ELVI MIHAI SABAU SABAU
+# @Description: Docker Compose para Node-RED y InfluxDB
+
+version: '3'
+services:
+  influxdb:
+    image: influxdb:latest
+    container_name: INFLUXDB_sERVER
+    restart: always
+    ports:
+      - 8086:8086
+    volumes:
+      - influxdb_vol:/var/lib/influxdb
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE: setup
+      - DOCKER_INFLUXDB_INIT_USERNAME: root
+      - DOCKER_INFLUXDB_INIT_PASSWORD: rootrootroot
+      - DOCKER_INFLUXDB_INIT_ORG: SIND
+      - DOCKER_INFLUXDB_INIT_BUCKET: SIND_B
+    networks:
+      - intranet
+
+  nodered:
+    image: nodered/node-red:latest
+    container_name: NODERED_SERVER
+    restart: always
+    ports:
+      - 1880:1880
+    volumes:
+      - nodered_vol:/data
+    networks:
+      - intranet
+
+networks:
+  default:
+    external: true
+    name: intranet

@@ -1,0 +1,1602 @@
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=www.google.es, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:18]   DNS unsupported rr_type=28
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:18]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:18]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:18] Connection 0: sending top queue packet
+[11/01/2022 10:46:18] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:18] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:18]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=www.google.es, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=www.google.es, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:19]   DNS unsupported rr_type=28
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:19]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:19]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:19] Connection 0: sending top queue packet
+[11/01/2022 10:46:19] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:19] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:19]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:20]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:20]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=www.google.es, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=www.google.es, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:23]   DNS unsupported rr_type=28
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:23] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:23] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:23]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:23]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:23]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:23] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=www.google.es, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:24]   DNS unsupported rr_type=28
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=www.google.es, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:24]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:24]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:24] Connection 0: sending top queue packet
+[11/01/2022 10:46:24] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:24] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:24]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:25]   DNS unsupported rr_type=28
+[11/01/2022 10:46:25]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=www.google.es, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=www.google.es, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:28]   DNS unsupported rr_type=28
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:28]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:28]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:28] Connection 0: sending top queue packet
+[11/01/2022 10:46:28] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:28] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:28]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:29]   DNS unsupported rr_type=28
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:29]   DNS unsupported rr_type=28
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:29]   DNS unsupported rr_type=28
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:29]   DNS unsupported rr_type=28
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=www.google.es, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:29]   DNS unsupported rr_type=28
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:29]   DNS unsupported rr_type=28
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:29]   DNS unsupported rr_type=28
+[11/01/2022 10:46:29]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:29] Connection 0: sending top queue packet
+[11/01/2022 10:46:29] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:29] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:29]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:29]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:30]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=www.google.es, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=www.google.es, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:33]   DNS unsupported rr_type=28
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:33]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:33]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:33] Connection 0: sending top queue packet
+[11/01/2022 10:46:33] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:33] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:33]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=www.google.es, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=browser.events.data.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dmd.metaservices.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1
+[11/01/2022 10:46:34]   DNS unsupported rr_type=28
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=go.microsoft.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=onedscolprdwus11.westus.cloudapp.azure.com, QTYPE=1, QCLASS=1
+[11/01/2022 10:46:34]   DNS host not found (Hostname unknown)
+[11/01/2022 10:46:34]   DNS request forwarded to 192.168.22.43
+[11/01/2022 10:46:34] Connection 0: sending top queue packet
+[11/01/2022 10:46:34] Adapter 2 has recognized an incoming DNS request
+[11/01/2022 10:46:34] DNS request QR=0, op=0, TC=0, RD=1, QDCOUNT=1, ANCOUNT=0, AUCOUNT=0, ADCOUNT=0
+[11/01/2022 10:46:34]   DNS QNAME=dns.msftncsi.com, QTYPE=28, QCLASS=1

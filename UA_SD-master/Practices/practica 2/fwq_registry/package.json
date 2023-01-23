@@ -1,0 +1,24 @@
+{
+  "name": "registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FWQ_Registry.js",
+  "scripts": {
+    "start": "node ./FWQ_Registry.js"
+  },
+  "author": "Frenzoid & ivansabater",
+  "license": "ISC",
+  "dependencies": {
+    "aes-encryption": "^1.0.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-boom": "^3.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "socket.io": "^2.4.1",
+    "socket.io-encrypt": "^0.2.1"
+  }
+}

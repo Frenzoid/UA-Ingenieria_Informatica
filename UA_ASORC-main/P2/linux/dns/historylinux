@@ -1,0 +1,25 @@
+  413  sudo iscsiadm -m node --targetname "iqn.2005-10.org.freenas.ctl:asorc-target" --portal 192.168.22.10 --login
+  414  sudo iscsiadm -m node --targetname "iqn.2005-10.org.freenas.ctl:asorc-target" --portal 192.168.22.10 --logout
+  437  sudo nano /etc/bind/named.conf
+  438  sudo nano /etc/bind/named.conf.options 
+  439  sudo nano /etc/bind/named.conf.local 
+  440  sudo nano /etc/bind/named.conf.default-zones 
+  447  sudo nano /etc/bind/named.conf.local 
+  448  sudo nano /etc/bind/named.conf.options 
+  449  sudo service named restart
+  450  sudo service named status
+  452  sudo nano /etc/bind/named.conf.options 
+  454  sudo service named restart
+  455  sudo service named status
+  461  sudo lsof -i | named
+  463  sudo nano /etc/bind/named.conf.options 
+  464  sudo service named restart
+  465  sudo service named status
+  475  sudo service named restart
+  487  sudo service named restart
+  506  sudo nano /etc/bind/named.conf.options 
+  507  sudo service named restart
+  508  sudo service named status
+  513  sudo nano /etc/bind/named.conf.options 
+  520  history | grep name
+  521  history | grep name > historylinux

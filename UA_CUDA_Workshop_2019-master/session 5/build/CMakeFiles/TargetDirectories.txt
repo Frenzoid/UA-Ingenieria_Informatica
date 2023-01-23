@@ -1,0 +1,3 @@
+C:/Users/EPS/Desktop/newfolde/CUDA-Workshop-2019/session 5/build/CMakeFiles/thrust_saxpy.dir
+C:/Users/EPS/Desktop/newfolde/CUDA-Workshop-2019/session 5/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/EPS/Desktop/newfolde/CUDA-Workshop-2019/session 5/build/CMakeFiles/ZERO_CHECK.dir

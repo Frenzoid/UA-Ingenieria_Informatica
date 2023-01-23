@@ -1,0 +1,112 @@
+                                  XGALAGA++
+
+XGalaga++ is a classic vertical scrolling shoot'em up. It requires no X Window
+extension and its window is freely resizable. It is inspired by XGalaga,
+but rewritten from scratch, except for the graphics.
+Home page: http://marc.mongenet.ch/OSS/XGalaga/
+
+
+COPYRIGHT
+
+© 2003, 2004, 2008, 2009, 2010, 2013, 2017 Marc Mongenet
+
+Xgalaga++ is free software, available under the terms of the GNU General
+Public License.
+
+Note:
+Graphic art copied from XGalaga 2.0.34, © 1995, 1998, Joe Rumsey.
+
+
+REQUIREMENTS
+
+- POSIX system
+- X11R6 +
+for development:
+- GNU Make
+- Standard C++ compiler
+- X11R6 XLibs dev libs (including Xpm v4 dev libs)
+
+
+INSTALL
+
+make all
+make install
+
+You may need to edit installation pathes in the Makefile.
+Note: The Makefile is a "Generic Makefiles" from
+http://marc.mongenet.ch/OSS/GenericMakefiles/.
+
+
+VERSIONS
+(2017-12-10) v0.9: Added key to change screen refresh rate
+                   Invisible mouse pointer
+                   One xlib call per frame optimized out
+(2013-10-15) v0.8.4: Fix missing include (thanks to nemysis)
+(2012-04-20) v0.8.3: Fix to compile on BSD (thanks to nemysis)
+(2010-12-09) v0.8.2: Fix to compile on 64-bit systems (thanks to Zbigniew Baniewski)
+(2009-09-23) v0.8.1: Fixed includes to compile with GCC 4.3.
+(2008-05-21) v0.8: -Os build option
+                   Update email & website
+                   Completed manual
+                   Less randomness in bonus distribution
+                   Save high scores date
+                   Draw less scrolling stars
+(2004-04-08) v0.7: Added multi-fire bonus
+                   Added three levels
+(2004-03-09) v0.6.1: Corrected a bug in high score display
+(2004-03-08) v0.6: Added XGAL_PSEUDO environment variable
+                   Player name always displayed in start menu & high scores
+                   Scrollable high scores
+(2004-01-19) v0.5: Added high scores
+                   Standardized the build/install make targets
+                   Created a Debian source package
+(2003-10-15) v0.4: More precise (shaped) sprite erasure
+                   Nicer start menu
+                   Many code cleanups & optimizations
+                   Created a binary (i386) Debian package
+                   Added a man page
+(2003-10-10) v0.3: Better difficulty progression, less dependent on window size
+                   Upgraded all levels, now they are 10 levels
+                   New default window size and choice of standard sizes
+                   Added a cheat key
+                   Corrected huge memory leak
+(2003-09-30) v0.2: Pseudo color visuals supported
+                   More precise sprites positioning
+                   Blueish player explosions
+(2003-09-27) v0.1: First release
+
+
+TODO
+
+Before 1.0
+- Add fire power bonus
+- Add solidity to aliens
+Sometime
+- Invisible cursor
+- High precision collision detection
+- Sound
+- Mouse/Joystisk/Joypad control
+- Multiplayer
+
+
+BUGS
+
+Know bugs
+- Sprite are erased before being drawn at a new position and erasure also
+  affects the background. Could be corrected with dual-buffering, but it
+  takes much more CPU time.
+- The scrolling is not _really_ smooth (I miss the Amiga :-)) However, it is
+  not worse than other X11 games.
+
+Please send bug reports and suggestions to marc@mongenet.ch.
+
+
+AUTHOR
+
+Marc Mongenet
+marc@mongenet.ch
+http://marc.mongenet.ch/
+I created this game because I was annoyed by bugs in XGalaga 2.0.34 and the
+source files were too difficult to modify. So I learned X11 (XLib) programming
+from Web tutorials and wrote this game.
+Of course, xgalaga++ is probably as buggy as the original XGalaga.

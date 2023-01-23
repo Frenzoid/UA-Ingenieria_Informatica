@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\EPS\Desktop\newfolde\CUDA-Workshop-2019\session 5\thrust_example.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\EPS\Desktop\newfolde\CUDA-Workshop-2019\session 5\CMakelists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\EPS\Desktop\newfolde\CUDA-Workshop-2019\session 5\build\CMakeFiles\thrust_saxpy.dir\$(Configuration)\thrust_saxpy_generated_thrust_example.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{A1235185-B606-312B-92A2-CBE521A5E3BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0BE8B2C9-B09C-36C1-99B5-6459CB6E43F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

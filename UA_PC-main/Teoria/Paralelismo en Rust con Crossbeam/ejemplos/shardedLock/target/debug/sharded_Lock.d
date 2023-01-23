@@ -1,0 +1,1 @@
+/home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/shardedLock/target/debug/sharded_Lock: /home/frenzoid/Documents/UA_PC/Teoria/Paralelismo\ en\ Rust\ con\ Crossbeam/ejemplos/shardedLock/main.rs

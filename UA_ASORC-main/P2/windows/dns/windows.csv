@@ -1,0 +1,24 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/6/2022 9:09:07 PM,Microsoft-Windows-DNS-Server-Service,2,None,The DNS server has started.
+Information,11/6/2022 9:09:06 PM,Microsoft-Windows-DNS-Server-Service,4,None,"The DNS server has finished the background loading and signing of zones. All zones are now available for DNS updates and zone transfers, as allowed by their individual zone configuration."
+Information,11/6/2022 9:09:06 PM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone TrustAnchors from file TrustAnchors.dns on server WIN-LQJ87IMDJA3. [virtualization instance: .].
+Information,11/6/2022 9:09:06 PM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone elvimihai.com from file elvimihai.com.dns on server WIN-LQJ87IMDJA3. [virtualization instance: .].
+Information,11/6/2022 9:09:06 PM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone 22.168.192.in-addr.arpa from file 22.168.192.in-addr.arpa.dns on server WIN-LQJ87IMDJA3. [virtualization instance: .].
+Warning,11/6/2022 9:09:04 PM,Microsoft-Windows-DNS-Server-Service,414,None,"The DNS server computer currently does not have a DNS domain name.  Its DNS name is a single-label host name with no domain (for example:  ""host"" rather than ""host.microsoft.com""). 
+ 
+You might have forgotten to configure a primary DNS domain for the server computer. 
+ 
+Because the DNS server has only a single-label name, all zones created will have default records (SOA and NS) created using only this single-label name for the server's host name.  This can lead to incorrect and failed referrals when clients and other DNS servers use these records to locate this server by name. 
+ 
+To correct this problem: 
+  1) Click Start, and then click Control Panel.
+  2) Open System and Maintenance , and then open System. 
+  3) Click Change Settings, and then click Change.  4) Click either Domain or Workgroup, and then type the name of the domain or  workgroup you want the computer to join; the domain or workgroup name will be used as your DNS domain name. 
+  5) When prompted, restart the computer.
+ 
+After the computer restarts, the DNS server will attempt to fix up default records, substituting the new DNS name of this server for the old single-label name.  However, you should review the zone's SOA and NS records to ensure that they now use the correct domain name of this server."
+Information,11/6/2022 9:09:01 PM,Microsoft-Windows-DNS-Server-Service,7693,None,The XfrScopeOptionValue has been set to 65433.  This option ID will be used to communicate the scope information during zone transfers via an OPT RR.
+Information,11/6/2022 9:00:38 PM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone elvimihai.com to file elvimihai.com.dns.
+Information,11/6/2022 8:58:04 PM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 22.168.192.in-addr.arpa to file 22.168.192.in-addr.arpa.dns.
+Information,11/6/2022 8:58:04 PM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone elvimihai.com to file elvimihai.com.dns.
+Information,11/6/2022 8:52:05 PM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone TrustAnchors to file TrustAnchors.dns.

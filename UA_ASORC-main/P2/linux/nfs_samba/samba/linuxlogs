@@ -1,0 +1,10 @@
+[2022/11/16 13:35:04.212988,  0] ../../source3/smbd/server.c:1784(main)
+  smbd version 4.13.13-Debian started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2022/11/16 13:35:05.131738,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2022/11/16 13:40:58.747353,  0] ../../source3/smbd/server.c:1784(main)
+  smbd version 4.13.13-Debian started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2022/11/16 13:40:58.763123,  0] ../../lib/util/become_daemon.c:135(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections

@@ -1,0 +1,28 @@
+   48  cat /var/lib/dhcp/dhclient.enp0s8.leases 
+   49  dhcpclient
+   58  cat /var/lib/dhcp/dhclient.enp0s8.leases 
+   62  cat /var/lib/dhcp/dhclient.enp0s8.leases 
+  173  sudo apt install isc-dhcp-server
+  189  sudo systemctl enable isc-dhcp-server
+  190  sudo systemctl restart isc-dhcp-server
+  192  sudo systemctl restart isc-dhcp-server
+  194  systemctl status isc-dhcp-server.service 
+  196  sudo nano /etc/default/dhcpd.conf
+  198  sudo systemctl restart isc-dhcp-server
+  201  sudo nano /etc/default/isc-dhcp-server 
+  202  sudo systemctl restart isc-dhcp-server
+  203  sudo nano /etc/default/isc-dhcp-server 
+  204  sudo systemctl restart isc-dhcp-server
+  205  cat /var/run/dhcpd.pid
+  206  rm /var/run/dhcpd.pid
+  207  sudo rm /var/run/dhcpd.pid
+  208  sudo systemctl restart isc-dhcp-server
+  212  sudo nano /etc/default/isc-dhcp-server 
+  213  sudo systemctl restart isc-dhcp-server
+  215  sudo nano /etc/default/isc-dhcp-server 
+  216  sudo systemctl restart isc-dhcp-server
+  217  sudo systemctl stop isc-dhcp-server
+  260  sudo service isc-dhcp-server start
+  305  mkdir dhcp
+  306  cd dhcp/
+  308  history | grep dhcp > historylinux 

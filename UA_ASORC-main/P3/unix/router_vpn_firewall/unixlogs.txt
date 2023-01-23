@@ -1,0 +1,1 @@
+/var/log/messages:Dec  2 15:12:30  kernel: ipfw2 (+ipv6) initialized, divert loadable, nat loadable, default to deny, logging disabled

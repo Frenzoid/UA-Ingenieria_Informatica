@@ -1,0 +1,16 @@
+   319	19:32	pkg install mysql80-server mysql80-client
+   320	19:33	cat /usr/local/etc/mysql/my.cnf
+   321	19:34	nano /usr/local/etc/mysql/my.cnf
+   322	19:36	service mysql-server enable
+   324	19:36	service mysql-server start
+   325	19:37	mysql -u root
+   326	19:45	mysql -u frenzoid -p clock.exe
+   327	19:45	mysql -u frenzoid
+   328	19:45	mysql -u frenzoid -p
+   333	19:48	lsof -i | grep sql
+   335	19:48	lsof -i | grep sql
+   348	19:52	lsof -i | grep sql
+   366	19:57	service mysql-server status
+   371	19:57	mkdir mysql
+   372	19:57	cd mysql/
+   374	19:58	history | grep sql > historyunix

@@ -1,0 +1,744 @@
+    1  su
+    2  ip a
+    3  ping www.google.es
+    4  ping 192.168.22.1
+    5  clear
+    6  su
+    7  ping www.google.es
+    8  cat /etc/resolv.conf 
+    9  poweroff
+   10  ip a
+   11  cat /etc/resolv.conf 
+   12  ifconfig
+   13  su
+   14  exit
+   15  ifconfig
+   16  su
+   17  sudo service networking restart
+   18  su
+   19  clear
+   20  sudo service networking restart
+   21  ip a
+   22  cat /etc/network/interfaces
+   23  sudo reboot
+   24  ip a
+   25  ping www.google.es
+   26  cat /etc/resolv.conf 
+   27  dig www.google.es
+   28  clear
+   29  ip a
+   30  clear
+   31  ip a
+   32  ping 192.168.22.43
+   33  clear
+   34  cat /etc/network/interfaces
+   35  sudo poweroff
+   36  ip a
+   37  su
+   38  sudo service networking restart
+   39  ip a
+   40  clear
+   41  sudo service networking restart
+   42  ip a
+   43  sudo service networking restart
+   44  ip a
+   45  sudo nano /etc/network/interfaces
+   46  CLEAR
+   47  clear
+   48  cat /var/lib/dhcp/dhclient.enp0s8.leases 
+   49  dhcpclient
+   50  clear
+   51  sudo apt install dhclient
+   52  clear
+   53  dhclient
+   54  /sbin/dhclient -r enp0s8 
+   55  ip a
+   56  sudo reboot
+   57  ip a
+   58  cat /var/lib/dhcp/dhclient.enp0s8.leases 
+   59  ping www.google.es
+   60  clear
+   61  ip a
+   62  cat /var/lib/dhcp/dhclient.enp0s8.leases 
+   63  sudo nano /etc/network/interfaces
+   64  sudo poweroff
+   65  sudo systemctl enable xrdp
+   66  clear
+   67  nano /etc/xrdp/startwm.sh 
+   68  sudo nano /etc/xrdp/startwm.sh 
+   69  sudo bash runasroot.sh 
+   70  ls
+   71  su
+   72  ls -l
+   73  sudo ./VBoxLinuxAdditions.run
+   74  sudo chmod 777 ./VBoxLinuxAdditions.run
+   75  ip a
+   76  ping www.google.es
+   77  clear
+   78  sudo nano /etc/ssh/sshd_config
+   79  clear
+   80  sudo apt install xrdp
+   81  sudo nano /etc/xrdp/startwm.sh 
+   82  sudo service xrdp enable
+   83  sudo service xrdp start
+   84  sesman
+   85  ip a
+   86  xrdp-sesman
+   87  xrdp-sesrun
+   88  xrdp-sesrun 0 frenzoid clock.exe 
+   89  clear
+   90  sudo service xrdp stop
+   91  sudo service xrdp start
+   92  sudo service xrdp status
+   93  sudo nano /etc/xrdp/xrdp.ini 
+   94  clear
+   95  sudo adduser xrdp ssl-cert
+   96  clear
+   97  sudo service xrdp restart
+   98  sudo service xrdp stop
+   99  sudo nano /etc/xrdp/startwm.sh 
+  100  sudo service xrdp start
+  101  cat /var/log/xrdp
+  102  cat /var/log/xrdp.log 
+  103  sudo cat /var/log/xrdp.log 
+  104  sudo cat /var/log/xrdp-sesman.log 
+  105  sudo service xrdp restart
+  106  sudo nano /etc/xrdp/startwm.sh 
+  107  sudo service xrdp restart
+  108  sudo nano /etc/xrdp/startwm.sh 
+  109  startxcfe4
+  110  startxfce4 
+  111  startx
+  112  startxfce4 
+  113  sudo nano /etc/xrdp/startwm.sh 
+  114  sudo service xrdp restart
+  115  clear
+  116  sudo last /var/log/xrdp.log 
+  117  sudo tail /var/log/xrdp.log 
+  118  sudo tail /var/log/xrdp-sesman.log 
+  119  sudo tail /var/log/xrdp.log 
+  120  sudo tail /var/log/xrdp-sesman.log 
+  121  sudo nano /etc/xrdp/startwm.sh 
+  122  sudo service xrdp restart
+  123  echo xfce4-session
+  124  echo xfce4-session > $HOME>.xsession
+  125  echo xfce4-session > $HOME/.xsession
+  126  chmod +x .xsession
+  127  sudo systemctl restart xrdp
+  128  clear
+  129  sudo tail /var/log/xrdp.log 
+  130  sudo cat /var/log/xrdp.log 
+  131  startx
+  132  startxfce4
+  133  xfce4-session
+  134  xfce4-session start
+  135  clear
+  136  exit
+  137  ip a
+  138  clear
+  139  sudo apt install tigervnc
+  140  sudo apt install tigervnc-scraping-server 
+  141  mkdir -p .vnc
+  142  vncpasswd 
+  143  ls
+  144  clear
+  145  mkdir scripts
+  146  nano scripts/startvnc.sh
+  147  clear
+  148  bash scripts/startvnc.sh 
+  149  ip a
+  150  bash scripts/startvnc.sh 
+  151  x0vncserver stop
+  152  x0vncserver -kill :0
+  153  vncpasswd 
+  154  bash scripts/startvnc.sh 
+  155  netstat -tnlp
+  156  sudo lsof -i
+  157  x0vncserver 
+  158  bash scripts/startvnc.sh -localhost ni
+  159  x0vncserver -kill :0
+  160  bash scripts/startvnc.sh -localhost no
+  161  sudo lsof -i
+  162  x0vncserver -kill :0
+  163  man x0vncserver 
+  164  nano scripts/startvnc.sh 
+  165  man x0vncserver 
+  166  nano scripts/startvnc.sh 
+  167  bash scripts/startvnc.sh -localhost no
+  168  nano scripts/startvnc.sh 
+  169  x0vncserver 
+  170  sudo lsof -i
+  171  x0vncserver -kill :0
+  172  x0vncserver -localhost no
+  173  sudo apt install isc-dhcp-server
+  174  ping www.google.es
+  175  clear
+  176  ip a
+  177  sudo service networking restart
+  178  sudo service networking stop
+  179  sudo service networking start
+  180  systemctl status networking.service 
+  181  ip a
+  182  sudo reboot
+  183  ip a
+  184  clear
+  185  ping www.google.es
+  186  clear
+  187  x0vncserver -localhost no
+  188  clear
+  189  exut
+  190  exit
+  191  sudo systemctl enable isc-dhcp-server
+  192  sudo systemctl restart isc-dhcp-server
+  193  journalctl -xe
+  194  sudo systemctl restart isc-dhcp-server
+  195  clear
+  196  systemctl status isc-dhcp-server.service 
+  197  journalctl -xe
+  198  sudo nano /etc/default/dhcpd.conf
+  199  ip a
+  200  sudo systemctl restart isc-dhcp-server
+  201  clear
+  202  journalctl -f
+  203  sudo nano /etc/default/isc-dhcp-server 
+  204  sudo systemctl restart isc-dhcp-server
+  205  sudo nano /etc/default/isc-dhcp-server 
+  206  sudo systemctl restart isc-dhcp-server
+  207  cat /var/run/dhcpd.pid
+  208  rm /var/run/dhcpd.pid
+  209  sudo rm /var/run/dhcpd.pid
+  210  sudo systemctl restart isc-dhcp-server
+  211  cat /var/log/syslog
+  212  sudo cat /var/log/syslog
+  213  ip a
+  214  sudo nano /etc/default/isc-dhcp-server 
+  215  sudo systemctl restart isc-dhcp-server
+  216  sudo cat /var/log/syslog
+  217  sudo nano /etc/default/isc-dhcp-server 
+  218  sudo systemctl restart isc-dhcp-server
+  219  sudo systemctl stop isc-dhcp-server
+  220  clear
+  221  x0vncserver -localhost no
+  222  sudo service xrdp status
+  223  clear
+  224  sudo service sshd status
+  225  sudo service isc-dhcpd status
+  226  sudo service isc-dhcp status
+  227  sudo service dhcpd status
+  228  sudo service isc-dhcp-server status
+  229  sudo service isc-dhcp-server start
+  230  clear
+  231  sudo service isc-dhcp-server status
+  232  clear
+  233  ls
+  234  x0vncserver -localhost no
+  235  clear
+  236  sudo apt update
+  237  clear
+  238  ip a
+  239  sudo service networking restart
+  240  sudo journalctr -xe
+  241  sudo journalctl -xe
+  242  cat /var/log/syslog
+  243  sudo cat /var/log/syslog
+  244  ip a
+  245  systemctl restart network.service
+  246  systemctl restart networking.service 
+  247  systemctl status networking.service 
+  248  journalctl -b -p err
+  249  systemctl restart networking.service 
+  250  xlwE
+  251  clear
+  252  ip a
+  253  cat /etc/network/interfaces
+  254  clear
+  255  systemctl restart networking.service 
+  256  systemctl status networking NetworkManager
+  257  systemctl restart NetworkManager
+  258  ip a
+  259  systemctl status networking NetworkManager
+  260  /sbin/ifup -a --read-environment
+  261  sudo /sbin/ifup -a --read-environment
+  262  cat /etc/network/interfaces
+  263  nano /etc/network/interfaces
+  264  sudo nano /etc/network/interfaces
+  265  systemctl restart networking.service 
+  266  sudo /sbin/ifup -a --read-environment
+  267  sudo nano /etc/network/interfaces
+  268  sudo /sbin/ifup -a --read-environment
+  269  sudo ip addr flush dev enp0s8
+  270  systemctl restart networking.service 
+  271  ip a
+  272  sudo ip addr flush dev enp0s3
+  273  systemctl restart networking.service 
+  274  ip a
+  275  sudo apt update
+  276  clear
+  277  sudo nano /etc/network/interfaces
+  278  systemctl restart networking.service 
+  279  sudo nano /etc/network/interfaces
+  280  systemctl restart networking.service 
+  281  sudo /sbin/ifup -a --read-environment
+  282  sudo ip addr flush dev enp0s8
+  283  sudo ip addr flush dev enp0s3
+  284  systemctl restart networking.service 
+  285  ip a
+  286  systemctl restart networking.service
+  287  ip a
+  288  sudo reboot
+  289  sudo service isc-dhcp-server start
+  290  exit
+  291  ip a
+  292  x0vncserver -localhost no
+  293  service isc-dhcp-server status
+  294  sudo service isc-dhcp-server status
+  295  clear
+  296  sudo service xrdp status
+  297  clear
+  298  sudo apt update
+  299  sudo apt install postgresql postgresql-contrib
+  300  clear
+  301  service postgresql status
+  302  sudo service postgresql status
+  303  sudo su postgres -C "createuser frenzoid"
+  304  sudo su postgres -c "createdb frenzoid"
+  305  sudo su postgres -c "createdb asorc"
+  306  sudo su -u postgres psql
+  307  sudo -u postgres psql
+  308  sudo -u postgres createuser frenzoid -P
+  309  sudo su postgres -c "deleteuser frenzoid"
+  310  sudo su postgres -c "deluser frenzoid"
+  311  sudo su -u postgres psql
+  312  sudo -u postgres psql
+  313  clear
+  314  sudo -u frenzoid psql
+  315  clear
+  316  sudo lsof -i
+  317  sudo nano /etc/postgresql/13/main/postgresql.conf 
+  318  sudo service postgresql restart
+  319  sudo service postgresql status
+  320  sudo lsof -i
+  321  netstat -tnpl
+  322  clear
+  323  ls
+  324  mkdir db
+  325  cd db/
+  326  clear
+  327  history | grep post
+  328  history | grep post > historylinux
+  329  cat /var/log/postgresql/postgresql-13-main.log 
+  330  sudo cat /var/log/postgresql/postgresql-13-main.log 
+  331  sudo cat /var/log/postgresql/postgresql-13-main.log  > linuxlogs
+  332  ls
+  333  clear
+  334  cd ..
+  335  ls
+  336  mkdir dbweb
+  337  mv webserver.js dbweb/
+  338  cd db
+  339  cd .
+  340  cd ..
+  341  cd dbweb/
+  342  clear
+  343  ls
+  344  npm init
+  345  sudo apt install npm node
+  346  sudo apt install npm nodejs
+  347  npm init
+  348  ls
+  349  npm i sequelize pg pg-hstore
+  350  nano webserver.js 
+  351  node webserver.js 
+  352  npm i express
+  353  node webserver.js 
+  354  clear
+  355  ls
+  356  cd ..
+  357  ls
+  358  mv dbweb/ webserverdb
+  359  clear
+  360  ls
+  361  clear
+  362  ip a
+  363  sudo service networking restart
+  364  clear
+  365  ip a
+  366  clear
+  367  sudo service sshd status
+  368  sudo service xrdp status
+  369  sudo service isc-dhcp-server status
+  370  sudo service isc-dhcp-server restart
+  371  sudo service isc-dhcp-server status
+  372  sudo service postgresql status
+  373  cd webserverdb/
+  374  node webserver.js 
+  375  clear
+  376  x0vncserver -localhost no
+  377  clear
+  378  cat webserver.js 
+  379  ip a
+  380  sudo lsof -i
+  381  clear
+  382  sudo nano /etc/postgresql/13/main/pg_hba.conf 
+  383  sudo nano /etc/postgresql/13/main/postgresql.conf 
+  384  sudo service postgresql restart
+  385  clear
+  386  sudo adduser frenzoid2
+  387  sudo service isc-dhcp-server status
+  388  sudo service postgresql status
+  389  sudo service xrdp status
+  390  cd scripts/
+  391  ls
+  392  cd ..
+  393  ls
+  394  cd webserverdb/
+  395  clear
+  396  l
+  397  ls
+  398  clear
+  399  sudo apt install open-iscsi
+  400  clear
+  401  sudo nanoe /etc/iscsi/iscsid.conf 
+  402  sudo nano /etc/iscsi/iscsid.conf 
+  403  sudo service open-iscsi start
+  404  sudo service open-iscsi restart
+  405  sudo pkg install iscsi
+  406  sudo apt install iscsi
+  407  clear
+  408  sudo apt search iscsi
+  409  sudo apt search iscsi*-*ini
+  410  clear
+  411  sudo iscsiadm -m discovery -t st -p 192.168.22.10
+  412  clear
+  413  sudo iscsiadm -m node --targetname "iqn.2005-10.org.freenas.ctl:asorc-target" --portal 192.168.22.10 --login
+  414  sudo iscsiadm -m node --targetname "iqn.2005-10.org.freenas.ctl:asorc-target" --portal 192.168.22.10 --logout
+  415  nano ../scripts/loginiscsi.sh
+  416  nano ../scripts/logoutiscsi.sh
+  417  cd ..
+  418  clear
+  419  bash scripts/loginiscsi.sh 
+  420  nano scripts/loginiscsi.sh 
+  421  bash scripts/loginiscsi.sh 
+  422  bash scripts/logoutiscsi.sh 
+  423  bash scripts/loginiscsi.sh 
+  424  cd /media/frenzoid/9C104FCF104FAF58/
+  425  ls
+  426  ls -l
+  427  mv hola.txt adios.txt
+  428  clear
+  429  cd -
+  430  clear
+  431  bash scripts/logoutiscsi.sh 
+  432  clear
+  433  ls
+  434  clear
+  435  sudo apt install bind9
+  436  clear
+  437  sudo nano /etc/bind/named.conf
+  438  sudo nano /etc/bind/named.conf.options 
+  439  sudo nano /etc/bind/named.conf.local 
+  440  sudo nano /etc/bind/named.conf.default-zones 
+  441  sudo nano /etc/bind/db.local 
+  442  sudo nano /etc/bind/db.0
+  443  sudo nano /etc/bind/db.empty 
+  444  sudo nano /etc/bind/db.elvimihai
+  445  sudo cp /etc/bind/db.local /etc/bind/db.elvimihai
+  446  sudo nano /etc/bind/db.elvimihai
+  447  sudo nano /etc/bind/named.conf.local 
+  448  sudo nano /etc/bind/named.conf.options 
+  449  sudo service named restart
+  450  sudo service named status
+  451  sudo nano /etc/resolv.conf 
+  452  sudo nano /etc/bind/named.conf.options 
+  453  clear
+  454  sudo service named restart
+  455  sudo service named status
+  456  cat /etc/resolv.conf 
+  457  nslookup elvimihai.com
+  458  cat /etc/resolv.conf 
+  459  sudo lsof -i 
+  460  sudo lsof -i | bind
+  461  sudo lsof -i | named
+  462  sudo lsof -i | grep bind
+  463  sudo nano /etc/bind/named.conf.options 
+  464  sudo service named restart
+  465  sudo service named status
+  466  sudo lsof -i | grep bind
+  467  nslookup elvimihai.com
+  468  sudo nnao /etc/resolv.conf 
+  469  sudo nano /etc/resolv.conf 
+  470  nslookup elvimihai.com
+  471  sudo nano /etc/resolv.conf 
+  472  nslookup elvimihai.com
+  473  sudo nano /etc/resolv.conf 
+  474  nslookup elvimihai.com
+  475  sudo service named restart
+  476  sudo nano /etc/resolv.conf 
+  477  ip a
+  478  sudo lsof -i | grep bind
+  479  sudo lsof -i | grep 56
+  480  ls
+  481  cd scripts/
+  482  ls
+  483  history | flush
+  484  history | grep flush
+  485  sudo service networking restart
+  486  nslookup elvimihai.com
+  487  sudo service named restart
+  488  nslookup elvimihai.com
+  489  nano /etc/resolv.conf 
+  490  sudo nano /etc/resolv.conf 
+  491  sudo service isc-dhcp-server stop
+  492  sudo service isc-dhcp-server status
+  493  sudo service isc-dhcp-server start
+  494  sudo service isc-dhcp-server status
+  495  sudo service isc-dhcp-server stop
+  496  sudo service isc-dhcp-server start
+  497  sudo nano /etc/network/interfaces
+  498  df -H
+  499  sudo service isc-dhcp-server status
+  500  sudo service networking restart
+  501  cat /etc/resolv.conf 
+  502  nslookup elvimihai.com
+  503  nslookup elvimihai.com 192.168.22.41
+  504  nslookup elvimihai.com 192.168.22.41#53
+  505  nslookup elvimihai.com 192.168.22.41#56
+  506  sudo nano /etc/bind/named.conf.options 
+  507  sudo service named restart
+  508  sudo service named status
+  509  nano /etc/resolv.conf 
+  510  sudo nano /etc/resolv.conf 
+  511  nslookup elvimihai.com
+  512  sudo nano /etc/resolv.conf 
+  513  sudo nano /etc/bind/named.conf.options 
+  514  cd scripts/
+  515  clear
+  516  ls
+  517  bash startvnc.sh 
+  518  clear
+  519  cat startvnc.sh 
+  520  nano startvnc.sh 
+  521  x0vncserver stop
+  522  x0vncserver -kill
+  523  clear
+  524  nano startvnc.sh 
+  525  bash startvnc.sh 
+  526  cat /etc/passwd
+  527  clear
+  528  ls
+  529  nslookup elvimihai.com 192.168.22.41
+  530  nslookup webmaster.elvimihai.com 192.168.22.41
+  531  nano /etc/bind/db.elvimihai 
+  532  nslookup www.elvimihai.com 192.168.22.41
+  533  nano /etc/bind/db.elvimihai 
+  534  clear
+  535  nslookup webmaster.elvimihai.com 192.168.22.41
+  536  nslookup elvimihai.com 192.168.22.41
+  537  clear
+  538  nslookup elvimihai.com 192.168.22.41
+  539  clear
+  540  cd ..
+  541  node webserverdb/webserver.js 
+  542  cler
+  543  clear
+  544  cd scripts/
+  545  clear
+  546  ls
+  547  clear
+  548  sudo apt install gparter
+  549  sudo apt install gparted
+  550  clear
+  551  DF -h
+  552  df -h
+  553  clear
+  554  df -h
+  555  sudo apt install cups-filters
+  556  sudo apt install cups-server-common 
+  557  sudo apt install cups-pdf
+  558  sudo service cupsd restart
+  559  sudo service cups restart
+  560  firefox
+  561  sudo service cups restart
+  562  sudo lpadmin -p cups-pdf -v cups-pdf:/ -E -P /usr/share/ppd/cups-pdf/CUPS-PDF.ppd
+  563  clear
+  564  lpstat -t
+  565  ls
+  566  LS
+  567  Ls
+  568  LS
+  569  ls
+  570  cd ..
+  571  ls
+  572  clear
+  573  lpstat -p -d
+  574  lp -d PDF testfile.txt
+  575  echo hello > textfile.txt
+  576  lp -d PDF testfile.txt
+  577  ls
+  578  lp -d PDF textfile.txt 
+  579  ls /var/spool/cups-pdf/ANONYMOUS/
+  580  ls
+  581  ls /var/spool/cups-pdf/ANONYMOUS/
+  582  clear
+  583  ls /var/spool/cups-pdf/SPOOL/
+  584  ls /var/spool/cups-pdf/ANONYMOUS/
+  585  LS
+  586  ks
+  587  ls
+  588  clear
+  589  ls PDF/
+  590  clear
+  591  sudo apt istall mupdf
+  592  sudo apt install mupdf
+  593  mupdf PDF/textfile.txt__PDF-job_1.pdf 
+  594  clear
+  595  nano /etc/cups/cupsd.conf
+  596  sudo nano /etc/cups/cupsd.conf
+  597  sudo service cups restart
+  598  firefox
+  599  sudo nano /etc/cups/cupsd.conf
+  600  sudo service cups restart
+  601  ls PDF/
+  602  ls /var/spool/cups-pdf/ANONYMOUS/
+  603  ls /var/spool/cups-pdf/SPOOL/
+  604  ls
+  605  rm textfile.txt 
+  606  clear
+  607  ls
+  608  ls PDF/
+  609  lc
+  610  ls
+  611  clear
+  612  echo "hola" > hola.txt
+  613  ls
+  614  history | grep ldap
+  615  history | grep lpd
+  616  history | grep l
+  617  history | grep lp
+  618  clear
+  619  ls
+  620  mv hola.txt scripts/
+  621  cd scripts/
+  622  clear
+  623  ls
+  624  nano printpdf.sh
+  625  clear
+  626  ls
+  627  bash printpdf.sh hola.txt 
+  628  ls
+  629  ls ../PDF/
+  630  cat ../PDF/hola.txt__oid_PDF-job_2.pdf 
+  631  mupdf ../PDF/hola.txt__oid_PDF-job_2.pdf 
+  632  clear
+  633  ls
+  634  lpadmin -p PDF -o printer-is-shared=true
+  635  lp -p PDF -o printer-is-shared=true
+  636  lpadmin -p PDF -o printer-is-shared=true
+  637  sudo apt install lpadmin
+  638  sudo apt install cups-client
+  639  lpoptions 
+  640  clear
+  641  /usr/sbin/lpadmin -p PDF -o printer-is-shared=true
+  642  clear
+  643  ls ../PDF/
+  644  ls /var/spool/cups-pdf/ANONYMOUS/
+  645  mupdf /var/spool/cups-pdf/ANONYMOUS/
+  646  mupdf /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_3.pdf 
+  647  clear
+  648  sudo apt install evince
+  649  evince /var/spool/cups-pdf/ANONYMOUS/P_303_241gina_de_prueba__ng_non-Linux-generated_files-job_3.pdf 
+  650  clear
+  651  ls
+  652  clear
+  653  cd ..
+  654  mkdir cups
+  655  clear
+  656  ls
+  657  cd cups/
+  658  clear
+  659  nslookup elvimihai.com 192.168.22.41
+  660  clear
+  661  history | grep cups && history | grep lp
+  662  history | grep cups && history | grep lp > historylinux
+  663  ls
+  664  clear
+  665  cat /var/log/cups/cups-pdf*
+  666  sudo cat /var/log/cups/cups-pdf*
+  667  sudo cat /var/log/cups/cups-pdf* > linuxlogs
+  668  ls
+  669  cd ..
+  670  cd scripts/
+  671  clear
+  672  history | grep flush
+  673  clear
+  674  cd /media/frenzoid/P1/
+  675  clear
+  676  apt install samba
+  677  sudo apt install samba
+  678  sudo nano /etc/samba/smb.conf 
+  679  pdbedit -a -u frenzoid
+  680  sudo pdbedit -a -u frenzoid
+  681  sudo service samba-ad-dc enable
+  682  sudo service samba-ad-dc restart
+  683  clear
+  684  service smbd enable
+  685  sudo service smbd enable
+  686  sudo service smbd restart
+  687  sudo service smbd status
+  688  ls
+  689  echo Hola :D > hola.txt
+  690  sudo echo Hola :D > hola.txt
+  691  sudo echo "Hola :D" > hola.txt
+  692  ls
+  693  su
+  694  root
+  695  su
+  696  ls
+  697  clear
+  698  sudo apt install nfs
+  699  sudo apt install nfs-kernel-server 
+  700  clear
+  701  mkdir /NFS
+  702  sudo mkdir /NFS
+  703  sudo chmod 777 /NFS/
+  704  clear
+  705  sudo nano /etc/exports 
+  706  echo "hola :D NFS" > /NFS/
+  707  echo "hola :D NFS" > /NFS/hola.txt
+  708  sudo service nfs-server restart
+  709  sudo service nfs-server status
+  710  sudo service nfs-server start
+  711  sudo nano /etc/exports 
+  712  sudo service nfs-server start
+  713  sudo service nfs-kernel-server restart
+  714  sudo service nfs-kernel-server status
+  715  journalctl 
+  716  clear
+  717  ls
+  718  clear
+  719  sudo nano /etc/exports 
+  720  sudo exportfs -a
+  721  sudo service nfs-kernel-server restart
+  722  sudo service nfs-kernel-server status
+  723  sudo service nfs-mountd restart
+  724  ip a
+  725  sudo service nfs-kernel-server status
+  726  sudo service nfs-kernel-server restart
+  727  sudo service nfs-kernel-server status
+  728  clear
+  729  sudo lsof -i
+  730  sudo lsof -i | grep nfs
+  731  sudo lsof -i | grep 111
+  732  sudo nano /etc/exports 
+  733  sudo systemctl restart nfs-server.service 
+  734  sudo systemctl status nfs-server.service 
+  735  clear
+  736  cd $HOME
+  737  cd scripts/
+  738  clear
+  739  cd ..
+  740  mkdir sambanfs
+  741  cd sambanfs/
+  742  clear
+  743  history
+  744  history > historylinux

@@ -1,0 +1,17 @@
+  155  netstat -tnlp
+  562  sudo lpadmin -p cups-pdf -v cups-pdf:/ -E -P /usr/share/ppd/cups-pdf/CUPS-PDF.ppd
+  564  lpstat -t
+  573  lpstat -p -d
+  574  lp -d PDF testfile.txt
+  576  lp -d PDF testfile.txt
+  578  lp -d PDF textfile.txt 
+  615  history | grep lpd
+  617  history | grep lp
+  634  lpadmin -p PDF -o printer-is-shared=true
+  635  lp -p PDF -o printer-is-shared=true
+  636  lpadmin -p PDF -o printer-is-shared=true
+  637  sudo apt install lpadmin
+  639  lpoptions 
+  641  /usr/sbin/lpadmin -p PDF -o printer-is-shared=true
+  661  history | grep cups && history | grep lp
+  662  history | grep cups && history | grep lp > historylinux

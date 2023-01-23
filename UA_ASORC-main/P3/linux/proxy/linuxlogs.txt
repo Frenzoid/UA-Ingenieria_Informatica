@@ -1,0 +1,568 @@
+/var/log/apt/term.log:Selecting previously unselected package squid-langpack.
+/var/log/apt/term.log:Preparing to unpack .../squid-langpack_20200403-1_all.deb ...
+/var/log/apt/term.log:Unpacking squid-langpack (20200403-1) ...
+/var/log/apt/term.log:Selecting previously unselected package squid-common.
+/var/log/apt/term.log:Preparing to unpack .../squid-common_4.13-10+deb11u2_all.deb ...
+/var/log/apt/term.log:Unpacking squid-common (4.13-10+deb11u2) ...
+/var/log/apt/term.log:Selecting previously unselected package squid.
+/var/log/apt/term.log:Preparing to unpack .../squid_4.13-10+deb11u2_amd64.deb ...
+/var/log/apt/term.log:Unpacking squid (4.13-10+deb11u2) ...
+/var/log/apt/term.log:Setting up squid-langpack (20200403-1) ...
+/var/log/apt/term.log:Setting up squid-common (4.13-10+deb11u2) ...
+/var/log/apt/term.log:Setting up squid (4.13-10+deb11u2) ...
+/var/log/apt/term.log:Setcap worked! /usr/lib/squid/pinger is not suid!
+/var/log/apt/term.log:Skipping profile in /etc/apparmor.d/disable: usr.sbin.squid
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/squid.service → /lib/systemd/system/squid.service.
+/var/log/apt/history.log:Commandline: apt install squid
+/var/log/apt/history.log:Install: libdbi-perl:amd64 (1.643-3+b1, automatic), squid:amd64 (4.13-10+deb11u2), squid-common:amd64 (4.13-10+deb11u2, automatic), squid-langpack:amd64 (20200403-1, automatic), libecap3:amd64 (1.0.1-3.2+b1, automatic)
+/var/log/daemon.log:Dec  6 15:19:39 debian squid[12511]: Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/daemon.log:Dec  6 15:19:39 debian squid[12511]: Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/daemon.log:Dec  6 15:19:39 debian squid[12511]: NETDB state saved; 0 entries, 1 msec
+/var/log/daemon.log:Dec  6 15:19:41 debian squid[12511]: Closing Pinger socket on FD 14
+/var/log/daemon.log:Dec  6 15:19:41 debian squid[12511]: storeDirWriteCleanLogs: Starting...
+/var/log/daemon.log:Dec  6 15:19:41 debian squid[12511]:   Finished.  Wrote 0 entries.
+/var/log/daemon.log:Dec  6 15:19:41 debian squid[12511]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/daemon.log:Dec  6 15:19:41 debian squid[12511]: logfileRotate: daemon:/var/log/squid/access.log
+/var/log/daemon.log:Dec  6 15:19:41 debian squid[12511]: logfileRotate: daemon:/var/log/squid/access.log
+/var/log/daemon.log:Dec  6 15:19:41 debian squid[12511]: Pinger socket opened on FD 13
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12035]: 2022/12/03 00:48:09| Created PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12037]: 2022/12/03 00:48:09 kid1| Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12037]: 2022/12/03 00:48:09 kid1| Creating missing swap directories
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12037]: 2022/12/03 00:48:09 kid1| No cache_dir stores are configured.
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12035]: 2022/12/03 00:48:09| Removing PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Service Name: squid
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Process ID 12040
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Process Roles: worker
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: With 1024 file descriptors available
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Initializing IP Cache...
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: DNS Socket created at [::], FD 5
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Store logging disabled
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Target number of buckets: 1008
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Using 8192 Store buckets
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Max Mem  size: 262144 KB
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Max Swap size: 0 KB
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Using Least Load store dir selection
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Finished loading MIME types and icons.
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: HTCP Disabled.
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Pinger socket opened on FD 14
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Squid plugin modules loaded: 0
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Adaptation support is off.
+/var/log/daemon.log.1:Dec  3 00:48:09 debian squid[12040]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/daemon.log.1:Dec  3 00:48:10 debian squid[12040]: storeLateRelease: released 0 objects
+/var/log/daemon.log.1:Dec  3 00:49:13 debian squid[12040]: Preparing for shutdown after 0 requests
+/var/log/daemon.log.1:Dec  3 00:49:13 debian squid[12040]: Waiting 30 seconds for active connections to finish
+/var/log/daemon.log.1:Dec  3 00:49:13 debian squid[12040]: Closing HTTP(S) port [::]:3128
+/var/log/daemon.log.1:Dec  3 00:49:13 debian squid[12040]: Closing Pinger socket on FD 14
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: NTLM authentication.
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: Negotiate authentication.
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: Digest authentication.
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: Basic authentication.
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Shutting down...
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: storeDirWriteCleanLogs: Starting...
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]:   Finished.  Wrote 0 entries.
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Open FD UNSTARTED    10 IPC UNIX STREAM Parent
+/var/log/daemon.log.1:Dec  3 00:49:44 debian squid[12040]: Squid Cache (Version 4.13): Exiting normally.
+/var/log/daemon.log.1:Dec  3 00:49:45 debian systemd[1]: squid.service: Succeeded.
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12462]: 2022/12/03 00:49:45| Created PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12464]: 2022/12/03 00:49:45 kid1| Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12464]: 2022/12/03 00:49:45 kid1| Creating missing swap directories
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12464]: 2022/12/03 00:49:45 kid1| No cache_dir stores are configured.
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12462]: 2022/12/03 00:49:45| Removing PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Service Name: squid
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Process ID 12467
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Process Roles: worker
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: With 1024 file descriptors available
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Initializing IP Cache...
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: DNS Socket created at [::], FD 5
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Store logging disabled
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Target number of buckets: 1008
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Using 8192 Store buckets
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Max Mem  size: 262144 KB
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Max Swap size: 0 KB
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Using Least Load store dir selection
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Finished loading MIME types and icons.
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: HTCP Disabled.
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Pinger socket opened on FD 14
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Squid plugin modules loaded: 0
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Adaptation support is off.
+/var/log/daemon.log.1:Dec  3 00:49:45 debian squid[12467]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/daemon.log.1:Dec  3 00:49:46 debian squid[12467]: storeLateRelease: released 0 objects
+/var/log/daemon.log.1:Dec  3 00:51:06 debian squid[12467]: Preparing for shutdown after 59 requests
+/var/log/daemon.log.1:Dec  3 00:51:06 debian squid[12467]: Waiting 30 seconds for active connections to finish
+/var/log/daemon.log.1:Dec  3 00:51:06 debian squid[12467]: Closing HTTP(S) port [::]:3128
+/var/log/daemon.log.1:Dec  3 00:51:06 debian squid[12467]: Closing Pinger socket on FD 14
+/var/log/daemon.log.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: NTLM authentication.
+/var/log/daemon.log.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: Negotiate authentication.
+/var/log/daemon.log.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: Digest authentication.
+/var/log/daemon.log.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: Basic authentication.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]: Shutting down...
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]: storeDirWriteCleanLogs: Starting...
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]:   Finished.  Wrote 0 entries.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]: Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]: Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]: Open FD UNSTARTED    10 IPC UNIX STREAM Parent
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12467]: Squid Cache (Version 4.13): Exiting normally.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian systemd[1]: squid.service: Succeeded.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12480]: 2022/12/03 00:51:38| Created PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12482]: 2022/12/03 00:51:38 kid1| Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12482]: 2022/12/03 00:51:38 kid1| Creating missing swap directories
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12482]: 2022/12/03 00:51:38 kid1| No cache_dir stores are configured.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12480]: 2022/12/03 00:51:38| Removing PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Service Name: squid
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Process ID 12485
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Process Roles: worker
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: With 1024 file descriptors available
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Initializing IP Cache...
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: DNS Socket created at [::], FD 5
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Store logging disabled
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Target number of buckets: 1008
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Using 8192 Store buckets
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Max Mem  size: 262144 KB
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Max Swap size: 0 KB
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Using Least Load store dir selection
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Finished loading MIME types and icons.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: HTCP Disabled.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Pinger socket opened on FD 14
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Squid plugin modules loaded: 0
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Adaptation support is off.
+/var/log/daemon.log.1:Dec  3 00:51:38 debian squid[12485]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/daemon.log.1:Dec  3 00:51:39 debian squid[12485]: storeLateRelease: released 0 objects
+/var/log/daemon.log.1:Dec  3 00:52:25 debian squid[12485]: Preparing for shutdown after 53 requests
+/var/log/daemon.log.1:Dec  3 00:52:25 debian squid[12485]: Waiting 30 seconds for active connections to finish
+/var/log/daemon.log.1:Dec  3 00:52:25 debian squid[12485]: Closing HTTP(S) port [::]:3128
+/var/log/daemon.log.1:Dec  3 00:52:25 debian squid[12485]: Closing Pinger socket on FD 14
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: NTLM authentication.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: Negotiate authentication.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: Digest authentication.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: Basic authentication.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Shutting down...
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: storeDirWriteCleanLogs: Starting...
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]:   Finished.  Wrote 0 entries.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Open FD UNSTARTED    10 IPC UNIX STREAM Parent
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12485]: Squid Cache (Version 4.13): Exiting normally.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian systemd[1]: squid.service: Succeeded.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12506]: 2022/12/03 00:52:56| Created PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12508]: 2022/12/03 00:52:56 kid1| Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12508]: 2022/12/03 00:52:56 kid1| Creating missing swap directories
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12508]: 2022/12/03 00:52:56 kid1| No cache_dir stores are configured.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12506]: 2022/12/03 00:52:56| Removing PID file (/run/squid.pid)
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Service Name: squid
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Process ID 12511
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Process Roles: worker
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: With 1024 file descriptors available
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Initializing IP Cache...
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: DNS Socket created at [::], FD 5
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Adding domain home from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Store logging disabled
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Target number of buckets: 1008
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Using 8192 Store buckets
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Max Mem  size: 262144 KB
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Max Swap size: 0 KB
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Using Least Load store dir selection
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Set Current Directory to /var/spool/squid
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Finished loading MIME types and icons.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: HTCP Disabled.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Pinger socket opened on FD 14
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Squid plugin modules loaded: 0
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Adaptation support is off.
+/var/log/daemon.log.1:Dec  3 00:52:56 debian squid[12511]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/daemon.log.1:Dec  3 00:52:57 debian squid[12511]: storeLateRelease: released 0 objects
+/var/log/daemon.log.1:Dec  3 04:08:19 debian squid[12511]: Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/daemon.log.1:Dec  3 04:08:19 debian squid[12511]: Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/daemon.log.1:Dec  3 04:08:19 debian squid[12511]: NETDB state saved; 0 entries, 2 msec
+/var/log/daemon.log.1:Dec  4 02:24:22 debian squid[12511]: Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/daemon.log.1:Dec  4 02:24:22 debian squid[12511]: Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/daemon.log.1:Dec  4 02:24:22 debian squid[12511]: NETDB state saved; 0 entries, 2 msec
+/var/log/dpkg.log:2022-12-03 00:48:02 install squid-langpack:all <none> 20200403-1
+/var/log/dpkg.log:2022-12-03 00:48:02 status half-installed squid-langpack:all 20200403-1
+/var/log/dpkg.log:2022-12-03 00:48:06 status unpacked squid-langpack:all 20200403-1
+/var/log/dpkg.log:2022-12-03 00:48:06 install squid-common:all <none> 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:06 status half-installed squid-common:all 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:06 status unpacked squid-common:all 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:07 install squid:amd64 <none> 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:07 status half-installed squid:amd64 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:08 status unpacked squid:amd64 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:08 configure squid-langpack:all 20200403-1 <none>
+/var/log/dpkg.log:2022-12-03 00:48:08 status unpacked squid-langpack:all 20200403-1
+/var/log/dpkg.log:2022-12-03 00:48:08 status half-configured squid-langpack:all 20200403-1
+/var/log/dpkg.log:2022-12-03 00:48:08 status installed squid-langpack:all 20200403-1
+/var/log/dpkg.log:2022-12-03 00:48:08 configure squid-common:all 4.13-10+deb11u2 <none>
+/var/log/dpkg.log:2022-12-03 00:48:08 status unpacked squid-common:all 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:08 status half-configured squid-common:all 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:08 status installed squid-common:all 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:08 configure squid:amd64 4.13-10+deb11u2 <none>
+/var/log/dpkg.log:2022-12-03 00:48:08 status unpacked squid:amd64 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:08 status half-configured squid:amd64 4.13-10+deb11u2
+/var/log/dpkg.log:2022-12-03 00:48:09 status installed squid:amd64 4.13-10+deb11u2
+/var/log/messages.1:Dec  3 00:48:09 debian squid[12035]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:48:09 debian squid[12035]: Squid Parent: (squid-1) process 12037 started
+/var/log/messages.1:Dec  3 00:48:09 debian squid[12035]: Squid Parent: squid-1 process 12037 exited with status 0
+/var/log/messages.1:Dec  3 00:48:09 debian squid[12038]: Created PID file (/run/squid.pid)
+/var/log/messages.1:Dec  3 00:48:09 debian squid[12038]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:48:09 debian squid[12038]: Squid Parent: (squid-1) process 12040 started
+/var/log/messages.1:Dec  3 00:49:44 debian squid[12038]: Squid Parent: squid-1 process 12040 exited with status 0
+/var/log/messages.1:Dec  3 00:49:45 debian squid[12038]: Removing PID file (/run/squid.pid)
+/var/log/messages.1:Dec  3 00:49:45 debian squid[12462]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:49:45 debian squid[12462]: Squid Parent: (squid-1) process 12464 started
+/var/log/messages.1:Dec  3 00:49:45 debian squid[12462]: Squid Parent: squid-1 process 12464 exited with status 0
+/var/log/messages.1:Dec  3 00:49:45 debian squid[12465]: Created PID file (/run/squid.pid)
+/var/log/messages.1:Dec  3 00:49:45 debian squid[12465]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:49:45 debian squid[12465]: Squid Parent: (squid-1) process 12467 started
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12465]: Squid Parent: squid-1 process 12467 exited with status 0
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12465]: Removing PID file (/run/squid.pid)
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12480]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12480]: Squid Parent: (squid-1) process 12482 started
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12480]: Squid Parent: squid-1 process 12482 exited with status 0
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12483]: Created PID file (/run/squid.pid)
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12483]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:51:38 debian squid[12483]: Squid Parent: (squid-1) process 12485 started
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12483]: Squid Parent: squid-1 process 12485 exited with status 0
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12483]: Removing PID file (/run/squid.pid)
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12506]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12506]: Squid Parent: (squid-1) process 12508 started
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12506]: Squid Parent: squid-1 process 12508 exited with status 0
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12509]: Created PID file (/run/squid.pid)
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12509]: Squid Parent: will start 1 kids
+/var/log/messages.1:Dec  3 00:52:56 debian squid[12509]: Squid Parent: (squid-1) process 12511 started
+/var/log/squid/cache.log:2022/12/06 15:19:41| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log:2022/12/06 15:19:41 kid1| logfileRotate: daemon:/var/log/squid/access.log
+/var/log/squid/cache.log:2022/12/06 15:19:41 kid1| logfileRotate: daemon:/var/log/squid/access.log
+/var/log/squid/access.log.1:1670025113.543      0 192.168.22.1 TCP_DENIED/403 4225 GET http://debian:3128/squid-internal-static/icons/SN.png - HIER_NONE/- text/html
+/var/log/squid/access.log.1:1670025113.548      1 192.168.22.1 TCP_DENIED/403 4508 GET http://debian:3128/squid-internal-static/icons/SN.png - HIER_NONE/- text/html
+/var/log/squid/cache.log.1:2022/12/03 00:48:09| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:48:09 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:48:09| Removing PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:48:09| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:48:09 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:48:09 kid1| Service Name: squid
+/var/log/squid/cache.log.1:2022/12/03 00:48:09 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:48:09 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:48:09 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:49:44 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:49:44 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:49:45| Removing PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:49:45| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:49:45 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:49:45| Removing PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:49:45| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:49:45 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:49:45 kid1| Service Name: squid
+/var/log/squid/cache.log.1:2022/12/03 00:49:45 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:49:45 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:49:45 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:51:38| Removing PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:51:38| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:51:38| Removing PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:51:38| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Service Name: squid
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:51:38 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:52:56| Removing PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:52:56| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:52:56| Removing PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:52:56| Created PID file (/run/squid.pid)
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Service Name: squid
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/squid/cache.log.1:2022/12/03 00:52:56 kid1| Set Current Directory to /var/spool/squid
+/var/log/squid/cache.log.1:2022/12/03 04:08:19 kid1| Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/squid/cache.log.1:2022/12/03 04:08:19 kid1| Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/squid/cache.log.1:2022/12/04 02:24:22 kid1| Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/squid/cache.log.1:2022/12/04 02:24:22 kid1| Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/squid/cache.log.1:2022/12/06 15:19:39 kid1| Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/squid/cache.log.1:2022/12/06 15:19:39 kid1| Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/syslog:Dec  6 15:19:39 debian squid[12511]: Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/syslog:Dec  6 15:19:39 debian squid[12511]: Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/syslog:Dec  6 15:19:39 debian squid[12511]: NETDB state saved; 0 entries, 1 msec
+/var/log/syslog:Dec  6 15:19:41 debian squid[12511]: Closing Pinger socket on FD 14
+/var/log/syslog:Dec  6 15:19:41 debian squid[12511]: storeDirWriteCleanLogs: Starting...
+/var/log/syslog:Dec  6 15:19:41 debian squid[12511]:   Finished.  Wrote 0 entries.
+/var/log/syslog:Dec  6 15:19:41 debian squid[12511]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/syslog:Dec  6 15:19:41 debian squid[12511]: logfileRotate: daemon:/var/log/squid/access.log
+/var/log/syslog:Dec  6 15:19:41 debian squid[12511]: logfileRotate: daemon:/var/log/squid/access.log
+/var/log/syslog:Dec  6 15:19:41 debian squid[12511]: Pinger socket opened on FD 13
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12035]: 2022/12/03 00:48:09| Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12035]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12035]: Squid Parent: (squid-1) process 12037 started
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12037]: 2022/12/03 00:48:09 kid1| Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12037]: 2022/12/03 00:48:09 kid1| Creating missing swap directories
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12037]: 2022/12/03 00:48:09 kid1| No cache_dir stores are configured.
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12035]: Squid Parent: squid-1 process 12037 exited with status 0
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12035]: 2022/12/03 00:48:09| Removing PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12038]: Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12038]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12038]: Squid Parent: (squid-1) process 12040 started
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Service Name: squid
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Process ID 12040
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Process Roles: worker
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: With 1024 file descriptors available
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Initializing IP Cache...
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: DNS Socket created at [::], FD 5
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Store logging disabled
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Target number of buckets: 1008
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Using 8192 Store buckets
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Max Mem  size: 262144 KB
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Max Swap size: 0 KB
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Using Least Load store dir selection
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Finished loading MIME types and icons.
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: HTCP Disabled.
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Pinger socket opened on FD 14
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Squid plugin modules loaded: 0
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Adaptation support is off.
+/var/log/syslog.1:Dec  3 00:48:09 debian squid[12040]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/syslog.1:Dec  3 00:48:10 debian squid[12040]: storeLateRelease: released 0 objects
+/var/log/syslog.1:Dec  3 00:49:13 debian squid[12040]: Preparing for shutdown after 0 requests
+/var/log/syslog.1:Dec  3 00:49:13 debian squid[12040]: Waiting 30 seconds for active connections to finish
+/var/log/syslog.1:Dec  3 00:49:13 debian squid[12040]: Closing HTTP(S) port [::]:3128
+/var/log/syslog.1:Dec  3 00:49:13 debian squid[12040]: Closing Pinger socket on FD 14
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: NTLM authentication.
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: Negotiate authentication.
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: Digest authentication.
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Shutdown: Basic authentication.
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Shutting down...
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: storeDirWriteCleanLogs: Starting...
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]:   Finished.  Wrote 0 entries.
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Open FD UNSTARTED    10 IPC UNIX STREAM Parent
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12040]: Squid Cache (Version 4.13): Exiting normally.
+/var/log/syslog.1:Dec  3 00:49:44 debian squid[12038]: Squid Parent: squid-1 process 12040 exited with status 0
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12038]: Removing PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:49:45 debian systemd[1]: squid.service: Succeeded.
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12462]: 2022/12/03 00:49:45| Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12462]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12462]: Squid Parent: (squid-1) process 12464 started
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12464]: 2022/12/03 00:49:45 kid1| Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12464]: 2022/12/03 00:49:45 kid1| Creating missing swap directories
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12464]: 2022/12/03 00:49:45 kid1| No cache_dir stores are configured.
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12462]: Squid Parent: squid-1 process 12464 exited with status 0
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12462]: 2022/12/03 00:49:45| Removing PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12465]: Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12465]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12465]: Squid Parent: (squid-1) process 12467 started
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Service Name: squid
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Process ID 12467
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Process Roles: worker
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: With 1024 file descriptors available
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Initializing IP Cache...
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: DNS Socket created at [::], FD 5
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Store logging disabled
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Target number of buckets: 1008
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Using 8192 Store buckets
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Max Mem  size: 262144 KB
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Max Swap size: 0 KB
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Using Least Load store dir selection
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Finished loading MIME types and icons.
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: HTCP Disabled.
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Pinger socket opened on FD 14
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Squid plugin modules loaded: 0
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Adaptation support is off.
+/var/log/syslog.1:Dec  3 00:49:45 debian squid[12467]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/syslog.1:Dec  3 00:49:46 debian squid[12467]: storeLateRelease: released 0 objects
+/var/log/syslog.1:Dec  3 00:51:06 debian squid[12467]: Preparing for shutdown after 59 requests
+/var/log/syslog.1:Dec  3 00:51:06 debian squid[12467]: Waiting 30 seconds for active connections to finish
+/var/log/syslog.1:Dec  3 00:51:06 debian squid[12467]: Closing HTTP(S) port [::]:3128
+/var/log/syslog.1:Dec  3 00:51:06 debian squid[12467]: Closing Pinger socket on FD 14
+/var/log/syslog.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: NTLM authentication.
+/var/log/syslog.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: Negotiate authentication.
+/var/log/syslog.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: Digest authentication.
+/var/log/syslog.1:Dec  3 00:51:37 debian squid[12467]: Shutdown: Basic authentication.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]: Shutting down...
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]: storeDirWriteCleanLogs: Starting...
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]:   Finished.  Wrote 0 entries.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]: Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]: Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]: Open FD UNSTARTED    10 IPC UNIX STREAM Parent
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12467]: Squid Cache (Version 4.13): Exiting normally.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12465]: Squid Parent: squid-1 process 12467 exited with status 0
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12465]: Removing PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:51:38 debian systemd[1]: squid.service: Succeeded.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12480]: 2022/12/03 00:51:38| Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12480]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12480]: Squid Parent: (squid-1) process 12482 started
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12482]: 2022/12/03 00:51:38 kid1| Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12482]: 2022/12/03 00:51:38 kid1| Creating missing swap directories
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12482]: 2022/12/03 00:51:38 kid1| No cache_dir stores are configured.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12480]: Squid Parent: squid-1 process 12482 exited with status 0
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12480]: 2022/12/03 00:51:38| Removing PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12483]: Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12483]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12483]: Squid Parent: (squid-1) process 12485 started
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Service Name: squid
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Process ID 12485
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Process Roles: worker
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: With 1024 file descriptors available
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Initializing IP Cache...
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: DNS Socket created at [::], FD 5
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Store logging disabled
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Target number of buckets: 1008
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Using 8192 Store buckets
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Max Mem  size: 262144 KB
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Max Swap size: 0 KB
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Using Least Load store dir selection
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Finished loading MIME types and icons.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: HTCP Disabled.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Pinger socket opened on FD 14
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Squid plugin modules loaded: 0
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Adaptation support is off.
+/var/log/syslog.1:Dec  3 00:51:38 debian squid[12485]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/syslog.1:Dec  3 00:51:39 debian squid[12485]: storeLateRelease: released 0 objects
+/var/log/syslog.1:Dec  3 00:52:25 debian squid[12485]: Preparing for shutdown after 53 requests
+/var/log/syslog.1:Dec  3 00:52:25 debian squid[12485]: Waiting 30 seconds for active connections to finish
+/var/log/syslog.1:Dec  3 00:52:25 debian squid[12485]: Closing HTTP(S) port [::]:3128
+/var/log/syslog.1:Dec  3 00:52:25 debian squid[12485]: Closing Pinger socket on FD 14
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: NTLM authentication.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: Negotiate authentication.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: Digest authentication.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Shutdown: Basic authentication.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Shutting down...
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: storeDirWriteCleanLogs: Starting...
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]:   Finished.  Wrote 0 entries.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]:   Took 0.00 seconds (  0.00 entries/sec).
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Open FD UNSTARTED    10 IPC UNIX STREAM Parent
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12485]: Squid Cache (Version 4.13): Exiting normally.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12483]: Squid Parent: squid-1 process 12485 exited with status 0
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12483]: Removing PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:52:56 debian systemd[1]: squid.service: Succeeded.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12506]: 2022/12/03 00:52:56| Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12506]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12506]: Squid Parent: (squid-1) process 12508 started
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12508]: 2022/12/03 00:52:56 kid1| Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12508]: 2022/12/03 00:52:56 kid1| Creating missing swap directories
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12508]: 2022/12/03 00:52:56 kid1| No cache_dir stores are configured.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12506]: Squid Parent: squid-1 process 12508 exited with status 0
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12506]: 2022/12/03 00:52:56| Removing PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12509]: Created PID file (/run/squid.pid)
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12509]: Squid Parent: will start 1 kids
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12509]: Squid Parent: (squid-1) process 12511 started
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Starting Squid Cache version 4.13 for x86_64-pc-linux-gnu...
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Service Name: squid
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Process ID 12511
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Process Roles: worker
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: With 1024 file descriptors available
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Initializing IP Cache...
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: DNS Socket created at [::], FD 5
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: DNS Socket created at 0.0.0.0, FD 9
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Adding domain home from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Adding nameserver 192.168.1.1 from /etc/resolv.conf
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Store logging disabled
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Swap maxSize 0 + 262144 KB, estimated 20164 objects
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Target number of buckets: 1008
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Using 8192 Store buckets
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Max Mem  size: 262144 KB
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Max Swap size: 0 KB
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Using Least Load store dir selection
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Set Current Directory to /var/spool/squid
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Finished loading MIME types and icons.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: HTCP Disabled.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Pinger socket opened on FD 14
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Squid plugin modules loaded: 0
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Adaptation support is off.
+/var/log/syslog.1:Dec  3 00:52:56 debian squid[12511]: Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 12 flags=9
+/var/log/syslog.1:Dec  3 00:52:57 debian squid[12511]: storeLateRelease: released 0 objects
+/var/log/syslog.1:Dec  3 04:08:19 debian squid[12511]: Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/syslog.1:Dec  3 04:08:19 debian squid[12511]: Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/syslog.1:Dec  3 04:08:19 debian squid[12511]: NETDB state saved; 0 entries, 2 msec
+/var/log/syslog.1:Dec  4 02:24:22 debian squid[12511]: Logfile: opening log stdio:/var/spool/squid/netdb.state
+/var/log/syslog.1:Dec  4 02:24:22 debian squid[12511]: Logfile: closing log stdio:/var/spool/squid/netdb.state
+/var/log/syslog.1:Dec  4 02:24:22 debian squid[12511]: NETDB state saved; 0 entries, 2 msec

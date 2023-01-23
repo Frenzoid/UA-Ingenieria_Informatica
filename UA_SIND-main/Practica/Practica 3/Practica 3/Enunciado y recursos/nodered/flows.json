@@ -1,0 +1,2642 @@
+[
+    {
+        "id": "e992ad053f548ee7",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9b3d3e686b1d3b92",
+        "type": "mqtt-broker",
+        "name": "OLDBOX",
+        "broker": "oldbox.cloud",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "a8f7b334d67763da",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Casa",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "103f0bee0efb1f63",
+        "type": "ui_tab",
+        "name": "PANEL PRINCIPAL",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "aef820bea3a31732",
+        "type": "mqtt-broker",
+        "name": "CLASE",
+        "broker": "192.168.5.150",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "3",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d0eaaa36e7f16f3a",
+        "type": "mqtt-broker",
+        "name": "LOCAL",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d5930dbe2d642f6c",
+        "type": "ui_tab",
+        "name": "MONITORES Y CONTROL",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bf362766ddf06077",
+        "type": "ui_group",
+        "name": "BOTONES",
+        "tab": "103f0bee0efb1f63",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "998a351cb67e59a8",
+        "type": "ui_group",
+        "name": "Controles y Graficos",
+        "tab": "d5930dbe2d642f6c",
+        "order": 1,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5f727ee493d90ac1",
+        "type": "ui_group",
+        "name": "ESTADO",
+        "tab": "103f0bee0efb1f63",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cea9317815d64568",
+        "type": "ui_group",
+        "name": "TEMPERATURA DEL RELE",
+        "tab": "103f0bee0efb1f63",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d3037be9d0d2119c",
+        "type": "ui_group",
+        "name": "CONSUMO",
+        "tab": "103f0bee0efb1f63",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "453edf923e890156",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "bf362766ddf06077",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "67abd8cc8aa1cf6a",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "bf362766ddf06077",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c94c4457364f19ec",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "5f727ee493d90ac1",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "ec7af7bae10eae1e",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "5f727ee493d90ac1",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "37a11c61239558e8",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "d3037be9d0d2119c",
+        "order": 1,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "8f33955e364a4978",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "d3037be9d0d2119c",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "694b019b6a8f4201",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "d3037be9d0d2119c",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "86307fabfa29466d",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "d3037be9d0d2119c",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b2cfa56f2d4427c8",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "d3037be9d0d2119c",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "36d82573e37b7570",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "d3037be9d0d2119c",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "d5e65309586388af",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "cea9317815d64568",
+        "order": 2,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c75a618f80db7002",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "cea9317815d64568",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "5c611f147f900a20",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "cea9317815d64568",
+        "order": 4,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b079ddcfc7c39669",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "cea9317815d64568",
+        "order": 7,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "e57617ee5ab42de2",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "cea9317815d64568",
+        "order": 9,
+        "width": "7",
+        "height": "2"
+    },
+    {
+        "id": "026489550d90376e",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c6503d4474103eda",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "3720853555129d0f",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6c1a390fa1f98a03",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9261c484fc0ed381",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "093ccc37eb6ec330",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1608083f9837183c",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "25741ed16a7cc7cc",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b380c53016d98209",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2d150985b43ffd19",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "65340939d30dcfde",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9a263f124c70aa7b",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aa245b244bd2d879",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3bfaf504ad0928fa",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b960ff1efd1a2ab7",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fe0deb18debdc9db",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b85a2e0fc571ea95",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "765305d9cef1b05f",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8bf4525322afb145",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 27,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5bad49df96522931",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2d9c7303029f6084",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 29,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f122539603d62659",
+        "type": "ui_spacer",
+        "z": "e992ad053f548ee7",
+        "name": "spacer",
+        "group": "998a351cb67e59a8",
+        "order": 30,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fdcaee68fa8542c5",
+        "type": "mqtt out",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/command",
+        "topic": "shellies/command",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aef820bea3a31732",
+        "x": 470,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "84309ecbdabf2f85",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "announce",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "payload": "announce",
+        "payloadType": "str",
+        "x": 150,
+        "y": 280,
+        "wires": [
+            [
+                "fdcaee68fa8542c5"
+            ]
+        ]
+    },
+    {
+        "id": "124587ec3891ddc0",
+        "type": "mqtt in",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/enchufe2/info",
+        "topic": "shellies/enchufe2/info",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "aef820bea3a31732",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 660,
+        "wires": [
+            [
+                "458d4d26f753fd3e",
+                "3cc4e5896f98623d"
+            ]
+        ]
+    },
+    {
+        "id": "458d4d26f753fd3e",
+        "type": "debug",
+        "z": "e992ad053f548ee7",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "4f95fe84a528fc6f",
+        "type": "mqtt out",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/enchufe2/relay/0/command",
+        "topic": "shellies/enchufe2/relay/0/command",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aef820bea3a31732",
+        "x": 1040,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "5d4df06130c6a1a2",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "on",
+        "payloadType": "str",
+        "x": 810,
+        "y": 1060,
+        "wires": [
+            [
+                "4f95fe84a528fc6f"
+            ]
+        ]
+    },
+    {
+        "id": "3258f45dd64c3bd2",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "off",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 810,
+        "y": 1100,
+        "wires": [
+            [
+                "4f95fe84a528fc6f"
+            ]
+        ]
+    },
+    {
+        "id": "b808ac3ab3b43ccf",
+        "type": "mqtt in",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/luz/pasillo/info",
+        "topic": "shellies/luz/pasillo/info",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "aef820bea3a31732",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "a7bcd53bd79c9690",
+                "6eae58358e04f5a8"
+            ]
+        ]
+    },
+    {
+        "id": "a7bcd53bd79c9690",
+        "type": "debug",
+        "z": "e992ad053f548ee7",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "f867d21361e47c30",
+        "type": "mqtt in",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/luz/comedor1/info",
+        "topic": "shellies/luz/comedor1/info",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "aef820bea3a31732",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 460,
+        "wires": [
+            [
+                "8bfe814ef587cc7c",
+                "4e18e3d75c458ea2"
+            ]
+        ]
+    },
+    {
+        "id": "8bfe814ef587cc7c",
+        "type": "debug",
+        "z": "e992ad053f548ee7",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "de8adeab9bec52de",
+        "type": "mqtt in",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/luz/dormitorio/info",
+        "topic": "shellies/luz/dormitorio/info",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "aef820bea3a31732",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 520,
+        "wires": [
+            [
+                "6e39f0cabd72f1c5",
+                "51a6a78522c2bdf7"
+            ]
+        ]
+    },
+    {
+        "id": "6e39f0cabd72f1c5",
+        "type": "debug",
+        "z": "e992ad053f548ee7",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "bdfe8689fc73619c",
+        "type": "mqtt in",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/enchufe1/info",
+        "topic": "shellies/enchufe1/info",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "aef820bea3a31732",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 580,
+        "wires": [
+            [
+                "d15a114ad07d9c33",
+                "b80733cc173fd209"
+            ]
+        ]
+    },
+    {
+        "id": "d15a114ad07d9c33",
+        "type": "debug",
+        "z": "e992ad053f548ee7",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "8d6cca7876fa5ab9",
+        "type": "mqtt out",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/enchufe1/relay/0/command",
+        "topic": "shellies/enchufe1/relay/0/command",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aef820bea3a31732",
+        "x": 1040,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "b9f46c4e31a715ca",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "on",
+        "payloadType": "str",
+        "x": 810,
+        "y": 920,
+        "wires": [
+            [
+                "8d6cca7876fa5ab9"
+            ]
+        ]
+    },
+    {
+        "id": "7835f31626f1da75",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "off",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 810,
+        "y": 960,
+        "wires": [
+            [
+                "8d6cca7876fa5ab9"
+            ]
+        ]
+    },
+    {
+        "id": "48e550219bee1e9e",
+        "type": "mqtt out",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/pasillo/relay/0/command",
+        "topic": "shellies/pasillo/relay/0/command",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aef820bea3a31732",
+        "x": 330,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "4e64ca3d5f40ea0b",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "on",
+        "payloadType": "str",
+        "x": 110,
+        "y": 920,
+        "wires": [
+            [
+                "48e550219bee1e9e"
+            ]
+        ]
+    },
+    {
+        "id": "525bf9308bdc3bf6",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "off",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 110,
+        "y": 960,
+        "wires": [
+            [
+                "48e550219bee1e9e"
+            ]
+        ]
+    },
+    {
+        "id": "ae0cb2f7ef9e0e1e",
+        "type": "mqtt out",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/comedor1/relay/0/command",
+        "topic": "shellies/comedor1/relay/0/command",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aef820bea3a31732",
+        "x": 350,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "51df0b70b2261fc0",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "on",
+        "payloadType": "str",
+        "x": 110,
+        "y": 1060,
+        "wires": [
+            [
+                "ae0cb2f7ef9e0e1e"
+            ]
+        ]
+    },
+    {
+        "id": "81277ca14fea3aee",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "off",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 110,
+        "y": 1100,
+        "wires": [
+            [
+                "ae0cb2f7ef9e0e1e"
+            ]
+        ]
+    },
+    {
+        "id": "3ee692425a34077c",
+        "type": "mqtt out",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/dormitorio/relay/0/command",
+        "topic": "shellies/dormitorio/relay/0/command",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aef820bea3a31732",
+        "x": 350,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "0fc11ff369634dec",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "on",
+        "payloadType": "str",
+        "x": 110,
+        "y": 1200,
+        "wires": [
+            [
+                "3ee692425a34077c"
+            ]
+        ]
+    },
+    {
+        "id": "08862e559c4b9994",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "off",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 110,
+        "y": 1240,
+        "wires": [
+            [
+                "3ee692425a34077c"
+            ]
+        ]
+    },
+    {
+        "id": "fabf21f4ddfb13ae",
+        "type": "mqtt in",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/medidor_consumo/info",
+        "topic": "shellies/medidor_consumo/info",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "aef820bea3a31732",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 760,
+        "wires": [
+            [
+                "57fe3b503c3a2819",
+                "cf4ff402b676a46f"
+            ]
+        ]
+    },
+    {
+        "id": "57fe3b503c3a2819",
+        "type": "debug",
+        "z": "e992ad053f548ee7",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "fc3c27cc3331706c",
+        "type": "ui_led",
+        "z": "e992ad053f548ee7",
+        "order": 3,
+        "group": "5f727ee493d90ac1",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LUZ PASILLO",
+        "x": 840,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "6eae58358e04f5a8",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "filtro rele",
+        "func": "let ison = msg.payload.relays[0].ison;\nreturn {payload: ison};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "fc3c27cc3331706c"
+            ]
+        ]
+    },
+    {
+        "id": "079417538634021b",
+        "type": "ui_led",
+        "z": "e992ad053f548ee7",
+        "order": 2,
+        "group": "5f727ee493d90ac1",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LUZ COMEDOR",
+        "x": 840,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3fa41be676f14dea",
+        "type": "ui_led",
+        "z": "e992ad053f548ee7",
+        "order": 1,
+        "group": "5f727ee493d90ac1",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LUZ DORMITORIO",
+        "x": 850,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "4ffb0b3ac9303b7f",
+        "type": "ui_led",
+        "z": "e992ad053f548ee7",
+        "order": 4,
+        "group": "5f727ee493d90ac1",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "ENCHUFE 1",
+        "x": 830,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "cc7ea133f78b29ee",
+        "type": "ui_led",
+        "z": "e992ad053f548ee7",
+        "order": 5,
+        "group": "5f727ee493d90ac1",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "ENCHUFE 2",
+        "x": 830,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "19d4bfac3d3f3f87",
+        "type": "ui_led",
+        "z": "e992ad053f548ee7",
+        "order": 7,
+        "group": "5f727ee493d90ac1",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "MEDIDOR CONSUMO",
+        "x": 860,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "206f6c1f81a2f895",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Enchufe 2",
+        "tooltip": "",
+        "group": "bf362766ddf06077",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 800,
+        "y": 1140,
+        "wires": [
+            [
+                "4f95fe84a528fc6f"
+            ]
+        ]
+    },
+    {
+        "id": "83e1be967ea1209e",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Enchufe 1",
+        "tooltip": "",
+        "group": "bf362766ddf06077",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 800,
+        "y": 1000,
+        "wires": [
+            [
+                "8d6cca7876fa5ab9"
+            ]
+        ]
+    },
+    {
+        "id": "ae4545ed741c1290",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Pasillo",
+        "tooltip": "",
+        "group": "bf362766ddf06077",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 1000,
+        "wires": [
+            [
+                "48e550219bee1e9e"
+            ]
+        ]
+    },
+    {
+        "id": "b761a5360d7b59c4",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Comedor",
+        "tooltip": "",
+        "group": "bf362766ddf06077",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 100,
+        "y": 1140,
+        "wires": [
+            [
+                "ae0cb2f7ef9e0e1e"
+            ]
+        ]
+    },
+    {
+        "id": "a558f3e16317fd57",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Dormitorio",
+        "tooltip": "",
+        "group": "bf362766ddf06077",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 110,
+        "y": 1280,
+        "wires": [
+            [
+                "3ee692425a34077c"
+            ]
+        ]
+    },
+    {
+        "id": "27755099e2f649dc",
+        "type": "mqtt out",
+        "z": "e992ad053f548ee7",
+        "name": "shellies/medidor_consumo/relay/0/command",
+        "topic": "shellies/medidor_consumo/relay/0/command",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aef820bea3a31732",
+        "x": 1070,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "31c713a7fd1eac54",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Medidor Consumo",
+        "tooltip": "",
+        "group": "bf362766ddf06077",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 830,
+        "y": 1280,
+        "wires": [
+            [
+                "27755099e2f649dc"
+            ]
+        ]
+    },
+    {
+        "id": "0622f6d81df931fc",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "off",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 810,
+        "y": 1240,
+        "wires": [
+            [
+                "27755099e2f649dc"
+            ]
+        ]
+    },
+    {
+        "id": "57e184bf59d01fbd",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "on",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "on",
+        "payloadType": "str",
+        "x": 810,
+        "y": 1200,
+        "wires": [
+            [
+                "27755099e2f649dc"
+            ]
+        ]
+    },
+    {
+        "id": "efd7e5478709b79c",
+        "type": "ui_chart",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "998a351cb67e59a8",
+        "order": 11,
+        "width": 18,
+        "height": 10,
+        "label": "Medidor Consumo ( Watts )",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 880,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e85688b4b997f05e",
+        "type": "ui_button",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "bf362766ddf06077",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "APAGA CASA",
+        "tooltip": "Apaga todos los enchufes y las luces",
+        "color": "white",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 120,
+        "y": 1420,
+        "wires": [
+            [
+                "a558f3e16317fd57",
+                "b761a5360d7b59c4",
+                "ae4545ed741c1290",
+                "206f6c1f81a2f895",
+                "83e1be967ea1209e"
+            ]
+        ]
+    },
+    {
+        "id": "8c919c1f898c3f1b",
+        "type": "ui_button",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "cea9317815d64568",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "MODO CINE",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "#A38A00",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "str",
+        "x": 110,
+        "y": 1460,
+        "wires": [
+            [
+                "60ce3ae3e1f9c92f"
+            ]
+        ]
+    },
+    {
+        "id": "678231075c282142",
+        "type": "ui_button",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "d3037be9d0d2119c",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LLEGANDO A CASA",
+        "tooltip": "Apaga todos los enchufes y las luces",
+        "color": "white",
+        "bgcolor": "#3289a8",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 140,
+        "y": 1500,
+        "wires": [
+            [
+                "ae4545ed741c1290"
+            ]
+        ]
+    },
+    {
+        "id": "60ce3ae3e1f9c92f",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "5 offfs 1 on",
+        "func": "\nreturn [{ payload: false }, { payload: false }, { payload: false }, { payload: false }, { payload: true } ];",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1460,
+        "wires": [
+            [
+                "ae4545ed741c1290"
+            ],
+            [
+                "b761a5360d7b59c4"
+            ],
+            [
+                "206f6c1f81a2f895"
+            ],
+            [
+                "83e1be967ea1209e"
+            ],
+            [
+                "a558f3e16317fd57"
+            ]
+        ]
+    },
+    {
+        "id": "b406568344bc9941",
+        "type": "ui_button",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "5f727ee493d90ac1",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "ENCIENDE CASA",
+        "tooltip": "Apaga todos los enchufes y las luces",
+        "color": "black",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 130,
+        "y": 1540,
+        "wires": [
+            [
+                "b761a5360d7b59c4",
+                "ae4545ed741c1290",
+                "a558f3e16317fd57"
+            ]
+        ]
+    },
+    {
+        "id": "15f80ddba41c3816",
+        "type": "inject",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 850,
+        "y": 1400,
+        "wires": [
+            [
+                "67a63b62a9a7e0b7"
+            ]
+        ]
+    },
+    {
+        "id": "67a63b62a9a7e0b7",
+        "type": "exec",
+        "z": "e992ad053f548ee7",
+        "command": "\"/home/frenzoid/Documents/UA_SIND/Practica/Practica 2/xiaomi-ble-mqtt/data-read.py\"",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "BLE TH SENSOR",
+        "x": 1030,
+        "y": 1400,
+        "wires": [
+            [
+                "10c77eeb1d4ff2fc"
+            ],
+            [
+                "10c77eeb1d4ff2fc"
+            ],
+            [
+                "10c77eeb1d4ff2fc"
+            ]
+        ]
+    },
+    {
+        "id": "09c9562dc9861a1e",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "filtro datos",
+        "func": "let t = msg.payload.temperature;\nlet h = msg.payload.humidity;\nlet b = msg.payload.battery;\nreturn [{payload: t}, {payload: h}, {payload: b}];",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 1460,
+        "wires": [
+            [
+                "86c5fbf62e172543",
+                "afeea15219c765ee"
+            ],
+            [
+                "fdb1706ded9db955"
+            ],
+            [
+                "abad732fb91bb314"
+            ]
+        ]
+    },
+    {
+        "id": "10c77eeb1d4ff2fc",
+        "type": "debug",
+        "z": "e992ad053f548ee7",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "86c5fbf62e172543",
+        "type": "ui_chart",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "998a351cb67e59a8",
+        "order": 1,
+        "width": 7,
+        "height": 6,
+        "label": "Registro Temperatura C",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "-20",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1290,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fdb1706ded9db955",
+        "type": "ui_chart",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "998a351cb67e59a8",
+        "order": 2,
+        "width": 7,
+        "height": 6,
+        "label": "Registro Humedad %",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1280,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b60f49b68214988",
+        "type": "mqtt in",
+        "z": "e992ad053f548ee7",
+        "name": "sensor/laboratorio",
+        "topic": "sensor/laboratorio",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "aef820bea3a31732",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 850,
+        "y": 1460,
+        "wires": [
+            [
+                "09c9562dc9861a1e"
+            ]
+        ]
+    },
+    {
+        "id": "abad732fb91bb314",
+        "type": "ui_gauge",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "group": "998a351cb67e59a8",
+        "order": 3,
+        "width": 6,
+        "height": 6,
+        "gtype": "gage",
+        "title": "Bateria restante del sensor",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1300,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "4e18e3d75c458ea2",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "filtro rele",
+        "func": "let ison = msg.payload.relays[0].ison;\nreturn { payload: ison };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 460,
+        "wires": [
+            [
+                "079417538634021b"
+            ]
+        ]
+    },
+    {
+        "id": "51a6a78522c2bdf7",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "filtro rele",
+        "func": "let ison = msg.payload.relays[0].ison;\nreturn { payload:ison };",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 520,
+        "wires": [
+            [
+                "3fa41be676f14dea"
+            ]
+        ]
+    },
+    {
+        "id": "b80733cc173fd209",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "filtro rele",
+        "func": "let ison = msg.payload.relays[0].ison;\nlet temp = msg.payload.temperature;\nreturn [{payload:ison}, {payload:temp}];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 580,
+        "wires": [
+            [
+                "4ffb0b3ac9303b7f"
+            ],
+            [
+                "a23b643d2a471ccc"
+            ]
+        ]
+    },
+    {
+        "id": "3cc4e5896f98623d",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "filtro rele",
+        "func": "let ison = msg.payload.relays[0].ison;\nlet temp = msg.payload.temperature;\nreturn [{ payload: ison }, { payload: temp }];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 660,
+        "wires": [
+            [
+                "cc7ea133f78b29ee"
+            ],
+            [
+                "d949c24acb94863b"
+            ]
+        ]
+    },
+    {
+        "id": "cf4ff402b676a46f",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "filtro rele",
+        "func": "let ison = msg.payload.relays[0].ison;\nlet enchufe1_power = msg.payload.emeters[0].power;\nlet enchufe2_power = msg.payload.emeters[1].power;\nlet temp = msg.payload.relays[0].temperature;\nlet total = msg.payload.emeters[0].total + msg.payload.emeters[1].total;\n\nreturn [{ payload: ison }, { payload: total }, { paload: enchufe1_power}, {payload: enchufe2_power }];",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 760,
+        "wires": [
+            [
+                "19d4bfac3d3f3f87"
+            ],
+            [
+                "efd7e5478709b79c"
+            ],
+            [
+                "5ba781c96ec0a1f6"
+            ],
+            [
+                "4492d077717b3d9a",
+                "65c19202d94961e6"
+            ]
+        ]
+    },
+    {
+        "id": "a23b643d2a471ccc",
+        "type": "ui_text",
+        "z": "e992ad053f548ee7",
+        "group": "cea9317815d64568",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "TEMP",
+        "label": "C",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 810,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "d949c24acb94863b",
+        "type": "ui_text",
+        "z": "e992ad053f548ee7",
+        "group": "cea9317815d64568",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "TEMP",
+        "label": "C",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 810,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "5ba781c96ec0a1f6",
+        "type": "ui_text",
+        "z": "e992ad053f548ee7",
+        "group": "d3037be9d0d2119c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Enchufe 1 Potencia: ",
+        "label": "Potencia: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 860,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "a43e8e54d158c89e",
+        "type": "change",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "tmpalgstatus",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29d5f37e22f7fc53",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "Habilitar Ahorro Ambiental",
+        "label": "Habilitar Ahorro Ambiental",
+        "tooltip": "Habilita el enchufe 2 dependiendo de la temperatura recibida del sensor",
+        "group": "998a351cb67e59a8",
+        "order": 4,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 870,
+        "y": 1620,
+        "wires": [
+            [
+                "a43e8e54d158c89e"
+            ]
+        ]
+    },
+    {
+        "id": "afeea15219c765ee",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "Algoritmo de Ahorro Ambiental",
+        "func": "\n// Si el modo de ahorro esta habilitado\n// y la temperatura es menor o igual a flow.tmpval\n//  Enciende el rele de la estufa estufa.\n//  ( Enchufe 2 )\nif (flow.tmpalgstatus && msg.payload <= flow.tmpval ) \n    return {payload: \"on\"};\nreturn {payload: \"off\"};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 1520,
+        "wires": [
+            [
+                "4f95fe84a528fc6f"
+            ]
+        ]
+    },
+    {
+        "id": "50b1d269295eefbb",
+        "type": "ui_switch",
+        "z": "e992ad053f548ee7",
+        "name": "Habilitar Ahorro de Consumo",
+        "label": "Habilitar Autogestion Energetica",
+        "tooltip": "Apaga las luces si el gasto supera cierta cifra.",
+        "group": "998a351cb67e59a8",
+        "order": 7,
+        "width": 9,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 880,
+        "y": 1660,
+        "wires": [
+            [
+                "c47a2b3a3341cf11"
+            ]
+        ]
+    },
+    {
+        "id": "c47a2b3a3341cf11",
+        "type": "change",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "consstatus",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65c19202d94961e6",
+        "type": "function",
+        "z": "e992ad053f548ee7",
+        "name": "Algoritmo de Gestion Energetica",
+        "func": "\n// Si el modo de ahorro esta habilitado\n// y el consumo general es mayor que flow.consval.\n//  ( Enchufe 2 )\nif (flow.constatus && msg.payload >= flow.consval ) \n    return {payload: \"on\"};\nreturn {payload: \"off\"};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 1560,
+        "wires": [
+            [
+                "ae0cb2f7ef9e0e1e",
+                "3ee692425a34077c",
+                "48e550219bee1e9e"
+            ]
+        ]
+    },
+    {
+        "id": "47c98a82f9dae26f",
+        "type": "change",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "consval",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f3d1dd1e0c1eecb8",
+        "type": "change",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "tmpval",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15a7bc190cfb70d0",
+        "type": "ui_numeric",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Umbral de Consumo ( Watts ) ",
+        "tooltip": "Define el consumo maximo que se debe sobrepasar para apagar todas las luces de la vivienda",
+        "group": "998a351cb67e59a8",
+        "order": 9,
+        "width": 9,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000000",
+        "step": "100",
+        "className": "",
+        "x": 890,
+        "y": 1760,
+        "wires": [
+            [
+                "47c98a82f9dae26f"
+            ]
+        ]
+    },
+    {
+        "id": "1c97ff30c1db09e5",
+        "type": "ui_numeric",
+        "z": "e992ad053f548ee7",
+        "name": "",
+        "label": "Umbral de temperatura ( Celsius )",
+        "tooltip": "Define la temperatura maxima para habilitar la estufa ( enchufe 2 )",
+        "group": "998a351cb67e59a8",
+        "order": 6,
+        "width": 9,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "-50",
+        "max": "80",
+        "step": 1,
+        "className": "",
+        "x": 900,
+        "y": 1720,
+        "wires": [
+            [
+                "f3d1dd1e0c1eecb8"
+            ]
+        ]
+    },
+    {
+        "id": "4492d077717b3d9a",
+        "type": "ui_text",
+        "z": "e992ad053f548ee7",
+        "group": "d3037be9d0d2119c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "Enchufe 2 Potencia: ",
+        "label": "Potencia: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 860,
+        "y": 840,
+        "wires": []
+    }
+]

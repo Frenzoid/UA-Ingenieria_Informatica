@@ -1,0 +1,23 @@
+/var/log/messages:Dec  2 16:23:25  pkg[2248]: squid-5.7 installed
+/var/log/messages:Dec  2 16:28:17  squid[2342]: Squid Parent: will start 1 kids
+/var/log/messages:Dec  2 16:28:17  squid[2342]: Squid Parent: (squid-1) process 2344 started
+/var/log/messages:Dec  2 16:30:18  squid[2342]: Squid Parent: squid-1 process 2344 exited with status 0
+/var/log/messages:Dec  2 16:30:43  squid[2437]: Squid Parent: will start 1 kids
+/var/log/messages:Dec  2 16:30:43  squid[2437]: Squid Parent: (squid-1) process 2439 started
+/var/log/squid/cache.log:2022/12/02 16:28:17 kid1| Set Current Directory to /var/squid/cache
+/var/log/squid/cache.log:2022/12/02 16:28:17 kid1| Service Name: squid
+/var/log/squid/cache.log:2022/12/02 16:28:17 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log:2022/12/02 16:28:17 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/squid/cache.log:2022/12/02 16:28:17 kid1| Set Current Directory to /var/squid/cache
+/var/log/squid/cache.log:2022/12/02 16:30:18 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log:2022/12/02 16:30:18 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log:2022/12/02 16:30:18| Removing PID file (/var/run/squid/squid.pid)
+/var/log/squid/cache.log:2022/12/02 16:30:43 kid1| Set Current Directory to /var/squid/cache
+/var/log/squid/cache.log:2022/12/02 16:30:43 kid1| Service Name: squid
+/var/log/squid/cache.log:2022/12/02 16:30:43 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+/var/log/squid/cache.log:2022/12/02 16:30:43 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+/var/log/squid/cache.log:2022/12/02 16:30:43 kid1| Set Current Directory to /var/squid/cache
+/var/log/squid/cache.log:2022/12/02 17:16:08 kid1| Logfile: opening log stdio:/var/squid/cache/netdb.state
+/var/log/squid/cache.log:2022/12/02 17:16:08 kid1| Logfile: closing log stdio:/var/squid/cache/netdb.state
+/var/log/userlog:2022-12-02 16:23:23 [frenzoid:groupadd] squid(100)
+/var/log/userlog:2022-12-02 16:23:23 [frenzoid:useradd] squid(100):squid(100):squid caching-proxy pseudo user:/var/squid:/usr/sbin/nologin

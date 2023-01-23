@@ -1,0 +1,39 @@
+// Elvi Mihai Sabau - 51254875L
+semaphore mutex = 1;
+semaphore espacios = 10;
+semaphore empaqueta = 0;
+ 
+void maquina()
+{
+    int i = 1;
+    for (i; i <= 100; i++)
+    {
+        wait(espacios);
+        wait(mutex);
+        cout << "M: Dejando pieza. " << i << endl;
+        signal(mutex);
+        signal(empaqueta);
+    }
+}
+ 
+void empaquetador()
+{
+    int i = 1;
+    for (i; i <= 100; i++)
+    {
+        wait(empaqueta);
+        wait(mutex);
+        cout << "E: Empaquetando pieza " << i << endl;
+        signal(mutex);
+        signal(espacios);
+    }
+}
+ 
+void main()
+{
+    cobegin
+    {
+        empaquetador();
+        maquina();
+    }
+}

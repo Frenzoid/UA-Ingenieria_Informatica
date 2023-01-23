@@ -1,0 +1,16 @@
+{
+  "name": "fwq_waitingtimeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FWQ_WaitingTimeServer.js",
+  "scripts": {
+    "start": "node ./FWQ_WaitingTimeServer.js"
+  },
+  "author": "Frenzoid & ivansabater",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^5.0.0",
+    "socket.io": "^2.4.1",
+    "socket.io-encrypt": "^0.2.1"
+  }
+}

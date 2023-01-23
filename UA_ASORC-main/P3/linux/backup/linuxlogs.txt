@@ -1,0 +1,14 @@
+/var/log/apt/term.log:Selecting previously unselected package rsync.
+/var/log/apt/term.log:Preparing to unpack .../rsync_3.2.3-4+deb11u1_amd64.deb ...
+/var/log/apt/term.log:Unpacking rsync (3.2.3-4+deb11u1) ...
+/var/log/apt/term.log:Setting up rsync (3.2.3-4+deb11u1) ...
+/var/log/apt/term.log:Created symlink /etc/systemd/system/multi-user.target.wants/rsync.service → /lib/systemd/system/rsync.service.
+/var/log/apt/history.log:Commandline: apt install rsync
+/var/log/apt/history.log:Install: rsync:amd64 (3.2.3-4+deb11u1)
+/var/log/dpkg.log:2022-12-03 01:01:50 install rsync:amd64 <none> 3.2.3-4+deb11u1
+/var/log/dpkg.log:2022-12-03 01:01:50 status half-installed rsync:amd64 3.2.3-4+deb11u1
+/var/log/dpkg.log:2022-12-03 01:01:50 status unpacked rsync:amd64 3.2.3-4+deb11u1
+/var/log/dpkg.log:2022-12-03 01:01:50 configure rsync:amd64 3.2.3-4+deb11u1 <none>
+/var/log/dpkg.log:2022-12-03 01:01:50 status unpacked rsync:amd64 3.2.3-4+deb11u1
+/var/log/dpkg.log:2022-12-03 01:01:50 status half-configured rsync:amd64 3.2.3-4+deb11u1
+/var/log/dpkg.log:2022-12-03 01:01:51 status installed rsync:amd64 3.2.3-4+deb11u1

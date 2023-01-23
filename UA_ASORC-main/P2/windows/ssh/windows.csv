@@ -1,0 +1,28 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/1/2022 8:10:52 AM,OpenSSH,4,None,sshd: Accepted publickey for administrator from 192.168.22.1 port 59032 ssh2: RSA SHA256:tdXlVEiJdsVaubGYU3L3payV/Fyeph0mugi+s10Wqgk
+Information,11/1/2022 8:10:50 AM,OpenSSH,4,None,sshd: Disconnected from 192.168.22.1 port 59022
+Information,11/1/2022 8:10:50 AM,OpenSSH,4,None,sshd: Received disconnect from 192.168.22.1 port 59022:11: disconnected by user
+Information,11/1/2022 8:10:35 AM,OpenSSH,4,None,sshd: Accepted publickey for administrator from 192.168.22.1 port 59022 ssh2: RSA SHA256:tdXlVEiJdsVaubGYU3L3payV/Fyeph0mugi+s10Wqgk
+Information,11/1/2022 8:10:14 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/1/2022 8:10:14 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/1/2022 8:07:17 AM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.22.1 port 59015 ssh2
+Information,11/1/2022 8:06:44 AM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.22.1 port 59014 ssh2
+Information,11/1/2022 8:06:01 AM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.22.1 port 59009 [preauth]
+Information,11/1/2022 8:06:01 AM,OpenSSH,4,None,sshd: Failed password for administrator from 192.168.22.1 port 59009 ssh2
+Information,11/1/2022 8:05:09 AM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.22.1 port 59008 [preauth]
+Information,11/1/2022 8:04:41 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/1/2022 8:04:41 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/1/2022 8:00:57 AM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.22.1 port 58997 [preauth]
+Information,11/1/2022 8:00:36 AM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.22.1 port 58996 [preauth]
+Information,11/1/2022 8:00:30 AM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.22.1 port 58993 [preauth]
+Information,11/1/2022 7:59:49 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/1/2022 7:59:49 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/1/2022 7:59:13 AM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.22.1 port 58989 [preauth]
+Information,11/1/2022 7:54:40 AM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.22.1 port 58970 [preauth]
+Information,11/1/2022 7:54:33 AM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.22.1 port 58969 ssh2
+Information,11/1/2022 7:54:13 AM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.22.1 port 58967 ssh2
+Information,11/1/2022 7:53:54 AM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.22.1 port 58966 ssh2
+Information,11/1/2022 7:53:44 AM,OpenSSH,4,None,sshd: Connection reset by invalid user admin 192.168.22.1 port 58965 [preauth]
+Information,11/1/2022 7:53:41 AM,OpenSSH,4,None,sshd: Invalid user admin from 192.168.22.1 port 58965
+Information,11/1/2022 7:48:40 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/1/2022 7:48:40 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.

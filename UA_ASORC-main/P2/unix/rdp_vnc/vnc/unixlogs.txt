@@ -1,0 +1,103 @@
+
+Xvnc TigerVNC 1.12.0 - built Oct 23 2022 19:34:14
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101004
+
+
+Sun Oct 30 17:00:14 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+[mi] mieq: warning: overriding existing handler 0x0 with 0x3a0730 for event 2
+[mi] mieq: warning: overriding existing handler 0x0 with 0x3a0730 for event 3
+(EE) Failed to open authorization file "/home/frenzoid/.Xauthority": No such file or directory
+xterm: cannot load font "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso10646-1"
+/usr/local/bin/startxfce4: X server already running on display :1
+xfce4-session: No GPG agent found
+xfce4-session-Message: 17:00:18.681: SSH authentication agent is already running
+
+(xfwm4:1916): xfwm4-WARNING **: 17:00:19.136: Unsupported GL renderer (llvmpipe (LLVM 13.0.1, 128 bits)).
+
+** (xfce4-power-manager:1929): WARNING **: 17:00:20.135: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:1929): WARNING **: 17:00:20.136: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1929): xfce4-power-manager-WARNING **: 17:00:20.142: Monitor is not DPMS capable
+
+(xfce4-power-manager:1929): libnotify-WARNING **: 17:00:20.154: Failed to connect to proxy
+
+(xfce4-power-manager:1929): GLib-GObject-WARNING **: 17:00:20.197: ../gobject/gsignal.c:2620: signal 'Changed' is invalid for instance '0x8029d00b0' of type 'GDBusProxy'
+
+(xfce4-power-manager:1929): xfce4-power-manager-WARNING **: 17:00:20.208: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:1929): xfce4-power-manager-WARNING **: 17:00:20.208: could not map keysym 1008ffa7 to keycode
+
+
+(xfce4-power-manager:1929): xfce4-power-manager-WARNING **: 17:00:20.208: could not map keysym 1008ff02 to keycode
+
+
+(xfce4-power-manager:1929): xfce4-power-manager-WARNING **: 17:00:20.208: could not map keysym 1008ff03 to keycode
+
+
+** (xfce4-power-manager:1929): WARNING **: 17:00:20.208: No outputs have backlight property
+
+(xfce4-power-manager:1929): xfce4-power-manager-WARNING **: 17:00:20.213: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+
+** (wrapper-2.0:1934): WARNING **: 17:00:21.001: No outputs have backlight property
+
+(wrapper-2.0:1935): Gtk-WARNING **: 17:00:21.371: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1938): Gtk-WARNING **: 17:00:21.372: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner XfceArrowButton)
+
+(wrapper-2.0:1934): Gtk-WARNING **: 17:00:21.372: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+Sun Oct 30 17:00:22 2022
+ Connections: accepted: 192.168.22.1::64611
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 6 (8bpp) rgb222
+
+Sun Oct 30 17:00:26 2022
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Sun Oct 30 17:01:07 2022
+ VNCSConnST:  closing 192.168.22.1::64611: Clean disconnection
+ EncodeManager: Framebuffer updates: 168
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 43 rects, 62.396 kpixels
+ EncodeManager:            839 B (1:262.15 ratio)
+ EncodeManager:   ZRLE:
+ EncodeManager:     Bitmap RLE: 102 rects, 242.1 kpixels
+ EncodeManager:                 5.62988 KiB (1:80.91 ratio)
+ EncodeManager:     Indexed RLE: 1.751 krects, 5.91702 Mpixels
+ EncodeManager:                  589.805 KiB (1:32.8194 ratio)
+ EncodeManager:     Full Colour: 751 rects, 2.91687 Mpixels
+ EncodeManager:                  587.837 KiB (1:19.3935 ratio)
+ EncodeManager:   Total: 2.647 krects, 9.13839 Mpixels
+ EncodeManager:          1.15634 MiB (1:26.5415 ratio)
+ Connections: closed: 192.168.22.1::64611
+ ComparingUpdateTracker: 19.3941 Mpixels in / 7.72686 Mpixels out
+ ComparingUpdateTracker: (1:2.50996 ratio)
+xterm: fatal IO error 35 (Resource temporarily unavailable) or KillClient on X server ":1"
+xfsettingsd: Another instance took over. Leaving...
+
+(Thunar:1923): thunar-WARNING **: 17:03:07.170: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:1923): thunar-WARNING **: 17:03:07.170: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+Another notification daemon is running, exiting
+
+** (xfce4-power-manager:1929): WARNING **: 17:03:07.187: Error: The connection is closed
+
+
+** (xfce4-power-manager:1929): WARNING **: 17:03:07.187: Error: The connection is closed
+
+
+Sun Oct 30 17:03:07 2022
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)

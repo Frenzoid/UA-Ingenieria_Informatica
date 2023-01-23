@@ -1,0 +1,32 @@
+2022-11-03 13:10:45.367 EDT [2664] LOG:  starting PostgreSQL 13.8 (Debian 13.8-0+deb11u1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2022-11-03 13:10:45.371 EDT [2664] LOG:  listening on IPv6 address "::1", port 5432
+2022-11-03 13:10:45.372 EDT [2664] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-11-03 13:10:45.380 EDT [2664] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2022-11-03 13:10:45.396 EDT [2665] LOG:  database system was shut down at 2022-11-03 13:10:29 EDT
+2022-11-03 13:10:45.405 EDT [2664] LOG:  database system is ready to accept connections
+2022-11-03 13:12:50.485 EDT [4121] postgres@postgres ERROR:  syntax error at or near "*" at character 34
+2022-11-03 13:12:50.485 EDT [4121] postgres@postgres STATEMENT:  GRANT ALL PRIVILEGES ON DATABASE * TO frenzoid;
+2022-11-03 13:12:58.069 EDT [4121] postgres@postgres ERROR:  syntax error at or near "*" at character 34
+2022-11-03 13:12:58.069 EDT [4121] postgres@postgres STATEMENT:  GRANT ALL PRIVILEGES ON DATABASE *.* TO frenzoid;
+2022-11-03 13:17:06.277 EDT [4160] postgres@postgres ERROR:  role "frenzoid" already exists
+2022-11-03 13:17:06.277 EDT [4160] postgres@postgres STATEMENT:  CREATE ROLE frenzoid PASSWORD 'md549557b8450f517abc70b9323d99717c1' NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
+2022-11-03 13:19:56.021 EDT [4183] postgres@postgres ERROR:  unrecognized role option "passwor" at character 26
+2022-11-03 13:19:56.021 EDT [4183] postgres@postgres STATEMENT:  ALTER USER frenzoid WITH PASSWOR 'clock.exe';
+2022-11-03 13:20:48.653 EDT [4183] postgres@postgres ERROR:  syntax error at or near "clear" at character 1
+2022-11-03 13:20:48.653 EDT [4183] postgres@postgres STATEMENT:  clear
+	ALTER USER frenzoid WITH SUPERUSER;
+2022-11-03 13:21:38.483 EDT [4210] frenzoid@frenzoid ERROR:  relation "asorc" does not exist at character 15
+2022-11-03 13:21:38.483 EDT [4210] frenzoid@frenzoid STATEMENT:  SELECT * FROM asorc;
+2022-11-03 13:21:44.284 EDT [4210] frenzoid@frenzoid ERROR:  relation "database" does not exist at character 15
+2022-11-03 13:21:44.284 EDT [4210] frenzoid@frenzoid STATEMENT:  SELECT * FROM DATABASE asorc;
+2022-11-03 13:26:26.624 EDT [2664] LOG:  received fast shutdown request
+2022-11-03 13:26:26.629 EDT [2664] LOG:  aborting any active transactions
+2022-11-03 13:26:26.634 EDT [2664] LOG:  background worker "logical replication launcher" (PID 2671) exited with exit code 1
+2022-11-03 13:26:26.634 EDT [2666] LOG:  shutting down
+2022-11-03 13:26:26.659 EDT [2664] LOG:  database system is shut down
+2022-11-03 13:26:26.820 EDT [4304] LOG:  starting PostgreSQL 13.8 (Debian 13.8-0+deb11u1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2022-11-03 13:26:26.820 EDT [4304] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-11-03 13:26:26.820 EDT [4304] LOG:  listening on IPv6 address "::", port 5432
+2022-11-03 13:26:26.826 EDT [4304] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2022-11-03 13:26:26.838 EDT [4305] LOG:  database system was shut down at 2022-11-03 13:26:26 EDT
+2022-11-03 13:26:26.846 EDT [4304] LOG:  database system is ready to accept connections

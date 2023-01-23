@@ -1,0 +1,41 @@
+   65  sudo systemctl enable xrdp
+   67  nano /etc/xrdp/startwm.sh 
+   68  sudo nano /etc/xrdp/startwm.sh 
+   80  sudo apt install xrdp
+   81  sudo nano /etc/xrdp/startwm.sh 
+   82  sudo service xrdp enable
+   83  sudo service xrdp start
+   86  xrdp-sesman
+   87  xrdp-sesrun
+   88  xrdp-sesrun 0 frenzoid clock.exe 
+   90  sudo service xrdp stop
+   91  sudo service xrdp start
+   92  sudo service xrdp status
+   93  sudo nano /etc/xrdp/xrdp.ini 
+   95  sudo adduser xrdp ssl-cert
+   97  sudo service xrdp restart
+   98  sudo service xrdp stop
+   99  sudo nano /etc/xrdp/startwm.sh 
+  100  sudo service xrdp start
+  101  cat /var/log/xrdp
+  102  cat /var/log/xrdp.log 
+  103  sudo cat /var/log/xrdp.log 
+  104  sudo cat /var/log/xrdp-sesman.log 
+  105  sudo service xrdp restart
+  106  sudo nano /etc/xrdp/startwm.sh 
+  107  sudo service xrdp restart
+  108  sudo nano /etc/xrdp/startwm.sh 
+  113  sudo nano /etc/xrdp/startwm.sh 
+  114  sudo service xrdp restart
+  116  sudo last /var/log/xrdp.log 
+  117  sudo tail /var/log/xrdp.log 
+  118  sudo tail /var/log/xrdp-sesman.log 
+  119  sudo tail /var/log/xrdp.log 
+  120  sudo tail /var/log/xrdp-sesman.log 
+  121  sudo nano /etc/xrdp/startwm.sh 
+  122  sudo service xrdp restart
+  127  sudo systemctl restart xrdp
+  129  sudo tail /var/log/xrdp.log 
+  130  sudo cat /var/log/xrdp.log 
+  220  sudo service xrdp status
+  295  history | grep rdp > historylinux 

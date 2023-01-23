@@ -1,0 +1,18 @@
+  298  sudo apt install postgresql postgresql-contrib
+  300  service postgresql status
+  301  sudo service postgresql status
+  302  sudo su postgres -C "createuser frenzoid"
+  304  sudo su postgres -c "createdb frenzoid"
+  305  sudo su postgres -c "createdb asorc"
+  306  sudo su -u postgres psql
+  307  sudo -u postgres psql
+  308  sudo -u postgres createuser frenzoid -P
+  309  sudo su postgres -c "deleteuser frenzoid"
+  310  sudo su postgres -c "deluser frenzoid"
+  311  sudo su -u postgres psql
+  312  sudo -u postgres psql
+  317  sudo nano /etc/postgresql/13/main/postgresql.conf 
+  318  sudo service postgresql restart
+  319  sudo service postgresql status
+  327  history | grep post
+  328  history | grep post > historylinux
