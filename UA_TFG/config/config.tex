@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{amsmath,amsthm,amssymb,amsfonts, fancyhdr, color, comment, graphicx, environ}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\usepackage[shortlabels]{enumitem}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{comment}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+\usepackage[backend=biber,style=numeric]{biblatex}
+% numeric is about equal to Bibtex's plain
+\usepackage[spanish]{babel}  
+%LIBRERIA PARA IMAGENES NO SEAN PUTISIMO RANDOM !!!
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{emptypage}
+\tcbuselibrary{listings, minted, skins}
+\renewcommand{\footrulewidth}{0.8pt}
+\definecolor{bg}{rgb}{0.9, 0.9, 0.9}
+\addbibresource{config/refs.bib} % The filename of the bibliography
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+% Titulo de cada índice
+\addto{\captionsspanish}{\renewcommand{\contentsname{Índice de Contenidos}}}
+\addto{\captionsspanish}{\renewcommand{\listfigurename}{Índice de Figuras}}
+\renewcommand\listoflistingscaption{Índice de Códigos}
+
+% Cabeceras y Pies de Pagina.
+\fancyhead[L]{ \begin{picture}(0,0) \put(0,0){\includegraphics[width=10mm]{img/logotipos/eps.png}} \end{picture} \hspace{0.8cm} Escuela Politécnica Superior}
+\fancyhead[R]{Universidad de Alicante}
+
+\fancyfoot[L]{Ingeniería Informática}
+\fancyfoot[C]{Trabajo Fin de Grado}
+\fancyfoot[R]{\thepage}
+
+\pagestyle{fancy}
