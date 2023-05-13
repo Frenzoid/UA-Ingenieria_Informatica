@@ -1,0 +1,35 @@
+\input{config/config.tex}
+\begin{document}
+
+% Portada %
+\includepdf[fitpaper=true, pages=1]{paginas/pdf/portada}
+\includepdf[fitpaper=true, pages=3]{paginas/pdf/portada}
+\includepdf[fitpaper=true, pages=2]{paginas/pdf/portada}
+\includepdf[fitpaper=true, pages=3]{paginas/pdf/portada}
+\include{paginas/ltx/portada/preambulo.tex}
+\includepdf[fitpaper=true, pages=3]{paginas/pdf/portada}
+\include{paginas/ltx/portada/agradecimientos.tex}
+\includepdf[fitpaper=true, pages=3]{paginas/pdf/portada}
+\include{paginas/ltx/portada/agradecimientosextra.tex}
+\includepdf[fitpaper=true, pages=3]{paginas/pdf/portada}
+\include{paginas/ltx/portada/frases.tex}
+\includepdf[fitpaper=true, pages=3]{paginas/pdf/portada}
+\include{paginas/ltx/indices.tex}
+\includepdf[fitpaper=true, pages=3]{paginas/pdf/portada}
+
+% Secciones %
+\include{paginas/ltx/apartados/introduccion.tex}
+\include{paginas/ltx/apartados/objetivos.tex}
+\include{paginas/ltx/apartados/solucionresumida.tex}
+\include{paginas/ltx/apartados/metodologia.tex}
+\include{paginas/ltx/apartados/investigacion.tex}
+\include{paginas/ltx/apartados/modelo}
+\include{paginas/ltx/apartados/evaluacion.tex}
+\include{paginas/ltx/apartados/aspectos.tex}
+\include{paginas/ltx/apartados/presupuesto.tex}
+\include{paginas/ltx/apartados/conclusiones.tex}
+
+\newpage
+
+\printbibliography
+\end{document}  
